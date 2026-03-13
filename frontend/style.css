@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  background: #dff6d8;
+  font-family: sans-serif;
+}
+
+.habitat-wrapper {
+  position: relative;
+  width: 960px;
+  height: 640px;
+  margin: 40px auto;
+  border: 4px solid #3f6b2a;
+  border-radius: 20px;
+  overflow: hidden;
+  background: linear-gradient(to bottom, #bde7a8 0%, #8fcd73 100%);
+}
+
+.habitat {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  grid-template-columns: repeat(12, 80px);
+  grid-template-rows: repeat(8, 80px);
+}
+
+.tile {
+  width: 80px;
+  height: 80px;
+  position: relative;
+}
+
+/* grass variations */
+
+.grass-1 {
+  background: linear-gradient(135deg, #6fbe5d, #5cab4d);
+}
+
+.grass-2 {
+  background: linear-gradient(135deg, #68b757, #58a949);
+}
+
+.grass-3 {
+  background: linear-gradient(135deg, #74c662, #61b351);
+}
+
+/* texture */
+
+.tile::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    repeating-linear-gradient(
+      75deg,
+      rgba(255,255,255,0.05) 0px,
+      rgba(255,255,255,0.05) 1px,
+      transparent 1px,
+      transparent 9px
+    );
+}
+
+/* decorations */
+
+.flower::before {
+  content: "🌼";
+  position: absolute;
+  font-size: 20px;
+  left: 28px;
+  top: 28px;
+}
+
+.mushroom::before {
+  content: "🍄";
+  position: absolute;
+  font-size: 20px;
+  left: 28px;
+  top: 28px;
+}
+
+.rock::before {
+  content: "🪨";
+  position: absolute;
+  font-size: 20px;
+  left: 28px;
+  top: 28px;
+}
+
+/* monsters */
+
+.monster {
+  position: absolute;
+  font-size: 40px;
+  width: 48px;
+  height: 48px;
+  z-index: 5;
+  transition: left 1.2s ease, top 1.2s ease;
+}
