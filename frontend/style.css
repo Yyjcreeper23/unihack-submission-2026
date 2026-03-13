@@ -64,7 +64,7 @@ body {
 .flower::before {
   content: "🌼";
   position: absolute;
-  font-size: 20px;
+  font-size: 5px;
   left: 28px;
   top: 28px;
 }
@@ -72,7 +72,7 @@ body {
 .mushroom::before {
   content: "🍄";
   position: absolute;
-  font-size: 20px;
+  font-size: 5px;
   left: 28px;
   top: 28px;
 }
@@ -80,7 +80,7 @@ body {
 .rock::before {
   content: "🪨";
   position: absolute;
-  font-size: 20px;
+  font-size: 5px;
   left: 28px;
   top: 28px;
 }
