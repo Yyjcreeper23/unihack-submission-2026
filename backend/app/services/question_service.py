@@ -22,6 +22,14 @@ class QuestionService:
         monster_type = monster.get('type', 'default_monster')
 
         prompt = f'''You are generating a revision question for a learning game.
+
+IMPORTANT OUTPUT RULES:
+- Output RAW JSON only.
+- DO NOT wrap the JSON in markdown.
+- DO NOT use ```json or ``` code blocks.
+- The first character of the response must be {{ and the last must be }}.
+- Do not include explanations before or after the JSON.
+
 Return ONLY valid JSON with this exact shape:
 {{
   "question_id": "string",
