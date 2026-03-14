@@ -22,6 +22,7 @@
  */
 
 import { useState } from "react";
+import { useLearningPlan } from "../hooks/useLearningPlan";
 
 export default function DialogueBox({
   task,
@@ -46,38 +47,13 @@ export default function DialogueBox({
     return `Amazing work! Ready for the next one? Here we go!`;
   };
 
-  // ── Goal submission ───────────────────────────────────────────────────────
-  // TODO (Dev A): replace mockTasks with a real call to POST /api/generate-quests
+  const { submit, loading: planLoading, error: planError } = useLearningPlan();
+
   const handleGoalSubmit = () => {
     if (!goalInput.trim()) return;
-    const mockTasks = [
-      {
-        id: "t1",
-        label: `Research ${goalInput} basics`,
-        description: "Find 3 beginner resources online.",
-      },
-      {
-        id: "t2",
-        label: "Set a weekly schedule",
-        description: "Block 30 min daily in your calendar.",
-      },
-      {
-        id: "t3",
-        label: "Complete first exercise",
-        description: "Finish one starter project or practice set.",
-      },
-      {
-        id: "t4",
-        label: "Share progress with a peer",
-        description: "Tell a friend or post in a community.",
-      },
-      {
-        id: "t5",
-        label: "Reflect and level up",
-        description: "Write 3 lessons learned in a journal.",
-      },
-    ];
-    onSetGoal(goalInput.trim(), mockTasks);
+    submit(goalInput.trim(), (goal, tasks) => {
+      onSetGoal(goal, tasks);
+    });
   };
 
   return (
@@ -222,7 +198,7 @@ export default function DialogueBox({
           padding: "14px 24px 14px",
           display: "flex",
           flexDirection: "column",
-          justifyContent:"center",
+          justifyContent: "center",
           gap: 10,
           position: "relative",
           background:
@@ -264,9 +240,26 @@ export default function DialogueBox({
                 boxShadow: "inset 1px 1px 3px rgba(0,0,0,0.2)",
               }}
             />
-            <button onClick={handleGoalSubmit} style={primaryBtnStyle}>
-              Begin Quest!
+            <button
+              onClick={handleGoalSubmit}
+              disabled={planLoading}
+              style={{ ...primaryBtnStyle, opacity: planLoading ? 0.6 : 1 }}
+            >
+              {planLoading ? "Generating..." : "Begin Quest!"}
             </button>
+
+            {planError && (
+              <div
+                style={{
+                  fontFamily: "'Press Start 2P', monospace",
+                  fontSize: 8,
+                  color: "#ff6b6b",
+                  marginTop: 6,
+                }}
+              >
+                ⚠ {planError}
+              </div>
+            )}
           </div>
         )}
 
