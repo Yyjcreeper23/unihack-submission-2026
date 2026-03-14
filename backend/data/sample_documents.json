@@ -1,0 +1,41 @@
+[
+  {
+    "skill_id": "python_syntax",
+    "name": "Learn Basic Python Syntax",
+    "description": "Understand variables, print statements, comments, and expressions.",
+    "difficulty": "beginner",
+    "learning_objectives": [
+      "Understand Python variable assignment",
+      "Use print statements",
+      "Write basic expressions"
+    ],
+    "keywords": ["python", "syntax", "variables", "print"],
+    "category": "programming"
+  },
+  {
+    "skill_id": "python_loops",
+    "name": "Learn Conditionals and Loops",
+    "description": "Use if statements, for loops, and while loops.",
+    "difficulty": "beginner",
+    "learning_objectives": [
+      "Use if and else",
+      "Write for loops",
+      "Understand while loops"
+    ],
+    "keywords": ["python", "loops", "conditionals"],
+    "category": "programming"
+  },
+  {
+    "skill_id": "python_functions",
+    "name": "Learn Functions",
+    "description": "Define reusable functions with parameters and return values.",
+    "difficulty": "beginner",
+    "learning_objectives": [
+      "Define a function",
+      "Pass parameters",
+      "Return values"
+    ],
+    "keywords": ["python", "functions", "parameters", "return"],
+    "category": "programming"
+  }
+]
