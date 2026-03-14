@@ -52,36 +52,41 @@ export default function QuizModal({ monster, questId, difficulty, onClose }) {
   const isCorrect = submitted && selected === question?.answer;
 
   return (
-    <div style={{
-      position:       "fixed",
-      inset:          0,
-      zIndex:         800,
-      display:        "flex",
-      alignItems:     "center",
-      justifyContent: "center",
-      background:     "rgba(0,0,0,0.75)",
-      backdropFilter: "blur(2px)",
-    }}>
-      <div style={{
-        background:    "linear-gradient(180deg, #1a0f05 0%, #0d0802 100%)",
-        border:        "3px solid #7a5c2e",
-        borderRadius:  10,
-        padding:       28,
-        maxWidth:      480,
-        width:         "90%",
-        boxShadow:     "0 8px 40px rgba(0,0,0,0.8)",
-        fontFamily:    "'Press Start 2P', monospace",
-      }}>
-
+    <div
+      style={{
+        position: "fixed",
+        inset: 0,
+        zIndex: 800,
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        background: "rgba(0,0,0,0.75)",
+        backdropFilter: "blur(2px)",
+      }}
+    >
+      <div
+        style={{
+          background: "linear-gradient(180deg, #1a0f05 0%, #0d0802 100%)",
+          border: "3px solid #7a5c2e",
+          borderRadius: 10,
+          padding: 28,
+          maxWidth: 480,
+          width: "90%",
+          boxShadow: "0 8px 40px rgba(0,0,0,0.8)",
+          fontFamily: "'Press Start 2P', monospace",
+        }}
+      >
         {/* Monster portrait + header */}
-        <div style={{
-          display:        "flex",
-          alignItems:     "center",
-          gap:            14,
-          marginBottom:   20,
-          paddingBottom:  14,
-          borderBottom:   "2px solid #3a2010",
-        }}>
+        <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+            gap: 14,
+            marginBottom: 20,
+            paddingBottom: 14,
+            borderBottom: "2px solid #3a2010",
+          }}
+        >
           <img
             src={monster.sprite}
             alt={monster.name}
@@ -101,22 +106,50 @@ export default function QuizModal({ monster, questId, difficulty, onClose }) {
 
         {/* ── Loading state ── */}
         {loading && (
-          <div style={{
-            textAlign:  "center",
-            padding:    "24px 0",
-            color:      "#ffe8a0",
-            fontSize:   8,
-            lineHeight: 2,
-          }}>
-            <div style={{ fontSize: 24, marginBottom: 10 }}>💭</div>
-            {monster.name} is thinking of a question...
+          <div
+            style={{
+              textAlign: "center",
+              padding: "24px 0",
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              gap: 16,
+            }}
+          >
+            <div
+              style={{
+                width: 48,
+                height: 48,
+                borderRadius: "50%",
+                border: "3px solid #3a2010",
+                borderTop: "3px solid #ffd700",
+                animation: "spin 0.8s linear infinite",
+              }}
+            />
+            <div
+              style={{
+                fontFamily: "'Press Start 2P', monospace",
+                fontSize: 8,
+                color: "#ffe8a0",
+                lineHeight: 2,
+              }}
+            >
+              {monster.name} is thinking...
+            </div>
           </div>
         )}
 
         {/* ── Error state ── */}
         {error && !loading && (
           <div style={{ textAlign: "center", padding: "16px 0" }}>
-            <div style={{ color: "#ff6b6b", fontSize: 8, marginBottom: 14, lineHeight: 2 }}>
+            <div
+              style={{
+                color: "#ff6b6b",
+                fontSize: 8,
+                marginBottom: 14,
+                lineHeight: 2,
+              }}
+            >
               ⚠ Couldn't load a question right now.
             </div>
             <button onClick={onClose} style={closeBtnStyle}>
@@ -129,30 +162,45 @@ export default function QuizModal({ monster, questId, difficulty, onClose }) {
         {question && !loading && (
           <>
             {/* Question text */}
-            <div style={{
-              color:        "#ffe8a0",
-              fontSize:     9,
-              lineHeight:   1.9,
-              marginBottom: 18,
-            }}>
+            <div
+              style={{
+                color: "#ffe8a0",
+                fontSize: 9,
+                lineHeight: 1.9,
+                marginBottom: 18,
+              }}
+            >
               {question.question}
             </div>
 
             {/* Answer options */}
-            <div style={{ display: "flex", flexDirection: "column", gap: 8, marginBottom: 18 }}>
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                gap: 8,
+                marginBottom: 18,
+              }}
+            >
               {(question.options ?? []).map((option, i) => {
-                let bg      = "rgba(255,255,255,0.05)";
-                let border  = "1px solid #3a2010";
-                let color   = "#c8a060";
+                let bg = "rgba(255,255,255,0.05)";
+                let border = "1px solid #3a2010";
+                let color = "#c8a060";
 
                 if (submitted) {
                   if (option === question.answer) {
-                    bg = "rgba(74,159,43,0.25)"; border = "2px solid #4a9f2b"; color = "#7fff00";
+                    bg = "rgba(74,159,43,0.25)";
+                    border = "2px solid #4a9f2b";
+                    color = "#7fff00";
                   } else if (option === selected) {
-                    bg = "rgba(180,30,30,0.25)"; border = "2px solid #b41e1e"; color = "#ff6b6b";
+                    bg = "rgba(180,30,30,0.25)";
+                    border = "2px solid #b41e1e";
+                    color = "#ff6b6b";
                   }
                 } else if (option === selected) {
-                  bg = "rgba(255,220,80,0.15)"; border = "2px solid #ffd700"; color = "#ffd700";
+                  bg = "rgba(255,220,80,0.15)";
+                  border = "2px solid #ffd700";
+                  color = "#ffd700";
                 }
 
                 return (
@@ -161,17 +209,17 @@ export default function QuizModal({ monster, questId, difficulty, onClose }) {
                     onClick={() => handleSelect(option)}
                     disabled={submitted}
                     style={{
-                      background:   bg,
+                      background: bg,
                       border,
                       borderRadius: 5,
-                      padding:      "10px 14px",
+                      padding: "10px 14px",
                       color,
-                      fontFamily:   "'Press Start 2P', monospace",
-                      fontSize:     8,
-                      cursor:       submitted ? "default" : "pointer",
-                      textAlign:    "left",
-                      lineHeight:   1.7,
-                      transition:   "background 0.15s, border-color 0.15s",
+                      fontFamily: "'Press Start 2P', monospace",
+                      fontSize: 8,
+                      cursor: submitted ? "default" : "pointer",
+                      textAlign: "left",
+                      lineHeight: 1.7,
+                      transition: "background 0.15s, border-color 0.15s",
                     }}
                   >
                     {String.fromCharCode(65 + i)}. {option}
@@ -182,18 +230,27 @@ export default function QuizModal({ monster, questId, difficulty, onClose }) {
 
             {/* Result message */}
             {submitted && (
-              <div style={{
-                textAlign:    "center",
-                marginBottom: 14,
-                fontSize:     9,
-                color:        isCorrect ? "#7fff00" : "#ff6b6b",
-                lineHeight:   1.8,
-              }}>
+              <div
+                style={{
+                  textAlign: "center",
+                  marginBottom: 14,
+                  fontSize: 9,
+                  color: isCorrect ? "#7fff00" : "#ff6b6b",
+                  lineHeight: 1.8,
+                }}
+              >
                 {isCorrect
                   ? `✓ Correct! ${monster.name} is impressed!`
                   : `✗ Not quite. The answer was: ${question.answer}`}
                 {question.explanation && (
-                  <div style={{ fontSize: 7, color: "#9a7040", marginTop: 8, lineHeight: 1.8 }}>
+                  <div
+                    style={{
+                      fontSize: 7,
+                      color: "#9a7040",
+                      marginTop: 8,
+                      lineHeight: 1.8,
+                    }}
+                  >
                     {question.explanation}
                   </div>
                 )}
@@ -208,7 +265,7 @@ export default function QuizModal({ monster, questId, difficulty, onClose }) {
                 style={{
                   ...submitBtnStyle,
                   opacity: selected ? 1 : 0.5,
-                  cursor:  selected ? "pointer" : "default",
+                  cursor: selected ? "pointer" : "default",
                 }}
               >
                 Submit Answer
@@ -226,27 +283,27 @@ export default function QuizModal({ monster, questId, difficulty, onClose }) {
 }
 
 const submitBtnStyle = {
-  width:        "100%",
-  background:   "linear-gradient(180deg, #f0c040, #d09010)",
-  border:       "2px solid #906000",
+  width: "100%",
+  background: "linear-gradient(180deg, #f0c040, #d09010)",
+  border: "2px solid #906000",
   borderRadius: 5,
-  padding:      "11px 0",
-  color:        "#3d2400",
-  fontFamily:   "'Press Start 2P', monospace",
-  fontSize:     9,
-  cursor:       "pointer",
-  boxShadow:    "0 3px 0 #906000",
+  padding: "11px 0",
+  color: "#3d2400",
+  fontFamily: "'Press Start 2P', monospace",
+  fontSize: 9,
+  cursor: "pointer",
+  boxShadow: "0 3px 0 #906000",
 };
 
 const closeBtnStyle = {
-  width:        "100%",
-  background:   "linear-gradient(180deg, #5a3e1a, #3a2010)",
-  border:       "2px solid #7a5c2e",
+  width: "100%",
+  background: "linear-gradient(180deg, #5a3e1a, #3a2010)",
+  border: "2px solid #7a5c2e",
   borderRadius: 5,
-  padding:      "11px 0",
-  color:        "#ffe8a0",
-  fontFamily:   "'Press Start 2P', monospace",
-  fontSize:     9,
-  cursor:       "pointer",
-  boxShadow:    "0 3px 0 #3a2010",
+  padding: "11px 0",
+  color: "#ffe8a0",
+  fontFamily: "'Press Start 2P', monospace",
+  fontSize: 9,
+  cursor: "pointer",
+  boxShadow: "0 3px 0 #3a2010",
 };
