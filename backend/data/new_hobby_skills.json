@@ -1,0 +1,748 @@
+{
+  "skills": [
+    {
+      "skill_id": "acoustic_guitar",
+      "name": "Acoustic Guitar",
+      "aliases": [
+        "guitar",
+        "acoustic guitar",
+        "learn guitar"
+      ],
+      "category": "music",
+      "description": "Learn acoustic guitar basics, chords, strumming, rhythm, and songs.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "electric_guitar",
+      "name": "Electric Guitar",
+      "aliases": [
+        "electric guitar",
+        "lead guitar",
+        "rock guitar"
+      ],
+      "category": "music",
+      "description": "Learn electric guitar technique, riffs, scales, tone, and performance basics.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "piano_keyboard",
+      "name": "Piano and Keyboard",
+      "aliases": [
+        "piano",
+        "keyboard",
+        "learn piano"
+      ],
+      "category": "music",
+      "description": "Learn piano fundamentals including posture, notes, chords, rhythm, and simple pieces.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "violin",
+      "name": "Violin",
+      "aliases": [
+        "violin",
+        "learn violin",
+        "string instrument"
+      ],
+      "category": "music",
+      "description": "Learn violin posture, bowing, intonation, scales, and beginner repertoire.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "drums",
+      "name": "Drums",
+      "aliases": [
+        "drums",
+        "drumming",
+        "learn drums"
+      ],
+      "category": "music",
+      "description": "Learn drum kit coordination, grooves, fills, timing, and practice habits.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "ukulele",
+      "name": "Ukulele",
+      "aliases": [
+        "ukulele",
+        "uke",
+        "learn ukulele"
+      ],
+      "category": "music",
+      "description": "Learn ukulele chords, strumming patterns, rhythm, and easy songs.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "singing_vocals",
+      "name": "Singing and Vocals",
+      "aliases": [
+        "singing",
+        "vocals",
+        "learn singing"
+      ],
+      "category": "music",
+      "description": "Learn vocal technique, breathing, pitch control, tone, and song practice.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "music_production_hobby",
+      "name": "Music Production",
+      "aliases": [
+        "music production",
+        "beat making",
+        "home studio"
+      ],
+      "category": "music",
+      "description": "Create music at home using recording, arrangement, MIDI, and mixing basics.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "running",
+      "name": "Running",
+      "aliases": [
+        "running",
+        "jogging",
+        "learn to run"
+      ],
+      "category": "sports",
+      "description": "Build running technique, endurance, pacing, and healthy training habits.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "yoga",
+      "name": "Yoga",
+      "aliases": [
+        "yoga",
+        "learn yoga",
+        "stretching"
+      ],
+      "category": "sports",
+      "description": "Learn yoga fundamentals for flexibility, balance, breathing, and body awareness.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "swimming",
+      "name": "Swimming",
+      "aliases": [
+        "swimming",
+        "learn swimming",
+        "pool training"
+      ],
+      "category": "sports",
+      "description": "Learn swimming technique, breathing, water confidence, and structured practice.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "cycling",
+      "name": "Cycling",
+      "aliases": [
+        "cycling",
+        "bike riding",
+        "road cycling"
+      ],
+      "category": "sports",
+      "description": "Learn cycling skills, fitness, safety, maintenance, and route planning.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "basketball",
+      "name": "Basketball",
+      "aliases": [
+        "basketball",
+        "learn basketball",
+        "hoops"
+      ],
+      "category": "sports",
+      "description": "Learn shooting, dribbling, passing, footwork, and game understanding.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "soccer_football",
+      "name": "Soccer / Football",
+      "aliases": [
+        "soccer",
+        "football",
+        "learn soccer"
+      ],
+      "category": "sports",
+      "description": "Learn dribbling, passing, shooting, movement, and match awareness.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "tennis",
+      "name": "Tennis",
+      "aliases": [
+        "tennis",
+        "learn tennis",
+        "racquet sport"
+      ],
+      "category": "sports",
+      "description": "Learn strokes, footwork, serves, rallies, and point construction.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "badminton",
+      "name": "Badminton",
+      "aliases": [
+        "badminton",
+        "learn badminton",
+        "racquet game"
+      ],
+      "category": "sports",
+      "description": "Learn grips, footwork, clears, drops, smashes, and singles or doubles play.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "table_tennis",
+      "name": "Table Tennis",
+      "aliases": [
+        "table tennis",
+        "ping pong",
+        "learn ping pong"
+      ],
+      "category": "sports",
+      "description": "Learn spin, serves, footwork, rally control, and match strategy.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "volleyball",
+      "name": "Volleyball",
+      "aliases": [
+        "volleyball",
+        "learn volleyball",
+        "indoor volleyball"
+      ],
+      "category": "sports",
+      "description": "Learn passing, setting, serving, hitting, and team positioning.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "martial_arts_fitness",
+      "name": "Martial Arts Fundamentals",
+      "aliases": [
+        "martial arts",
+        "combat sports",
+        "self discipline"
+      ],
+      "category": "sports",
+      "description": "Learn beginner striking or grappling fundamentals, conditioning, and etiquette.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "rock_climbing",
+      "name": "Rock Climbing",
+      "aliases": [
+        "rock climbing",
+        "bouldering",
+        "climbing"
+      ],
+      "category": "sports",
+      "description": "Learn climbing movement, safety, technique, and progression as a hobby.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "hiking",
+      "name": "Hiking",
+      "aliases": [
+        "hiking",
+        "trekking",
+        "trail walking"
+      ],
+      "category": "sports",
+      "description": "Learn hiking preparation, pacing, navigation, and outdoor safety.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "skateboarding",
+      "name": "Skateboarding",
+      "aliases": [
+        "skateboarding",
+        "skateboard",
+        "learn skating"
+      ],
+      "category": "sports",
+      "description": "Learn stance, pushing, turning, stopping, and beginner tricks.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "surfing",
+      "name": "Surfing",
+      "aliases": [
+        "surfing",
+        "learn surfing",
+        "board sports"
+      ],
+      "category": "sports",
+      "description": "Learn water safety, paddling, pop-ups, wave reading, and etiquette.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "photography_hobby",
+      "name": "Photography",
+      "aliases": [
+        "photography",
+        "learn photography",
+        "camera basics"
+      ],
+      "category": "art",
+      "description": "Learn camera settings, composition, lighting, editing, and photo storytelling.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "videography_hobby",
+      "name": "Videography",
+      "aliases": [
+        "videography",
+        "video making",
+        "filmmaking hobby"
+      ],
+      "category": "media",
+      "description": "Learn shooting, framing, movement, audio, and simple editing for video projects.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "drawing_sketching",
+      "name": "Drawing and Sketching",
+      "aliases": [
+        "drawing",
+        "sketching",
+        "learn to draw"
+      ],
+      "category": "art",
+      "description": "Learn line, shape, perspective, shading, and practice routines for drawing.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "watercolor_painting",
+      "name": "Watercolor Painting",
+      "aliases": [
+        "watercolor",
+        "watercolor painting",
+        "painting hobby"
+      ],
+      "category": "art",
+      "description": "Learn watercolor materials, washes, layering, color mixing, and simple subjects.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "acrylic_painting",
+      "name": "Acrylic Painting",
+      "aliases": [
+        "acrylic painting",
+        "acrylic art",
+        "painting"
+      ],
+      "category": "art",
+      "description": "Learn acrylic materials, brushwork, composition, and painting techniques.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "digital_illustration",
+      "name": "Digital Illustration",
+      "aliases": [
+        "digital art",
+        "digital illustration",
+        "tablet drawing"
+      ],
+      "category": "art",
+      "description": "Create illustrations using digital tools, layers, brushes, and visual storytelling.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "calligraphy",
+      "name": "Calligraphy",
+      "aliases": [
+        "calligraphy",
+        "hand lettering",
+        "beautiful writing"
+      ],
+      "category": "craft",
+      "description": "Learn pen control, letterforms, spacing, and decorative writing styles.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "pottery_ceramics",
+      "name": "Pottery and Ceramics",
+      "aliases": [
+        "pottery",
+        "ceramics",
+        "clay"
+      ],
+      "category": "craft",
+      "description": "Learn hand-building, wheel basics, shaping, glazing, and ceramic projects.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "knitting",
+      "name": "Knitting",
+      "aliases": [
+        "knitting",
+        "learn knitting",
+        "yarn crafts"
+      ],
+      "category": "craft",
+      "description": "Learn stitches, patterns, tension, and simple knitted projects.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "crochet",
+      "name": "Crochet",
+      "aliases": [
+        "crochet",
+        "learn crochet",
+        "yarn hobby"
+      ],
+      "category": "craft",
+      "description": "Learn hooks, stitches, patterns, and small crochet projects.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "sewing",
+      "name": "Sewing",
+      "aliases": [
+        "sewing",
+        "learn sewing",
+        "fabric crafts"
+      ],
+      "category": "craft",
+      "description": "Learn hand sewing, machine basics, patterns, repairs, and simple garments.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "woodworking_hobby",
+      "name": "Woodworking",
+      "aliases": [
+        "woodworking",
+        "wood craft",
+        "learn woodworking"
+      ],
+      "category": "craft",
+      "description": "Learn safe tool use, measuring, joinery, sanding, and small wood projects.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "gardening_hobby",
+      "name": "Gardening",
+      "aliases": [
+        "gardening",
+        "home gardening",
+        "plants"
+      ],
+      "category": "life_skills",
+      "description": "Grow plants at home with soil, light, watering, and seasonal planning basics.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "indoor_plants",
+      "name": "Indoor Plant Care",
+      "aliases": [
+        "houseplants",
+        "indoor plants",
+        "plant care"
+      ],
+      "category": "life_skills",
+      "description": "Keep indoor plants healthy by learning light, watering, soil, and pest basics.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "baking",
+      "name": "Baking",
+      "aliases": [
+        "baking",
+        "learn baking",
+        "home baking"
+      ],
+      "category": "life_skills",
+      "description": "Learn baking fundamentals, measurements, doughs, cakes, and kitchen habits.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "cooking_home",
+      "name": "Home Cooking",
+      "aliases": [
+        "cooking",
+        "home cooking",
+        "learn to cook"
+      ],
+      "category": "life_skills",
+      "description": "Learn kitchen basics, ingredients, flavor, timing, and simple meals.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "coffee_brewing",
+      "name": "Coffee Brewing",
+      "aliases": [
+        "coffee brewing",
+        "home coffee",
+        "brew coffee"
+      ],
+      "category": "life_skills",
+      "description": "Learn beans, grind size, brewing methods, milk, and tasting basics.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "tea_appreciation",
+      "name": "Tea Appreciation",
+      "aliases": [
+        "tea",
+        "tea brewing",
+        "learn tea"
+      ],
+      "category": "life_skills",
+      "description": "Learn tea types, brewing, tasting, and simple tea culture basics.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "board_games",
+      "name": "Board Games",
+      "aliases": [
+        "board games",
+        "tabletop games",
+        "strategy games"
+      ],
+      "category": "games",
+      "description": "Learn modern board game mechanics, rules, strategy, and hosting game nights.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "chess_hobby",
+      "name": "Chess",
+      "aliases": [
+        "chess",
+        "learn chess",
+        "chess strategy"
+      ],
+      "category": "games",
+      "description": "Learn chess rules, tactics, openings, endgames, and practical improvement.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "creative_writing_fiction",
+      "name": "Creative Writing",
+      "aliases": [
+        "creative writing",
+        "fiction writing",
+        "story writing"
+      ],
+      "category": "writing",
+      "description": "Write short fiction by learning ideas, structure, scenes, and revision.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "poetry_writing",
+      "name": "Poetry Writing",
+      "aliases": [
+        "poetry",
+        "write poems",
+        "poem writing"
+      ],
+      "category": "writing",
+      "description": "Learn imagery, rhythm, voice, and revision for writing poetry.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "journaling",
+      "name": "Journaling",
+      "aliases": [
+        "journaling",
+        "journal writing",
+        "reflective writing"
+      ],
+      "category": "wellbeing",
+      "description": "Use journaling to reflect, organize thoughts, and build a sustainable habit.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "public_speaking_hobby",
+      "name": "Public Speaking",
+      "aliases": [
+        "public speaking",
+        "presentation skills",
+        "speak confidently"
+      ],
+      "category": "communication",
+      "description": "Learn confidence, structure, delivery, and speaking practice for live audiences.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "debate",
+      "name": "Debate",
+      "aliases": [
+        "debate",
+        "argumentation",
+        "public debate"
+      ],
+      "category": "communication",
+      "description": "Learn argument building, rebuttal, listening, and structured speaking.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "language_exchange",
+      "name": "Language Exchange Practice",
+      "aliases": [
+        "language exchange",
+        "conversation practice",
+        "speaking practice"
+      ],
+      "category": "language",
+      "description": "Practice languages through conversations, feedback, and routine study.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "birdwatching",
+      "name": "Birdwatching",
+      "aliases": [
+        "birdwatching",
+        "birding",
+        "watch birds"
+      ],
+      "category": "science",
+      "description": "Learn to identify birds, use field guides, and enjoy nature observation.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "astronomy_hobby",
+      "name": "Amateur Astronomy",
+      "aliases": [
+        "astronomy",
+        "stargazing",
+        "amateur astronomy"
+      ],
+      "category": "science",
+      "description": "Explore the night sky with observation skills, gear basics, and celestial knowledge.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "fishing_recreational",
+      "name": "Recreational Fishing",
+      "aliases": [
+        "fishing",
+        "recreational fishing",
+        "learn fishing"
+      ],
+      "category": "sports",
+      "description": "Learn fishing safety, gear, knots, casting, and responsible practices.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "dance_social",
+      "name": "Social Dance",
+      "aliases": [
+        "dance",
+        "social dance",
+        "learn dancing"
+      ],
+      "category": "sports",
+      "description": "Learn rhythm, movement, partner basics, and confidence for social dancing.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "ballet_fitness",
+      "name": "Ballet Basics",
+      "aliases": [
+        "ballet",
+        "learn ballet",
+        "dance basics"
+      ],
+      "category": "sports",
+      "description": "Learn posture, alignment, positions, and ballet fundamentals for beginners.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "camping",
+      "name": "Camping",
+      "aliases": [
+        "camping",
+        "outdoor camping",
+        "camp life"
+      ],
+      "category": "sports",
+      "description": "Learn camping gear, setup, cooking, safety, and trip preparation.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "origami",
+      "name": "Origami",
+      "aliases": [
+        "origami",
+        "paper folding",
+        "paper craft"
+      ],
+      "category": "craft",
+      "description": "Learn paper-folding fundamentals, diagrams, and progressive origami models.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "puzzle_solving",
+      "name": "Puzzle Solving",
+      "aliases": [
+        "puzzles",
+        "logic puzzles",
+        "brain teasers"
+      ],
+      "category": "games",
+      "description": "Build problem-solving skills through logic puzzles, pattern recognition, and practice.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "magic_tricks",
+      "name": "Magic Tricks",
+      "aliases": [
+        "magic",
+        "card tricks",
+        "learn magic"
+      ],
+      "category": "art",
+      "description": "Learn simple magic effects, presentation, practice, and audience management.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "podcasting_hobby",
+      "name": "Podcasting",
+      "aliases": [
+        "podcasting",
+        "start a podcast",
+        "audio show"
+      ],
+      "category": "media",
+      "description": "Learn podcast planning, recording, editing, and publishing basics.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "content_creation",
+      "name": "Content Creation",
+      "aliases": [
+        "content creation",
+        "creator skills",
+        "make content"
+      ],
+      "category": "media",
+      "description": "Learn planning, producing, and improving content for online audiences.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "lego_model_building",
+      "name": "Model Building",
+      "aliases": [
+        "model building",
+        "lego",
+        "miniatures"
+      ],
+      "category": "craft",
+      "description": "Build models by learning planning, assembly, display, and hobby organization.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "pet_training_basics",
+      "name": "Pet Training Basics",
+      "aliases": [
+        "pet training",
+        "dog training basics",
+        "animal training"
+      ],
+      "category": "life_skills",
+      "description": "Learn reward-based training, routines, and communication with pets.",
+      "quest_count": 12
+    }
+  ]
+}

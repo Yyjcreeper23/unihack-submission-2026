@@ -1,0 +1,42 @@
+{
+  "full_skill_count": 165,
+  "full_quest_count": 1980,
+  "new_skill_count": 62,
+  "new_quest_count": 744,
+  "new_categories": [
+    "art",
+    "communication",
+    "craft",
+    "games",
+    "language",
+    "life_skills",
+    "media",
+    "music",
+    "science",
+    "sports",
+    "wellbeing",
+    "writing"
+  ],
+  "sample_new_skills": [
+    "Acoustic Guitar",
+    "Electric Guitar",
+    "Piano and Keyboard",
+    "Violin",
+    "Drums",
+    "Ukulele",
+    "Singing and Vocals",
+    "Music Production",
+    "Running",
+    "Yoga",
+    "Swimming",
+    "Cycling",
+    "Basketball",
+    "Soccer / Football",
+    "Tennis",
+    "Badminton",
+    "Table Tennis",
+    "Volleyball",
+    "Martial Arts Fundamentals",
+    "Rock Climbing"
+  ]
+}

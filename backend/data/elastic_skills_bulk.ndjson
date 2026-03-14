@@ -1,0 +1,330 @@
+{"index": {"_index": "learning_skills", "_id": "python_programming"}}
+{"skill_id": "python_programming", "name": "Python Programming", "aliases": ["python", "python coding", "learn python"], "category": "programming", "description": "Learn Python for scripting, automation, data work, and application development.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "javascript_fundamentals"}}
+{"skill_id": "javascript_fundamentals", "name": "JavaScript Fundamentals", "aliases": ["javascript", "js", "learn javascript"], "category": "programming", "description": "Learn JavaScript for browser scripting, interactive UI, and general web logic.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "java_programming"}}
+{"skill_id": "java_programming", "name": "Java Programming", "aliases": ["java", "learn java", "java coding"], "category": "programming", "description": "Build object-oriented programs and backend applications with Java.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "csharp_programming"}}
+{"skill_id": "csharp_programming", "name": "C# Programming", "aliases": ["c#", "csharp", "learn c#"], "category": "programming", "description": "Use C# for application development, tooling, and game programming.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "cpp_programming"}}
+{"skill_id": "cpp_programming", "name": "C++ Programming", "aliases": ["c++", "cpp", "learn c++"], "category": "programming", "description": "Learn C++ for systems programming, performance-critical code, and software engineering.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "go_programming"}}
+{"skill_id": "go_programming", "name": "Go Programming", "aliases": ["golang", "go", "learn go"], "category": "programming", "description": "Build fast, simple, concurrent services and command-line tools with Go.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "rust_programming"}}
+{"skill_id": "rust_programming", "name": "Rust Programming", "aliases": ["rust", "learn rust", "rustlang"], "category": "programming", "description": "Learn Rust for memory-safe systems programming and high-performance software.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "sql_databases"}}
+{"skill_id": "sql_databases", "name": "SQL and Relational Databases", "aliases": ["sql", "relational database", "learn sql"], "category": "data", "description": "Query, design, and manage relational data effectively.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "html_css_web"}}
+{"skill_id": "html_css_web", "name": "HTML and CSS", "aliases": ["html", "css", "frontend basics", "web basics"], "category": "web", "description": "Build the structure and styling of modern web pages.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "react_development"}}
+{"skill_id": "react_development", "name": "React Development", "aliases": ["react", "reactjs", "learn react"], "category": "web", "description": "Create component-based user interfaces with React.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "nodejs_backend"}}
+{"skill_id": "nodejs_backend", "name": "Node.js Backend Development", "aliases": ["nodejs", "node.js", "backend javascript"], "category": "backend", "description": "Build APIs and backend services using Node.js.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "mobile_app_development"}}
+{"skill_id": "mobile_app_development", "name": "Mobile App Development", "aliases": ["mobile apps", "android and ios", "app development"], "category": "software", "description": "Design and build mobile applications for modern devices.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "api_design"}}
+{"skill_id": "api_design", "name": "API Design and Integration", "aliases": ["api design", "rest api", "graphql basics"], "category": "backend", "description": "Design clean, usable APIs and integrate external services.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "git_version_control"}}
+{"skill_id": "git_version_control", "name": "Git and Version Control", "aliases": ["git", "github basics", "version control"], "category": "software", "description": "Track changes, collaborate safely, and manage code history.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "linux_cli"}}
+{"skill_id": "linux_cli", "name": "Linux and Command Line", "aliases": ["linux", "bash", "command line"], "category": "systems", "description": "Use the shell, navigate systems, and automate repetitive work.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "devops_foundations"}}
+{"skill_id": "devops_foundations", "name": "DevOps Foundations", "aliases": ["devops", "ci cd", "deployment basics"], "category": "cloud", "description": "Understand automation, deployment, and collaboration across software delivery.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "cloud_computing"}}
+{"skill_id": "cloud_computing", "name": "Cloud Computing Basics", "aliases": ["cloud computing", "aws azure gcp", "cloud basics"], "category": "cloud", "description": "Understand cloud services, deployment models, and scalable infrastructure.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "cybersecurity_basics"}}
+{"skill_id": "cybersecurity_basics", "name": "Cybersecurity Basics", "aliases": ["cybersecurity", "security fundamentals", "infosec basics"], "category": "security", "description": "Learn the core ideas behind securing systems, networks, and data.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "machine_learning"}}
+{"skill_id": "machine_learning", "name": "Machine Learning Fundamentals", "aliases": ["machine learning", "ml basics", "learn ml"], "category": "ai", "description": "Learn how models are trained, evaluated, and applied to real problems.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "data_visualization"}}
+{"skill_id": "data_visualization", "name": "Data Visualization", "aliases": ["data viz", "charts and dashboards", "visual analytics"], "category": "data", "description": "Turn raw data into clear visuals, dashboards, and stories.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "statistics_fundamentals"}}
+{"skill_id": "statistics_fundamentals", "name": "Statistics Fundamentals", "aliases": ["statistics", "stats basics", "learn statistics"], "category": "math", "description": "Understand data, variation, inference, and evidence-based reasoning.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "probability_basics"}}
+{"skill_id": "probability_basics", "name": "Probability Basics", "aliases": ["probability", "chance", "probability theory"], "category": "math", "description": "Learn how uncertainty is modeled and calculated.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "excel_spreadsheets"}}
+{"skill_id": "excel_spreadsheets", "name": "Excel and Spreadsheets", "aliases": ["excel", "spreadsheets", "google sheets basics"], "category": "productivity", "description": "Use spreadsheets for calculations, analysis, and reporting.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "financial_literacy"}}
+{"skill_id": "financial_literacy", "name": "Financial Literacy", "aliases": ["personal finance", "money management", "financial basics"], "category": "finance", "description": "Build practical skills in budgeting, saving, debt, and financial decisions.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "investing_basics"}}
+{"skill_id": "investing_basics", "name": "Investing Basics", "aliases": ["investing", "stocks basics", "long term investing"], "category": "finance", "description": "Understand core investing concepts, risks, and portfolio thinking.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "project_management"}}
+{"skill_id": "project_management", "name": "Project Management", "aliases": ["project management", "pm basics", "manage projects"], "category": "business", "description": "Plan, track, and deliver projects with clear scope and communication.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "product_management"}}
+{"skill_id": "product_management", "name": "Product Management", "aliases": ["product management", "pmf", "build products"], "category": "business", "description": "Learn how products are discovered, prioritized, and improved.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "business_analysis"}}
+{"skill_id": "business_analysis", "name": "Business Analysis", "aliases": ["business analysis", "requirements gathering", "analyst skills"], "category": "business", "description": "Translate goals into clear requirements, processes, and decisions.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "marketing_fundamentals"}}
+{"skill_id": "marketing_fundamentals", "name": "Marketing Fundamentals", "aliases": ["marketing", "digital marketing basics", "brand marketing"], "category": "business", "description": "Learn positioning, messaging, channels, and customer acquisition.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "sales_foundations"}}
+{"skill_id": "sales_foundations", "name": "Sales Foundations", "aliases": ["sales", "selling basics", "b2b sales"], "category": "business", "description": "Learn consultative selling, pipeline basics, and customer conversations.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "graphic_design"}}
+{"skill_id": "graphic_design", "name": "Graphic Design", "aliases": ["graphic design", "visual design", "design basics"], "category": "design", "description": "Create clear, appealing visual communication using layout, hierarchy, and typography.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "ui_ux_design"}}
+{"skill_id": "ui_ux_design", "name": "UI and UX Design", "aliases": ["ux design", "ui design", "product design basics"], "category": "design", "description": "Design usable, accessible digital experiences from research to interface.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "typography_basics"}}
+{"skill_id": "typography_basics", "name": "Typography Basics", "aliases": ["typography", "fonts and type", "type design basics"], "category": "design", "description": "Use type effectively for readability, tone, and hierarchy.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "color_theory"}}
+{"skill_id": "color_theory", "name": "Color Theory", "aliases": ["color theory", "color design", "using color"], "category": "design", "description": "Understand how color supports contrast, mood, and composition.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "video_editing"}}
+{"skill_id": "video_editing", "name": "Video Editing", "aliases": ["video editing", "premiere basics", "edit videos"], "category": "media", "description": "Plan, cut, and polish video content with pacing and clarity.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "photography_basics"}}
+{"skill_id": "photography_basics", "name": "Photography Basics", "aliases": ["photography", "camera basics", "learn photography"], "category": "media", "description": "Understand exposure, composition, and practical shooting techniques.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "music_theory"}}
+{"skill_id": "music_theory", "name": "Music Theory", "aliases": ["music theory", "harmony basics", "learn music theory"], "category": "music", "description": "Learn notes, rhythm, chords, scales, and harmonic movement.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "music_production"}}
+{"skill_id": "music_production", "name": "Music Production", "aliases": ["music production", "beat making", "recording basics"], "category": "music", "description": "Create and refine recordings using modern production workflows.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "creative_writing"}}
+{"skill_id": "creative_writing", "name": "Creative Writing", "aliases": ["creative writing", "fiction writing", "writing stories"], "category": "writing", "description": "Develop scenes, voice, character, and narrative structure.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "public_speaking"}}
+{"skill_id": "public_speaking", "name": "Public Speaking", "aliases": ["public speaking", "presentation skills", "speak confidently"], "category": "communication", "description": "Communicate ideas clearly and confidently in front of others.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "academic_writing"}}
+{"skill_id": "academic_writing", "name": "Academic Writing", "aliases": ["academic writing", "essay writing", "research writing"], "category": "education", "description": "Write structured, evidence-based academic work.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "critical_thinking"}}
+{"skill_id": "critical_thinking", "name": "Critical Thinking", "aliases": ["critical thinking", "reasoning skills", "logic in arguments"], "category": "education", "description": "Evaluate claims, arguments, evidence, and assumptions carefully.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "research_methods"}}
+{"skill_id": "research_methods", "name": "Research Methods", "aliases": ["research methods", "qualitative and quantitative research", "study design"], "category": "education", "description": "Learn how questions, evidence, and methods fit together in research.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "history_study_skills"}}
+{"skill_id": "history_study_skills", "name": "History Study Skills", "aliases": ["study history", "history skills", "historical analysis"], "category": "humanities", "description": "Analyze sources, context, change over time, and historical arguments.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "philosophy_basics"}}
+{"skill_id": "philosophy_basics", "name": "Philosophy Basics", "aliases": ["philosophy", "ethics and logic", "learn philosophy"], "category": "humanities", "description": "Explore arguments, ethics, knowledge, and major philosophical ideas.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "economics_basics"}}
+{"skill_id": "economics_basics", "name": "Economics Basics", "aliases": ["economics", "micro and macro basics", "learn economics"], "category": "social_science", "description": "Understand incentives, markets, trade-offs, and policy impacts.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "psychology_basics"}}
+{"skill_id": "psychology_basics", "name": "Psychology Basics", "aliases": ["psychology", "learn psychology", "behavior basics"], "category": "social_science", "description": "Study behavior, cognition, development, and research-based explanation.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "sociology_basics"}}
+{"skill_id": "sociology_basics", "name": "Sociology Basics", "aliases": ["sociology", "society and culture", "learn sociology"], "category": "social_science", "description": "Understand institutions, identity, norms, inequality, and social change.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "mandarin_chinese"}}
+{"skill_id": "mandarin_chinese", "name": "Mandarin Chinese Basics", "aliases": ["mandarin", "chinese language", "learn chinese"], "category": "language", "description": "Build basic listening, speaking, reading, and writing skills in Mandarin.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "spanish_basics"}}
+{"skill_id": "spanish_basics", "name": "Spanish Basics", "aliases": ["spanish", "learn spanish", "basic spanish"], "category": "language", "description": "Learn practical Spanish for everyday conversation and comprehension.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "biology_basics"}}
+{"skill_id": "biology_basics", "name": "Biology Basics", "aliases": ["biology", "life science basics", "learn biology"], "category": "science", "description": "Learn cells, genetics, evolution, and biological systems.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "chemistry_basics"}}
+{"skill_id": "chemistry_basics", "name": "Chemistry Basics", "aliases": ["chemistry", "learn chemistry", "chem basics"], "category": "science", "description": "Understand matter, reactions, bonding, and quantitative chemical thinking.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "physics_basics"}}
+{"skill_id": "physics_basics", "name": "Physics Basics", "aliases": ["physics", "learn physics", "physics fundamentals"], "category": "science", "description": "Build intuition for motion, forces, energy, waves, and fields.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "astronomy_basics"}}
+{"skill_id": "astronomy_basics", "name": "Astronomy Basics", "aliases": ["astronomy", "space science", "learn astronomy"], "category": "science", "description": "Explore planets, stars, galaxies, and the structure of the universe.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "environmental_science"}}
+{"skill_id": "environmental_science", "name": "Environmental Science", "aliases": ["environmental science", "sustainability science", "ecology and climate"], "category": "science", "description": "Study ecosystems, human impacts, resources, and sustainability.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "anatomy_physiology"}}
+{"skill_id": "anatomy_physiology", "name": "Anatomy and Physiology", "aliases": ["anatomy", "physiology", "human body basics"], "category": "health", "description": "Understand major body systems and how they function together.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "nutrition_basics"}}
+{"skill_id": "nutrition_basics", "name": "Nutrition Basics", "aliases": ["nutrition", "healthy eating", "nutrition science"], "category": "health", "description": "Learn the foundations of diet, energy balance, and nutrients.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "first_aid_basics"}}
+{"skill_id": "first_aid_basics", "name": "First Aid Basics", "aliases": ["first aid", "emergency basics", "basic aid skills"], "category": "health", "description": "Learn practical first-response principles and safe emergency basics.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "algebra_fundamentals"}}
+{"skill_id": "algebra_fundamentals", "name": "Algebra Fundamentals", "aliases": ["algebra", "learn algebra", "basic algebra"], "category": "math", "description": "Work with equations, expressions, variables, and patterns.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "geometry_basics"}}
+{"skill_id": "geometry_basics", "name": "Geometry Basics", "aliases": ["geometry", "shapes and angles", "learn geometry"], "category": "math", "description": "Understand shapes, measurement, proof ideas, and spatial relationships.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "calculus_basics"}}
+{"skill_id": "calculus_basics", "name": "Calculus Basics", "aliases": ["calculus", "limits derivatives integrals", "learn calculus"], "category": "math", "description": "Learn change, accumulation, and modeling with calculus ideas.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "linear_algebra"}}
+{"skill_id": "linear_algebra", "name": "Linear Algebra", "aliases": ["linear algebra", "matrices and vectors", "learn linear algebra"], "category": "math", "description": "Work with vectors, matrices, transformations, and systems.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "discrete_math"}}
+{"skill_id": "discrete_math", "name": "Discrete Mathematics", "aliases": ["discrete math", "graphs sets logic", "learn discrete math"], "category": "math", "description": "Study logic, counting, graphs, proofs, and finite structures.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "time_management"}}
+{"skill_id": "time_management", "name": "Time Management", "aliases": ["time management", "productivity", "manage time"], "category": "personal_development", "description": "Plan work realistically, protect focus, and reduce procrastination.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "note_taking"}}
+{"skill_id": "note_taking", "name": "Note Taking and Knowledge Management", "aliases": ["note taking", "second brain", "knowledge management"], "category": "productivity", "description": "Capture, organize, and retrieve information effectively.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "resume_writing"}}
+{"skill_id": "resume_writing", "name": "Resume Writing", "aliases": ["resume", "cv writing", "job application resume"], "category": "career", "description": "Create a clear, targeted resume that shows evidence and impact.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "interview_skills"}}
+{"skill_id": "interview_skills", "name": "Interview Skills", "aliases": ["interview prep", "job interviews", "interview practice"], "category": "career", "description": "Prepare concise, credible answers and improve interview confidence.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "networking_skills"}}
+{"skill_id": "networking_skills", "name": "Professional Networking", "aliases": ["networking", "career networking", "professional relationships"], "category": "career", "description": "Build professional relationships through thoughtful outreach and follow-up.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "leadership_basics"}}
+{"skill_id": "leadership_basics", "name": "Leadership Basics", "aliases": ["leadership", "leading teams", "leadership skills"], "category": "career", "description": "Understand influence, trust, delegation, and team direction.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "negotiation_skills"}}
+{"skill_id": "negotiation_skills", "name": "Negotiation Skills", "aliases": ["negotiation", "negotiation basics", "deal making"], "category": "communication", "description": "Reach better agreements through preparation, framing, and listening.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "conflict_resolution"}}
+{"skill_id": "conflict_resolution", "name": "Conflict Resolution", "aliases": ["conflict resolution", "difficult conversations", "resolve conflict"], "category": "communication", "description": "Handle disagreements constructively with empathy, structure, and clarity.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "cooking_basics"}}
+{"skill_id": "cooking_basics", "name": "Cooking Basics", "aliases": ["cooking", "learn to cook", "kitchen basics"], "category": "life_skills", "description": "Build confidence with ingredients, techniques, and everyday meals.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "baking_basics"}}
+{"skill_id": "baking_basics", "name": "Baking Basics", "aliases": ["baking", "learn baking", "bread and cakes basics"], "category": "life_skills", "description": "Understand measuring, mixing, timing, and heat in baking.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "gardening_basics"}}
+{"skill_id": "gardening_basics", "name": "Gardening Basics", "aliases": ["gardening", "home gardening", "plant care basics"], "category": "life_skills", "description": "Grow and care for plants in indoor or outdoor spaces.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "home_organization"}}
+{"skill_id": "home_organization", "name": "Home Organization", "aliases": ["organizing home", "decluttering", "home systems"], "category": "life_skills", "description": "Create simple systems for tidiness, storage, and daily use.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "travel_planning"}}
+{"skill_id": "travel_planning", "name": "Travel Planning", "aliases": ["travel planning", "plan a trip", "trip organization"], "category": "life_skills", "description": "Plan practical, enjoyable trips with realistic budgets and logistics.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "car_maintenance_basics"}}
+{"skill_id": "car_maintenance_basics", "name": "Car Maintenance Basics", "aliases": ["car maintenance", "vehicle basics", "basic car care"], "category": "life_skills", "description": "Understand routine checks, common issues, and basic vehicle care.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "personal_safety"}}
+{"skill_id": "personal_safety", "name": "Personal Safety Awareness", "aliases": ["personal safety", "situational awareness", "safety basics"], "category": "life_skills", "description": "Build practical habits for everyday awareness and safer decision-making.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "digital_privacy"}}
+{"skill_id": "digital_privacy", "name": "Digital Privacy", "aliases": ["digital privacy", "online privacy", "privacy basics"], "category": "security", "description": "Protect personal data, devices, and habits online.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "entrepreneurship_basics"}}
+{"skill_id": "entrepreneurship_basics", "name": "Entrepreneurship Basics", "aliases": ["entrepreneurship", "start a business", "business startup"], "category": "business", "description": "Learn how ideas become viable businesses through testing and execution.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "ecommerce_basics"}}
+{"skill_id": "ecommerce_basics", "name": "E-commerce Basics", "aliases": ["ecommerce", "online store", "sell online"], "category": "business", "description": "Learn the fundamentals of online selling, operations, and customer experience.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "customer_service"}}
+{"skill_id": "customer_service", "name": "Customer Service", "aliases": ["customer service", "service skills", "support basics"], "category": "business", "description": "Provide helpful, professional support and build trust with customers.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "operations_management"}}
+{"skill_id": "operations_management", "name": "Operations Management", "aliases": ["operations management", "ops basics", "process improvement"], "category": "business", "description": "Improve reliability, throughput, and coordination in operational systems.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "supply_chain_basics"}}
+{"skill_id": "supply_chain_basics", "name": "Supply Chain Basics", "aliases": ["supply chain", "logistics basics", "inventory and sourcing"], "category": "business", "description": "Understand sourcing, inventory, logistics, and supply risk.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "electronics_basics"}}
+{"skill_id": "electronics_basics", "name": "Electronics Basics", "aliases": ["electronics", "circuits basics", "learn electronics"], "category": "engineering", "description": "Understand circuits, components, and measurement in simple electronic systems.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "mechanical_design_basics"}}
+{"skill_id": "mechanical_design_basics", "name": "Mechanical Design Basics", "aliases": ["mechanical design", "cad basics", "mechanical engineering basics"], "category": "engineering", "description": "Learn how parts, assemblies, loads, and manufacturability fit together.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "robotics_basics"}}
+{"skill_id": "robotics_basics", "name": "Robotics Basics", "aliases": ["robotics", "learn robotics", "robots basics"], "category": "engineering", "description": "Combine mechanics, sensing, control, and programming in robotic systems.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "3d_modeling"}}
+{"skill_id": "3d_modeling", "name": "3D Modeling Basics", "aliases": ["3d modeling", "blender basics", "modeling"], "category": "design", "description": "Create basic 3D forms, scenes, and assets using modeling software.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "game_design"}}
+{"skill_id": "game_design", "name": "Game Design", "aliases": ["game design", "design games", "game mechanics"], "category": "games", "description": "Design engaging player experiences, systems, and progression.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "game_development"}}
+{"skill_id": "game_development", "name": "Game Development", "aliases": ["game development", "make games", "unity unreal basics"], "category": "games", "description": "Build playable game systems, assets, and workflows.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "networking_basics"}}
+{"skill_id": "networking_basics", "name": "Computer Networking Basics", "aliases": ["computer networking", "networks", "tcp ip basics"], "category": "systems", "description": "Understand how devices communicate over networks and the internet.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "embedded_systems"}}
+{"skill_id": "embedded_systems", "name": "Embedded Systems Basics", "aliases": ["embedded systems", "microcontrollers", "arduino basics"], "category": "engineering", "description": "Work with hardware-constrained devices, sensors, and real-world control.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "drawing_basics"}}
+{"skill_id": "drawing_basics", "name": "Drawing Basics", "aliases": ["drawing", "learn to draw", "sketching basics"], "category": "art", "description": "Build observation, line, form, shading, and sketching confidence.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "painting_basics"}}
+{"skill_id": "painting_basics", "name": "Painting Basics", "aliases": ["painting", "learn painting", "color and brushwork"], "category": "art", "description": "Learn composition, color mixing, brush control, and painting process.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "calligraphy_basics"}}
+{"skill_id": "calligraphy_basics", "name": "Calligraphy Basics", "aliases": ["calligraphy", "hand lettering", "learn calligraphy"], "category": "art", "description": "Practice stroke control, spacing, and decorative lettering.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "sewing_basics"}}
+{"skill_id": "sewing_basics", "name": "Sewing Basics", "aliases": ["sewing", "learn sewing", "basic stitching"], "category": "craft", "description": "Use hand or machine sewing to alter and create simple items.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "woodworking_basics"}}
+{"skill_id": "woodworking_basics", "name": "Woodworking Basics", "aliases": ["woodworking", "learn woodworking", "basic joinery"], "category": "craft", "description": "Learn tools, measurement, joinery, and finishing in woodworking.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "ceramics_basics"}}
+{"skill_id": "ceramics_basics", "name": "Ceramics Basics", "aliases": ["ceramics", "pottery basics", "learn pottery"], "category": "craft", "description": "Understand forming, trimming, glazing, and firing clay work.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "fitness_basics"}}
+{"skill_id": "fitness_basics", "name": "Fitness Basics", "aliases": ["fitness", "exercise basics", "learn fitness"], "category": "health", "description": "Build a practical understanding of exercise, progression, and recovery.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "strength_training"}}
+{"skill_id": "strength_training", "name": "Strength Training", "aliases": ["strength training", "lifting basics", "gym basics"], "category": "health", "description": "Learn technique, programming, and recovery for getting stronger.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "yoga_basics"}}
+{"skill_id": "yoga_basics", "name": "Yoga Basics", "aliases": ["yoga", "learn yoga", "basic yoga"], "category": "health", "description": "Develop mobility, breathing, balance, and mindful movement.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "meditation_basics"}}
+{"skill_id": "meditation_basics", "name": "Meditation Basics", "aliases": ["meditation", "mindfulness", "learn meditation"], "category": "wellbeing", "description": "Practice attention, awareness, and simple meditation routines.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "sleep_hygiene"}}
+{"skill_id": "sleep_hygiene", "name": "Sleep Hygiene", "aliases": ["sleep hygiene", "better sleep", "sleep habits"], "category": "wellbeing", "description": "Improve sleep through habits, environment, and rhythm awareness.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "acoustic_guitar"}}
+{"skill_id": "acoustic_guitar", "name": "Acoustic Guitar", "aliases": ["guitar", "acoustic guitar", "learn guitar"], "category": "music", "description": "Learn acoustic guitar basics, chords, strumming, rhythm, and songs.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "electric_guitar"}}
+{"skill_id": "electric_guitar", "name": "Electric Guitar", "aliases": ["electric guitar", "lead guitar", "rock guitar"], "category": "music", "description": "Learn electric guitar technique, riffs, scales, tone, and performance basics.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "piano_keyboard"}}
+{"skill_id": "piano_keyboard", "name": "Piano and Keyboard", "aliases": ["piano", "keyboard", "learn piano"], "category": "music", "description": "Learn piano fundamentals including posture, notes, chords, rhythm, and simple pieces.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "violin"}}
+{"skill_id": "violin", "name": "Violin", "aliases": ["violin", "learn violin", "string instrument"], "category": "music", "description": "Learn violin posture, bowing, intonation, scales, and beginner repertoire.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "drums"}}
+{"skill_id": "drums", "name": "Drums", "aliases": ["drums", "drumming", "learn drums"], "category": "music", "description": "Learn drum kit coordination, grooves, fills, timing, and practice habits.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "ukulele"}}
+{"skill_id": "ukulele", "name": "Ukulele", "aliases": ["ukulele", "uke", "learn ukulele"], "category": "music", "description": "Learn ukulele chords, strumming patterns, rhythm, and easy songs.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "singing_vocals"}}
+{"skill_id": "singing_vocals", "name": "Singing and Vocals", "aliases": ["singing", "vocals", "learn singing"], "category": "music", "description": "Learn vocal technique, breathing, pitch control, tone, and song practice.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "music_production_hobby"}}
+{"skill_id": "music_production_hobby", "name": "Music Production", "aliases": ["music production", "beat making", "home studio"], "category": "music", "description": "Create music at home using recording, arrangement, MIDI, and mixing basics.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "running"}}
+{"skill_id": "running", "name": "Running", "aliases": ["running", "jogging", "learn to run"], "category": "sports", "description": "Build running technique, endurance, pacing, and healthy training habits.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "yoga"}}
+{"skill_id": "yoga", "name": "Yoga", "aliases": ["yoga", "learn yoga", "stretching"], "category": "sports", "description": "Learn yoga fundamentals for flexibility, balance, breathing, and body awareness.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "swimming"}}
+{"skill_id": "swimming", "name": "Swimming", "aliases": ["swimming", "learn swimming", "pool training"], "category": "sports", "description": "Learn swimming technique, breathing, water confidence, and structured practice.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "cycling"}}
+{"skill_id": "cycling", "name": "Cycling", "aliases": ["cycling", "bike riding", "road cycling"], "category": "sports", "description": "Learn cycling skills, fitness, safety, maintenance, and route planning.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "basketball"}}
+{"skill_id": "basketball", "name": "Basketball", "aliases": ["basketball", "learn basketball", "hoops"], "category": "sports", "description": "Learn shooting, dribbling, passing, footwork, and game understanding.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "soccer_football"}}
+{"skill_id": "soccer_football", "name": "Soccer / Football", "aliases": ["soccer", "football", "learn soccer"], "category": "sports", "description": "Learn dribbling, passing, shooting, movement, and match awareness.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "tennis"}}
+{"skill_id": "tennis", "name": "Tennis", "aliases": ["tennis", "learn tennis", "racquet sport"], "category": "sports", "description": "Learn strokes, footwork, serves, rallies, and point construction.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "badminton"}}
+{"skill_id": "badminton", "name": "Badminton", "aliases": ["badminton", "learn badminton", "racquet game"], "category": "sports", "description": "Learn grips, footwork, clears, drops, smashes, and singles or doubles play.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "table_tennis"}}
+{"skill_id": "table_tennis", "name": "Table Tennis", "aliases": ["table tennis", "ping pong", "learn ping pong"], "category": "sports", "description": "Learn spin, serves, footwork, rally control, and match strategy.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "volleyball"}}
+{"skill_id": "volleyball", "name": "Volleyball", "aliases": ["volleyball", "learn volleyball", "indoor volleyball"], "category": "sports", "description": "Learn passing, setting, serving, hitting, and team positioning.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "martial_arts_fitness"}}
+{"skill_id": "martial_arts_fitness", "name": "Martial Arts Fundamentals", "aliases": ["martial arts", "combat sports", "self discipline"], "category": "sports", "description": "Learn beginner striking or grappling fundamentals, conditioning, and etiquette.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "rock_climbing"}}
+{"skill_id": "rock_climbing", "name": "Rock Climbing", "aliases": ["rock climbing", "bouldering", "climbing"], "category": "sports", "description": "Learn climbing movement, safety, technique, and progression as a hobby.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "hiking"}}
+{"skill_id": "hiking", "name": "Hiking", "aliases": ["hiking", "trekking", "trail walking"], "category": "sports", "description": "Learn hiking preparation, pacing, navigation, and outdoor safety.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "skateboarding"}}
+{"skill_id": "skateboarding", "name": "Skateboarding", "aliases": ["skateboarding", "skateboard", "learn skating"], "category": "sports", "description": "Learn stance, pushing, turning, stopping, and beginner tricks.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "surfing"}}
+{"skill_id": "surfing", "name": "Surfing", "aliases": ["surfing", "learn surfing", "board sports"], "category": "sports", "description": "Learn water safety, paddling, pop-ups, wave reading, and etiquette.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "photography_hobby"}}
+{"skill_id": "photography_hobby", "name": "Photography", "aliases": ["photography", "learn photography", "camera basics"], "category": "art", "description": "Learn camera settings, composition, lighting, editing, and photo storytelling.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "videography_hobby"}}
+{"skill_id": "videography_hobby", "name": "Videography", "aliases": ["videography", "video making", "filmmaking hobby"], "category": "media", "description": "Learn shooting, framing, movement, audio, and simple editing for video projects.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "drawing_sketching"}}
+{"skill_id": "drawing_sketching", "name": "Drawing and Sketching", "aliases": ["drawing", "sketching", "learn to draw"], "category": "art", "description": "Learn line, shape, perspective, shading, and practice routines for drawing.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "watercolor_painting"}}
+{"skill_id": "watercolor_painting", "name": "Watercolor Painting", "aliases": ["watercolor", "watercolor painting", "painting hobby"], "category": "art", "description": "Learn watercolor materials, washes, layering, color mixing, and simple subjects.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "acrylic_painting"}}
+{"skill_id": "acrylic_painting", "name": "Acrylic Painting", "aliases": ["acrylic painting", "acrylic art", "painting"], "category": "art", "description": "Learn acrylic materials, brushwork, composition, and painting techniques.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "digital_illustration"}}
+{"skill_id": "digital_illustration", "name": "Digital Illustration", "aliases": ["digital art", "digital illustration", "tablet drawing"], "category": "art", "description": "Create illustrations using digital tools, layers, brushes, and visual storytelling.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "calligraphy"}}
+{"skill_id": "calligraphy", "name": "Calligraphy", "aliases": ["calligraphy", "hand lettering", "beautiful writing"], "category": "craft", "description": "Learn pen control, letterforms, spacing, and decorative writing styles.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "pottery_ceramics"}}
+{"skill_id": "pottery_ceramics", "name": "Pottery and Ceramics", "aliases": ["pottery", "ceramics", "clay"], "category": "craft", "description": "Learn hand-building, wheel basics, shaping, glazing, and ceramic projects.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "knitting"}}
+{"skill_id": "knitting", "name": "Knitting", "aliases": ["knitting", "learn knitting", "yarn crafts"], "category": "craft", "description": "Learn stitches, patterns, tension, and simple knitted projects.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "crochet"}}
+{"skill_id": "crochet", "name": "Crochet", "aliases": ["crochet", "learn crochet", "yarn hobby"], "category": "craft", "description": "Learn hooks, stitches, patterns, and small crochet projects.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "sewing"}}
+{"skill_id": "sewing", "name": "Sewing", "aliases": ["sewing", "learn sewing", "fabric crafts"], "category": "craft", "description": "Learn hand sewing, machine basics, patterns, repairs, and simple garments.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "woodworking_hobby"}}
+{"skill_id": "woodworking_hobby", "name": "Woodworking", "aliases": ["woodworking", "wood craft", "learn woodworking"], "category": "craft", "description": "Learn safe tool use, measuring, joinery, sanding, and small wood projects.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "gardening_hobby"}}
+{"skill_id": "gardening_hobby", "name": "Gardening", "aliases": ["gardening", "home gardening", "plants"], "category": "life_skills", "description": "Grow plants at home with soil, light, watering, and seasonal planning basics.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "indoor_plants"}}
+{"skill_id": "indoor_plants", "name": "Indoor Plant Care", "aliases": ["houseplants", "indoor plants", "plant care"], "category": "life_skills", "description": "Keep indoor plants healthy by learning light, watering, soil, and pest basics.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "baking"}}
+{"skill_id": "baking", "name": "Baking", "aliases": ["baking", "learn baking", "home baking"], "category": "life_skills", "description": "Learn baking fundamentals, measurements, doughs, cakes, and kitchen habits.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "cooking_home"}}
+{"skill_id": "cooking_home", "name": "Home Cooking", "aliases": ["cooking", "home cooking", "learn to cook"], "category": "life_skills", "description": "Learn kitchen basics, ingredients, flavor, timing, and simple meals.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "coffee_brewing"}}
+{"skill_id": "coffee_brewing", "name": "Coffee Brewing", "aliases": ["coffee brewing", "home coffee", "brew coffee"], "category": "life_skills", "description": "Learn beans, grind size, brewing methods, milk, and tasting basics.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "tea_appreciation"}}
+{"skill_id": "tea_appreciation", "name": "Tea Appreciation", "aliases": ["tea", "tea brewing", "learn tea"], "category": "life_skills", "description": "Learn tea types, brewing, tasting, and simple tea culture basics.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "board_games"}}
+{"skill_id": "board_games", "name": "Board Games", "aliases": ["board games", "tabletop games", "strategy games"], "category": "games", "description": "Learn modern board game mechanics, rules, strategy, and hosting game nights.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "chess_hobby"}}
+{"skill_id": "chess_hobby", "name": "Chess", "aliases": ["chess", "learn chess", "chess strategy"], "category": "games", "description": "Learn chess rules, tactics, openings, endgames, and practical improvement.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "creative_writing_fiction"}}
+{"skill_id": "creative_writing_fiction", "name": "Creative Writing", "aliases": ["creative writing", "fiction writing", "story writing"], "category": "writing", "description": "Write short fiction by learning ideas, structure, scenes, and revision.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "poetry_writing"}}
+{"skill_id": "poetry_writing", "name": "Poetry Writing", "aliases": ["poetry", "write poems", "poem writing"], "category": "writing", "description": "Learn imagery, rhythm, voice, and revision for writing poetry.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "journaling"}}
+{"skill_id": "journaling", "name": "Journaling", "aliases": ["journaling", "journal writing", "reflective writing"], "category": "wellbeing", "description": "Use journaling to reflect, organize thoughts, and build a sustainable habit.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "public_speaking_hobby"}}
+{"skill_id": "public_speaking_hobby", "name": "Public Speaking", "aliases": ["public speaking", "presentation skills", "speak confidently"], "category": "communication", "description": "Learn confidence, structure, delivery, and speaking practice for live audiences.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "debate"}}
+{"skill_id": "debate", "name": "Debate", "aliases": ["debate", "argumentation", "public debate"], "category": "communication", "description": "Learn argument building, rebuttal, listening, and structured speaking.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "language_exchange"}}
+{"skill_id": "language_exchange", "name": "Language Exchange Practice", "aliases": ["language exchange", "conversation practice", "speaking practice"], "category": "language", "description": "Practice languages through conversations, feedback, and routine study.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "birdwatching"}}
+{"skill_id": "birdwatching", "name": "Birdwatching", "aliases": ["birdwatching", "birding", "watch birds"], "category": "science", "description": "Learn to identify birds, use field guides, and enjoy nature observation.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "astronomy_hobby"}}
+{"skill_id": "astronomy_hobby", "name": "Amateur Astronomy", "aliases": ["astronomy", "stargazing", "amateur astronomy"], "category": "science", "description": "Explore the night sky with observation skills, gear basics, and celestial knowledge.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "fishing_recreational"}}
+{"skill_id": "fishing_recreational", "name": "Recreational Fishing", "aliases": ["fishing", "recreational fishing", "learn fishing"], "category": "sports", "description": "Learn fishing safety, gear, knots, casting, and responsible practices.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "dance_social"}}
+{"skill_id": "dance_social", "name": "Social Dance", "aliases": ["dance", "social dance", "learn dancing"], "category": "sports", "description": "Learn rhythm, movement, partner basics, and confidence for social dancing.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "ballet_fitness"}}
+{"skill_id": "ballet_fitness", "name": "Ballet Basics", "aliases": ["ballet", "learn ballet", "dance basics"], "category": "sports", "description": "Learn posture, alignment, positions, and ballet fundamentals for beginners.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "camping"}}
+{"skill_id": "camping", "name": "Camping", "aliases": ["camping", "outdoor camping", "camp life"], "category": "sports", "description": "Learn camping gear, setup, cooking, safety, and trip preparation.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "origami"}}
+{"skill_id": "origami", "name": "Origami", "aliases": ["origami", "paper folding", "paper craft"], "category": "craft", "description": "Learn paper-folding fundamentals, diagrams, and progressive origami models.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "puzzle_solving"}}
+{"skill_id": "puzzle_solving", "name": "Puzzle Solving", "aliases": ["puzzles", "logic puzzles", "brain teasers"], "category": "games", "description": "Build problem-solving skills through logic puzzles, pattern recognition, and practice.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "magic_tricks"}}
+{"skill_id": "magic_tricks", "name": "Magic Tricks", "aliases": ["magic", "card tricks", "learn magic"], "category": "art", "description": "Learn simple magic effects, presentation, practice, and audience management.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "podcasting_hobby"}}
+{"skill_id": "podcasting_hobby", "name": "Podcasting", "aliases": ["podcasting", "start a podcast", "audio show"], "category": "media", "description": "Learn podcast planning, recording, editing, and publishing basics.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "content_creation"}}
+{"skill_id": "content_creation", "name": "Content Creation", "aliases": ["content creation", "creator skills", "make content"], "category": "media", "description": "Learn planning, producing, and improving content for online audiences.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "lego_model_building"}}
+{"skill_id": "lego_model_building", "name": "Model Building", "aliases": ["model building", "lego", "miniatures"], "category": "craft", "description": "Build models by learning planning, assembly, display, and hobby organization.", "quest_count": 12}
+{"index": {"_index": "learning_skills", "_id": "pet_training_basics"}}
+{"skill_id": "pet_training_basics", "name": "Pet Training Basics", "aliases": ["pet training", "dog training basics", "animal training"], "category": "life_skills", "description": "Learn reward-based training, routines, and communication with pets.", "quest_count": 12}
