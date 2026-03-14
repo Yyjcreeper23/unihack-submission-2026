@@ -2,12 +2,13 @@
  * App.jsx — Root component
  */
 
-import { useState }        from "react";
+import { useState } from "react";
 import { useMonsterStore } from "./hooks/useMonsterStore";
-import { MONSTER_ROSTER }  from "./data/monsters";
-import Monster             from "./components/Monster";
-import DialogueBox         from "./components/DialogueBox";
-import GachaPopup          from "./components/GachaPopup";
+import { MONSTER_ROSTER } from "./data/monsters";
+import Monster from "./components/Monster";
+import DialogueBox from "./components/DialogueBox";
+import GachaPopup from "./components/GachaPopup";
+import Gallery from "./components/Gallery";
 
 export default function App() {
   const store = useMonsterStore();
@@ -24,7 +25,7 @@ export default function App() {
     store.completeCurrentTask();
     // TODO (Dev A): replace with real POST /api/complete-task
     const unowned = MONSTER_ROSTER.filter(
-      (m) => !store.ownedMonsterIds.includes(m.id)
+      (m) => !store.ownedMonsterIds.includes(m.id),
     );
     if (unowned.length === 0) return;
     const pick = unowned[Math.floor(Math.random() * unowned.length)];
@@ -97,25 +98,29 @@ export default function App() {
       `}</style>
 
       {/* ── HABITAT FIELD ─────────────────────────────────────────────────── */}
-      <div style={{
-        position:         "relative",
-        width:            "100vw",
-        height:           "calc(100vh - 220px)",
-        backgroundImage:  "url('background/grass.png')",
-        backgroundSize:   "704px 320px",
-        backgroundRepeat: "repeat",
-        backgroundColor:  "#5a9e2a",
-        overflow:         "hidden",
-      }}>
-
+      <div
+        style={{
+          position: "relative",
+          width: "100vw",
+          height: "calc(100vh - 220px)",
+          backgroundImage: "url('background/grass.png')",
+          backgroundSize: "704px 320px",
+          backgroundRepeat: "repeat",
+          backgroundColor: "#5a9e2a",
+          overflow: "hidden",
+        }}
+      >
         {/* Warm morning light overlay */}
-        <div style={{
-          position:      "absolute",
-          inset:         0,
-          background:    "radial-gradient(ellipse 80% 50% at 25% 15%, rgba(255,240,160,0.13) 0%, transparent 70%)",
-          pointerEvents: "none",
-          zIndex:        1,
-        }} />
+        <div
+          style={{
+            position: "absolute",
+            inset: 0,
+            background:
+              "radial-gradient(ellipse 80% 50% at 25% 15%, rgba(255,240,160,0.13) 0%, transparent 70%)",
+            pointerEvents: "none",
+            zIndex: 1,
+          }}
+        />
 
         {/* Monsters */}
         {store.ownedMonsters.map((monster) => (
@@ -129,22 +134,26 @@ export default function App() {
 
         {/* Empty state hint */}
         {store.ownedMonsters.length === 0 && store.goal && (
-          <div style={{
-            position:      "absolute",
-            top:           "42%",
-            left:          "50%",
-            transform:     "translate(-50%, -50%)",
-            textAlign:     "center",
-            color:         "rgba(255,255,255,0.65)",
-            fontFamily:    "'Press Start 2P', monospace",
-            fontSize:      9,
-            lineHeight:    2,
-            textShadow:    "1px 1px 2px rgba(0,0,0,0.5)",
-            pointerEvents: "none",
-            zIndex:        2,
-          }}>
+          <div
+            style={{
+              position: "absolute",
+              top: "42%",
+              left: "50%",
+              transform: "translate(-50%, -50%)",
+              textAlign: "center",
+              color: "rgba(255,255,255,0.65)",
+              fontFamily: "'Press Start 2P', monospace",
+              fontSize: 9,
+              lineHeight: 2,
+              textShadow: "1px 1px 2px rgba(0,0,0,0.5)",
+              pointerEvents: "none",
+              zIndex: 2,
+            }}
+          >
             <div style={{ fontSize: 36, marginBottom: 10 }}>🌿</div>
-            Complete a task to<br />summon your first monster!
+            Complete a task to
+            <br />
+            summon your first monster!
           </div>
         )}
       </div>
@@ -164,6 +173,7 @@ export default function App() {
       {pendingMonster && (
         <GachaPopup monster={pendingMonster} onClaim={handleClaim} />
       )}
+      <Gallery ownedMonsterIds={store.ownedMonsterIds} />
     </>
   );
 }
