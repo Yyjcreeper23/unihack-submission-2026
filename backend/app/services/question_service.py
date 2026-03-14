@@ -58,7 +58,6 @@ Keywords: {quest.get('keywords', [])}
 Question type: {question_type}
 Difficulty: {difficulty}
 '''
-        print(prompt)
         openai_service = OpenAIService()
         return openai_service.create_structured_json(
             prompt=prompt,
