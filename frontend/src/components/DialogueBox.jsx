@@ -33,15 +33,19 @@ export default function DialogueBox({
   onComplete,
   onSetGoal,
   onShowResources,
+  onNewSkill,
 }) {
   const [goalInput, setGoalInput] = useState("");
+  const [returningAdventurer, setReturningAdventurer] = useState(false);
 
   // ── Lumi's dialogue — changes based on current game state ────────────────
   const lumiSays = () => {
     if (!goal)
-      return "Hey traveller! I'm Lumi ✨ What skill are you on a quest to learn?";
+      return returningAdventurer
+        ? "You're on a roll, adventurer! ✨ What skill would you like to learn next?"
+        : "Hey traveller! I'm Lumi ✨ What skill are you on a quest to learn?";
     if (allDone)
-      return `You've completed every quest on your journey to "${goal}"! Your habitat is thriving! 🎉`;
+      return `You've completed every quest on your journey to "${goal}"! Your habitat is flourishing! 🎉`;
     if (!task) return "Loading your quests...";
     if (taskIndex === 0)
       return `Yay! Let's begin your journey to "${goal}"! Here's your first challenge!`;
@@ -322,25 +326,41 @@ export default function DialogueBox({
           </div>
         )}
 
-        {/* ── All done ── */}
         {allDone && (
           <div
             style={{
-              color: "#ffd700",
-              fontSize: 11,
-              textAlign: "center",
-              textShadow: "0 0 10px #ffd700, 0 0 20px rgba(255,215,0,0.4)",
-              animation: "glow-pulse 2s ease-in-out infinite",
-              background: "rgba(0,0,0,0.18)",
-              border: "2px solid #5a3e1a",
-              borderRadius: 6,
-              padding: "12px 16px",
+              display: "flex",
+              flexDirection: "column",
+              gap: 10,
             }}
           >
-            🏆 All quests complete! Your habitat is flourishing!
+            <div
+              style={{
+                color: "#ffd700",
+                fontSize: 10,
+                textAlign: "center",
+                textShadow: "0 0 10px #ffd700, 0 0 20px rgba(255,215,0,0.4)",
+                animation: "glow-pulse 2s ease-in-out infinite",
+                background: "rgba(0,0,0,0.18)",
+                border: "2px solid #5a3e1a",
+                borderRadius: 6,
+                padding: "10px 16px",
+              }}
+            >
+              🏆 All quests complete! Your habitat is flourishing!
+            </div>
+
+            <button
+              onClick={() => {
+                setReturningAdventurer(true);
+                onNewSkill();
+              }}
+              style={newSkillBtnStyle}
+            >
+              ✦ Learn a New Skill
+            </button>
           </div>
         )}
-
         {/* Chevron */}
         <div
           style={{
@@ -388,14 +408,28 @@ const completeBtnStyle = {
 };
 
 const helpBtnStyle = {
-  background:   "linear-gradient(180deg, #3a5a8a, #2a3a6a)",
-  border:       "2px solid #1a2a5a",
+  background: "linear-gradient(180deg, #3a5a8a, #2a3a6a)",
+  border: "2px solid #1a2a5a",
   borderRadius: 4,
-  padding:      "7px 14px",
-  color:        "#b0d0ff",
-  fontFamily:   "'Press Start 2P', monospace",
-  fontSize:     8,
-  cursor:       "pointer",
-  boxShadow:    "0 2px 0 #1a2a5a",
-  whiteSpace:   "nowrap",
+  padding: "7px 14px",
+  color: "#b0d0ff",
+  fontFamily: "'Press Start 2P', monospace",
+  fontSize: 8,
+  cursor: "pointer",
+  boxShadow: "0 2px 0 #1a2a5a",
+  whiteSpace: "nowrap",
+};
+
+const newSkillBtnStyle = {
+  flex: 1,
+  background: "linear-gradient(180deg, #1a5a8a, #0a3a6a)",
+  border: "2px solid #4a9aff",
+  borderRadius: 4,
+  padding: "10px 8px",
+  color: "#c0e0ff",
+  fontFamily: "'Press Start 2P', monospace",
+  fontSize: 8,
+  cursor: "pointer",
+  boxShadow: "0 3px 0 #0a2a5a",
+  whiteSpace: "nowrap",
 };

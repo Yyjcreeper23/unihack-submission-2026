@@ -54,6 +54,10 @@ export default function App() {
     }
   };
 
+  const handleNewSkill = () => {
+    store.restartWithGoal();
+  };
+
   // ── Monster quiz click ────────────────────────────────────────────────────
   // Called when player clicks a monster that has "!" above it.
   // Finds the task that unlocked this monster so we can generate a question.
@@ -209,6 +213,7 @@ export default function App() {
         onComplete={handleTaskComplete}
         onSetGoal={store.setGoalAndTasks}
         onShowResources={() => setShowResources(true)}
+        onNewSkill={handleNewSkill}
       />
 
       {/* ── GALLERY ── */}
