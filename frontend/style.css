@@ -24,9 +24,16 @@ body{
     z-index:0;
 }
 
-.title{
+@font-face{
+    font-family: DeterminationMonoWeb;
+    src:url(determinationmonoweb-webfont.woff);
+}
+
+a{
     color:white;
+    font-family:DeterminationMonoWeb;
     font-size:60px;
+    text-decoration: none;
     text-shadow:0 0 20px black;
     z-index: 1;
 }
