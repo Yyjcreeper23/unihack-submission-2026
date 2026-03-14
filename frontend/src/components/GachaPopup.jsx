@@ -235,8 +235,6 @@ export default function GachaPopup({ monster, onClaim }) {
             />
           </div>
 
-          
-
           {/* Spinning silhouette slot */}
           {phase !== "revealed" && (
             <div
