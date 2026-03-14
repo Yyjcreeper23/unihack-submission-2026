@@ -32,6 +32,7 @@ export default function DialogueBox({
   goal,
   onComplete,
   onSetGoal,
+  onShowResources,
 }) {
   const [goalInput, setGoalInput] = useState("");
 
@@ -314,6 +315,9 @@ export default function DialogueBox({
               <button onClick={onComplete} style={completeBtnStyle}>
                 ✓ Complete Task
               </button>
+              <button onClick={onShowResources} style={helpBtnStyle}>
+                ? How do I do this?
+              </button>
             </div>
           </div>
         )}
@@ -381,4 +385,17 @@ const completeBtnStyle = {
   boxShadow: "0 3px 0 #906000",
   textShadow: "0 1px 0 rgba(255,255,255,0.25)",
   whiteSpace: "nowrap",
+};
+
+const helpBtnStyle = {
+  background:   "linear-gradient(180deg, #3a5a8a, #2a3a6a)",
+  border:       "2px solid #1a2a5a",
+  borderRadius: 4,
+  padding:      "7px 14px",
+  color:        "#b0d0ff",
+  fontFamily:   "'Press Start 2P', monospace",
+  fontSize:     8,
+  cursor:       "pointer",
+  boxShadow:    "0 2px 0 #1a2a5a",
+  whiteSpace:   "nowrap",
 };
