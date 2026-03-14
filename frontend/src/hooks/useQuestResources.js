@@ -18,27 +18,24 @@ export function useQuestResources() {
   const abortRef = useRef(null);
 
   const fetch = useCallback(async (questId, payload) => {
-    abortRef.current?.abort();
-    abortRef.current = new AbortController();
+  abortRef.current?.abort();
+  abortRef.current = new AbortController();
 
-    setLoading(true);
-    setError(null);
-    setResources(null);
+  setLoading(true);
+  setError(null);
+  setResources(null);
 
-    try {
-      const data = await getQuestResources(questId, payload, abortRef.current.signal);
-      setResources(data.resources ?? []);
-    } catch (err) {
-      if (err.name === "AbortError") return;
-      setError(
-        err instanceof ApiError
-          ? err.message
-          : "Could not load resources."
-      );
-    } finally {
-      setLoading(false);
-    }
-  }, []);
+  try {
+    await new Promise(r => setTimeout(r, 100)); // remove after testing
+    const data = await getQuestResources(questId, payload, abortRef.current.signal);
+    setResources(data.resources ?? []);
+  } catch (err) {
+    if (err.name === "AbortError") return;
+    setError(err instanceof ApiError ? err.message : "Could not load resources.");
+  } finally {
+    setLoading(false);
+  }
+}, []);
 
   return { resources, loading, error, fetch };
 }

@@ -35,6 +35,7 @@ export function useGenerateQuestion() {
     setQuestion(null);
 
     try {
+      await new Promise(r => setTimeout(r, 100)); // remove after testing
       const data = await generateQuestion(
         {
           quest_id:      questId,

@@ -32,6 +32,7 @@ export function useLearningPlan() {
     setError(null);
 
     try {
+      await new Promise(r => setTimeout(r, 100)); // remove after testing
       const data = await createLearningPlan(
         {
           prompt:     goalText,

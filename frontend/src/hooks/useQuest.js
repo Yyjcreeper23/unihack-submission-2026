@@ -34,6 +34,7 @@ export function useQuest() {
     setError(null);
 
     try {
+      await new Promise(r => setTimeout(r, 100)); // remove after testing
       const data = await getQuest(questId, abortRef.current.signal);
       setQuest(data);
     } catch (err) {
