@@ -1,0 +1,5904 @@
+{
+  "skills": [
+    {
+      "skill_id": "python_programming",
+      "name": "Python Programming",
+      "aliases": [
+        "python",
+        "python coding",
+        "learn python"
+      ],
+      "category": "programming",
+      "description": "Learn Python for scripting, automation, and application development.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "javascript_fundamentals",
+      "name": "JavaScript Fundamentals",
+      "aliases": [
+        "javascript",
+        "js",
+        "learn javascript"
+      ],
+      "category": "programming",
+      "description": "Learn JavaScript for interactive websites and frontend logic.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "html_css_web",
+      "name": "HTML and CSS",
+      "aliases": [
+        "html",
+        "css",
+        "web basics",
+        "frontend basics"
+      ],
+      "category": "web",
+      "description": "Build the structure and styling of modern web pages.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "sql_databases",
+      "name": "SQL and Databases",
+      "aliases": [
+        "sql",
+        "databases"
+      ],
+      "category": "data",
+      "description": "Learn relational databases and SQL for querying structured data.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "data_structures_algorithms",
+      "name": "Data Structures and Algorithms",
+      "aliases": [
+        "dsa",
+        "algorithms",
+        "data structures"
+      ],
+      "category": "computer_science",
+      "description": "Build core problem-solving skills using common data structures and algorithms.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "git_version_control",
+      "name": "Git and Version Control",
+      "aliases": [
+        "git",
+        "version control",
+        "github basics"
+      ],
+      "category": "developer_tools",
+      "description": "Track code changes and collaborate using Git workflows.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "react_frontend",
+      "name": "React Frontend Development",
+      "aliases": [
+        "react",
+        "frontend react",
+        "learn react"
+      ],
+      "category": "web",
+      "description": "Build component-based user interfaces with React.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "machine_learning_basics",
+      "name": "Machine Learning Basics",
+      "aliases": [
+        "machine learning",
+        "ml basics",
+        "intro to ml"
+      ],
+      "category": "ai",
+      "description": "Learn the basic concepts, workflow, and common models in machine learning.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "cybersecurity_fundamentals",
+      "name": "Cybersecurity Fundamentals",
+      "aliases": [
+        "cybersecurity",
+        "security basics",
+        "infosec"
+      ],
+      "category": "security",
+      "description": "Learn core cybersecurity concepts, threats, and defensive practices.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "ui_ux_design",
+      "name": "UI UX Design",
+      "aliases": [
+        "ui ux",
+        "ux design",
+        "interface design"
+      ],
+      "category": "design",
+      "description": "Learn to design usable, accessible, and visually coherent digital products.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "java_programming",
+      "name": "Java Programming",
+      "aliases": [
+        "java",
+        "learn java",
+        "java basics"
+      ],
+      "category": "programming",
+      "description": "Learn Java for object-oriented programming and application development.",
+      "quest_count": 12
+    },
+    {
+      "skill_id": "system_design_basics",
+      "name": "System Design Basics",
+      "aliases": [
+        "system design",
+        "backend design",
+        "architecture basics"
+      ],
+      "category": "software_engineering",
+      "description": "Learn to design scalable software systems using common architecture patterns.",
+      "quest_count": 12
+    }
+  ],
+  "quests": [
+    {
+      "doc_type": "quest",
+      "quest_id": "python_programming__q01",
+      "skill_id": "python_programming",
+      "skill_name": "Python Programming",
+      "skill_aliases": [
+        "python",
+        "python coding",
+        "learn python"
+      ],
+      "category": "programming",
+      "title": "Python Setup and Environment",
+      "description": "Install Python, create virtual environments, and run your first scripts.",
+      "order": 1,
+      "difficulty": "beginner",
+      "estimated_minutes": 30,
+      "prerequisite_quest_ids": [],
+      "keywords": [
+        "and",
+        "create",
+        "environment",
+        "environments",
+        "first",
+        "install",
+        "learn python",
+        "python",
+        "python coding",
+        "run",
+        "scripts",
+        "setup",
+        "virtual",
+        "your"
+      ],
+      "resource_hints": [
+        "Official Python docs",
+        "Real Python",
+        "Automate the Boring Stuff",
+        "YouTube tutorials"
+      ],
+      "search_text": "Python Programming Python Setup and Environment Install Python, create virtual environments, and run your first scripts. python python coding learn python"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "python_programming__q02",
+      "skill_id": "python_programming",
+      "skill_name": "Python Programming",
+      "skill_aliases": [
+        "python",
+        "python coding",
+        "learn python"
+      ],
+      "category": "programming",
+      "title": "Basic Syntax and Variables",
+      "description": "Understand variables, comments, print, and simple expressions.",
+      "order": 2,
+      "difficulty": "beginner",
+      "estimated_minutes": 45,
+      "prerequisite_quest_ids": [
+        "python_programming__q01"
+      ],
+      "keywords": [
+        "and",
+        "basic",
+        "comments",
+        "expressions",
+        "learn python",
+        "print",
+        "python",
+        "python coding",
+        "simple",
+        "syntax",
+        "understand",
+        "variables"
+      ],
+      "resource_hints": [
+        "Official Python docs",
+        "Real Python",
+        "Automate the Boring Stuff",
+        "YouTube tutorials"
+      ],
+      "search_text": "Python Programming Basic Syntax and Variables Understand variables, comments, print, and simple expressions. python python coding learn python"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "python_programming__q03",
+      "skill_id": "python_programming",
+      "skill_name": "Python Programming",
+      "skill_aliases": [
+        "python",
+        "python coding",
+        "learn python"
+      ],
+      "category": "programming",
+      "title": "Data Types and Casting",
+      "description": "Work with strings, integers, floats, booleans, and type conversion.",
+      "order": 3,
+      "difficulty": "beginner",
+      "estimated_minutes": 60,
+      "prerequisite_quest_ids": [
+        "python_programming__q02"
+      ],
+      "keywords": [
+        "and",
+        "booleans",
+        "casting",
+        "conversion",
+        "data",
+        "floats",
+        "integers",
+        "learn python",
+        "python",
+        "python coding",
+        "strings",
+        "type",
+        "types",
+        "with",
+        "work"
+      ],
+      "resource_hints": [
+        "Official Python docs",
+        "Real Python",
+        "Automate the Boring Stuff",
+        "YouTube tutorials"
+      ],
+      "search_text": "Python Programming Data Types and Casting Work with strings, integers, floats, booleans, and type conversion. python python coding learn python"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "python_programming__q04",
+      "skill_id": "python_programming",
+      "skill_name": "Python Programming",
+      "skill_aliases": [
+        "python",
+        "python coding",
+        "learn python"
+      ],
+      "category": "programming",
+      "title": "Conditionals",
+      "description": "Use if, elif, and else for decision making.",
+      "order": 4,
+      "difficulty": "beginner",
+      "estimated_minutes": 75,
+      "prerequisite_quest_ids": [
+        "python_programming__q03"
+      ],
+      "keywords": [
+        "and",
+        "conditionals",
+        "decision",
+        "elif",
+        "else",
+        "for",
+        "if",
+        "learn python",
+        "making",
+        "python",
+        "python coding",
+        "use"
+      ],
+      "resource_hints": [
+        "Official Python docs",
+        "Real Python",
+        "Automate the Boring Stuff",
+        "YouTube tutorials"
+      ],
+      "search_text": "Python Programming Conditionals Use if, elif, and else for decision making. python python coding learn python"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "python_programming__q05",
+      "skill_id": "python_programming",
+      "skill_name": "Python Programming",
+      "skill_aliases": [
+        "python",
+        "python coding",
+        "learn python"
+      ],
+      "category": "programming",
+      "title": "Loops",
+      "description": "Write for and while loops and control iteration with break and continue.",
+      "order": 5,
+      "difficulty": "beginner_intermediate",
+      "estimated_minutes": 30,
+      "prerequisite_quest_ids": [
+        "python_programming__q04"
+      ],
+      "keywords": [
+        "and",
+        "break",
+        "continue",
+        "control",
+        "for",
+        "iteration",
+        "learn python",
+        "loops",
+        "python",
+        "python coding",
+        "while",
+        "with",
+        "write"
+      ],
+      "resource_hints": [
+        "Official Python docs",
+        "Real Python",
+        "Automate the Boring Stuff",
+        "YouTube tutorials"
+      ],
+      "search_text": "Python Programming Loops Write for and while loops and control iteration with break and continue. python python coding learn python"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "python_programming__q06",
+      "skill_id": "python_programming",
+      "skill_name": "Python Programming",
+      "skill_aliases": [
+        "python",
+        "python coding",
+        "learn python"
+      ],
+      "category": "programming",
+      "title": "Functions",
+      "description": "Define reusable functions with parameters and return values.",
+      "order": 6,
+      "difficulty": "beginner_intermediate",
+      "estimated_minutes": 45,
+      "prerequisite_quest_ids": [
+        "python_programming__q05"
+      ],
+      "keywords": [
+        "and",
+        "define",
+        "functions",
+        "learn python",
+        "parameters",
+        "python",
+        "python coding",
+        "return",
+        "reusable",
+        "values",
+        "with"
+      ],
+      "resource_hints": [
+        "Official Python docs",
+        "Real Python",
+        "Automate the Boring Stuff",
+        "YouTube tutorials"
+      ],
+      "search_text": "Python Programming Functions Define reusable functions with parameters and return values. python python coding learn python"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "python_programming__q07",
+      "skill_id": "python_programming",
+      "skill_name": "Python Programming",
+      "skill_aliases": [
+        "python",
+        "python coding",
+        "learn python"
+      ],
+      "category": "programming",
+      "title": "Lists and Tuples",
+      "description": "Store ordered collections and iterate through them.",
+      "order": 7,
+      "difficulty": "beginner_intermediate",
+      "estimated_minutes": 60,
+      "prerequisite_quest_ids": [
+        "python_programming__q06"
+      ],
+      "keywords": [
+        "and",
+        "collections",
+        "iterate",
+        "learn python",
+        "lists",
+        "ordered",
+        "python",
+        "python coding",
+        "store",
+        "them",
+        "through",
+        "tuples"
+      ],
+      "resource_hints": [
+        "Official Python docs",
+        "Real Python",
+        "Automate the Boring Stuff",
+        "YouTube tutorials"
+      ],
+      "search_text": "Python Programming Lists and Tuples Store ordered collections and iterate through them. python python coding learn python"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "python_programming__q08",
+      "skill_id": "python_programming",
+      "skill_name": "Python Programming",
+      "skill_aliases": [
+        "python",
+        "python coding",
+        "learn python"
+      ],
+      "category": "programming",
+      "title": "Dictionaries and Sets",
+      "description": "Manage key-value data and unique collections.",
+      "order": 8,
+      "difficulty": "beginner_intermediate",
+      "estimated_minutes": 75,
+      "prerequisite_quest_ids": [
+        "python_programming__q07"
+      ],
+      "keywords": [
+        "and",
+        "collections",
+        "data",
+        "dictionaries",
+        "key-value",
+        "learn python",
+        "manage",
+        "python",
+        "python coding",
+        "sets",
+        "unique"
+      ],
+      "resource_hints": [
+        "Official Python docs",
+        "Real Python",
+        "Automate the Boring Stuff",
+        "YouTube tutorials"
+      ],
+      "search_text": "Python Programming Dictionaries and Sets Manage key-value data and unique collections. python python coding learn python"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "python_programming__q09",
+      "skill_id": "python_programming",
+      "skill_name": "Python Programming",
+      "skill_aliases": [
+        "python",
+        "python coding",
+        "learn python"
+      ],
+      "category": "programming",
+      "title": "File Handling",
+      "description": "Read from and write to files safely.",
+      "order": 9,
+      "difficulty": "intermediate",
+      "estimated_minutes": 30,
+      "prerequisite_quest_ids": [
+        "python_programming__q08"
+      ],
+      "keywords": [
+        "and",
+        "file",
+        "files",
+        "from",
+        "handling",
+        "learn python",
+        "python",
+        "python coding",
+        "read",
+        "safely",
+        "to",
+        "write"
+      ],
+      "resource_hints": [
+        "Official Python docs",
+        "Real Python",
+        "Automate the Boring Stuff",
+        "YouTube tutorials"
+      ],
+      "search_text": "Python Programming File Handling Read from and write to files safely. python python coding learn python"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "python_programming__q10",
+      "skill_id": "python_programming",
+      "skill_name": "Python Programming",
+      "skill_aliases": [
+        "python",
+        "python coding",
+        "learn python"
+      ],
+      "category": "programming",
+      "title": "Error Handling",
+      "description": "Use try, except, and finally to recover from runtime errors.",
+      "order": 10,
+      "difficulty": "intermediate",
+      "estimated_minutes": 45,
+      "prerequisite_quest_ids": [
+        "python_programming__q09"
+      ],
+      "keywords": [
+        "and",
+        "error",
+        "errors",
+        "except",
+        "finally",
+        "from",
+        "handling",
+        "learn python",
+        "python",
+        "python coding",
+        "recover",
+        "runtime",
+        "to",
+        "try",
+        "use"
+      ],
+      "resource_hints": [
+        "Official Python docs",
+        "Real Python",
+        "Automate the Boring Stuff",
+        "YouTube tutorials"
+      ],
+      "search_text": "Python Programming Error Handling Use try, except, and finally to recover from runtime errors. python python coding learn python"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "python_programming__q11",
+      "skill_id": "python_programming",
+      "skill_name": "Python Programming",
+      "skill_aliases": [
+        "python",
+        "python coding",
+        "learn python"
+      ],
+      "category": "programming",
+      "title": "Modules and Packages",
+      "description": "Import built-in and custom modules to organize code.",
+      "order": 11,
+      "difficulty": "intermediate",
+      "estimated_minutes": 60,
+      "prerequisite_quest_ids": [
+        "python_programming__q10"
+      ],
+      "keywords": [
+        "and",
+        "built-in",
+        "code",
+        "custom",
+        "import",
+        "learn python",
+        "modules",
+        "organize",
+        "packages",
+        "python",
+        "python coding",
+        "to"
+      ],
+      "resource_hints": [
+        "Official Python docs",
+        "Real Python",
+        "Automate the Boring Stuff",
+        "YouTube tutorials"
+      ],
+      "search_text": "Python Programming Modules and Packages Import built-in and custom modules to organize code. python python coding learn python"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "python_programming__q12",
+      "skill_id": "python_programming",
+      "skill_name": "Python Programming",
+      "skill_aliases": [
+        "python",
+        "python coding",
+        "learn python"
+      ],
+      "category": "programming",
+      "title": "Object-Oriented Python",
+      "description": "Create classes, objects, and simple inheritance structures.",
+      "order": 12,
+      "difficulty": "intermediate",
+      "estimated_minutes": 75,
+      "prerequisite_quest_ids": [
+        "python_programming__q11"
+      ],
+      "keywords": [
+        "and",
+        "classes",
+        "create",
+        "inheritance",
+        "learn python",
+        "object-oriented",
+        "objects",
+        "python",
+        "python coding",
+        "simple",
+        "structures"
+      ],
+      "resource_hints": [
+        "Official Python docs",
+        "Real Python",
+        "Automate the Boring Stuff",
+        "YouTube tutorials"
+      ],
+      "search_text": "Python Programming Object-Oriented Python Create classes, objects, and simple inheritance structures. python python coding learn python"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "javascript_fundamentals__q01",
+      "skill_id": "javascript_fundamentals",
+      "skill_name": "JavaScript Fundamentals",
+      "skill_aliases": [
+        "javascript",
+        "js",
+        "learn javascript"
+      ],
+      "category": "programming",
+      "title": "JavaScript Setup",
+      "description": "Run JavaScript in the browser console and local projects.",
+      "order": 1,
+      "difficulty": "beginner",
+      "estimated_minutes": 30,
+      "prerequisite_quest_ids": [],
+      "keywords": [
+        "and",
+        "browser",
+        "console",
+        "in",
+        "javascript",
+        "js",
+        "learn javascript",
+        "local",
+        "projects",
+        "run",
+        "setup",
+        "the"
+      ],
+      "resource_hints": [
+        "MDN Web Docs",
+        "JavaScript.info",
+        "freeCodeCamp",
+        "YouTube tutorials"
+      ],
+      "search_text": "JavaScript Fundamentals JavaScript Setup Run JavaScript in the browser console and local projects. javascript js learn javascript"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "javascript_fundamentals__q02",
+      "skill_id": "javascript_fundamentals",
+      "skill_name": "JavaScript Fundamentals",
+      "skill_aliases": [
+        "javascript",
+        "js",
+        "learn javascript"
+      ],
+      "category": "programming",
+      "title": "Variables and Primitive Types",
+      "description": "Use let, const, strings, numbers, and booleans.",
+      "order": 2,
+      "difficulty": "beginner",
+      "estimated_minutes": 45,
+      "prerequisite_quest_ids": [
+        "javascript_fundamentals__q01"
+      ],
+      "keywords": [
+        "and",
+        "booleans",
+        "const",
+        "javascript",
+        "js",
+        "learn javascript",
+        "let",
+        "numbers",
+        "primitive",
+        "strings",
+        "types",
+        "use",
+        "variables"
+      ],
+      "resource_hints": [
+        "MDN Web Docs",
+        "JavaScript.info",
+        "freeCodeCamp",
+        "YouTube tutorials"
+      ],
+      "search_text": "JavaScript Fundamentals Variables and Primitive Types Use let, const, strings, numbers, and booleans. javascript js learn javascript"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "javascript_fundamentals__q03",
+      "skill_id": "javascript_fundamentals",
+      "skill_name": "JavaScript Fundamentals",
+      "skill_aliases": [
+        "javascript",
+        "js",
+        "learn javascript"
+      ],
+      "category": "programming",
+      "title": "Operators and Expressions",
+      "description": "Write arithmetic, comparison, and logical expressions.",
+      "order": 3,
+      "difficulty": "beginner",
+      "estimated_minutes": 60,
+      "prerequisite_quest_ids": [
+        "javascript_fundamentals__q02"
+      ],
+      "keywords": [
+        "and",
+        "arithmetic",
+        "comparison",
+        "expressions",
+        "javascript",
+        "js",
+        "learn javascript",
+        "logical",
+        "operators",
+        "write"
+      ],
+      "resource_hints": [
+        "MDN Web Docs",
+        "JavaScript.info",
+        "freeCodeCamp",
+        "YouTube tutorials"
+      ],
+      "search_text": "JavaScript Fundamentals Operators and Expressions Write arithmetic, comparison, and logical expressions. javascript js learn javascript"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "javascript_fundamentals__q04",
+      "skill_id": "javascript_fundamentals",
+      "skill_name": "JavaScript Fundamentals",
+      "skill_aliases": [
+        "javascript",
+        "js",
+        "learn javascript"
+      ],
+      "category": "programming",
+      "title": "Conditionals",
+      "description": "Control flow with if, else, and switch.",
+      "order": 4,
+      "difficulty": "beginner",
+      "estimated_minutes": 75,
+      "prerequisite_quest_ids": [
+        "javascript_fundamentals__q03"
+      ],
+      "keywords": [
+        "and",
+        "conditionals",
+        "control",
+        "else",
+        "flow",
+        "if",
+        "javascript",
+        "js",
+        "learn javascript",
+        "switch",
+        "with"
+      ],
+      "resource_hints": [
+        "MDN Web Docs",
+        "JavaScript.info",
+        "freeCodeCamp",
+        "YouTube tutorials"
+      ],
+      "search_text": "JavaScript Fundamentals Conditionals Control flow with if, else, and switch. javascript js learn javascript"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "javascript_fundamentals__q05",
+      "skill_id": "javascript_fundamentals",
+      "skill_name": "JavaScript Fundamentals",
+      "skill_aliases": [
+        "javascript",
+        "js",
+        "learn javascript"
+      ],
+      "category": "programming",
+      "title": "Loops",
+      "description": "Repeat work with for, while, and array iteration methods.",
+      "order": 5,
+      "difficulty": "beginner_intermediate",
+      "estimated_minutes": 30,
+      "prerequisite_quest_ids": [
+        "javascript_fundamentals__q04"
+      ],
+      "keywords": [
+        "and",
+        "array",
+        "for",
+        "iteration",
+        "javascript",
+        "js",
+        "learn javascript",
+        "loops",
+        "methods",
+        "repeat",
+        "while",
+        "with",
+        "work"
+      ],
+      "resource_hints": [
+        "MDN Web Docs",
+        "JavaScript.info",
+        "freeCodeCamp",
+        "YouTube tutorials"
+      ],
+      "search_text": "JavaScript Fundamentals Loops Repeat work with for, while, and array iteration methods. javascript js learn javascript"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "javascript_fundamentals__q06",
+      "skill_id": "javascript_fundamentals",
+      "skill_name": "JavaScript Fundamentals",
+      "skill_aliases": [
+        "javascript",
+        "js",
+        "learn javascript"
+      ],
+      "category": "programming",
+      "title": "Functions",
+      "description": "Create regular functions, arrow functions, and callbacks.",
+      "order": 6,
+      "difficulty": "beginner_intermediate",
+      "estimated_minutes": 45,
+      "prerequisite_quest_ids": [
+        "javascript_fundamentals__q05"
+      ],
+      "keywords": [
+        "and",
+        "arrow",
+        "callbacks",
+        "create",
+        "functions",
+        "javascript",
+        "js",
+        "learn javascript",
+        "regular"
+      ],
+      "resource_hints": [
+        "MDN Web Docs",
+        "JavaScript.info",
+        "freeCodeCamp",
+        "YouTube tutorials"
+      ],
+      "search_text": "JavaScript Fundamentals Functions Create regular functions, arrow functions, and callbacks. javascript js learn javascript"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "javascript_fundamentals__q07",
+      "skill_id": "javascript_fundamentals",
+      "skill_name": "JavaScript Fundamentals",
+      "skill_aliases": [
+        "javascript",
+        "js",
+        "learn javascript"
+      ],
+      "category": "programming",
+      "title": "Arrays",
+      "description": "Store and manipulate ordered collections.",
+      "order": 7,
+      "difficulty": "beginner_intermediate",
+      "estimated_minutes": 60,
+      "prerequisite_quest_ids": [
+        "javascript_fundamentals__q06"
+      ],
+      "keywords": [
+        "and",
+        "arrays",
+        "collections",
+        "javascript",
+        "js",
+        "learn javascript",
+        "manipulate",
+        "ordered",
+        "store"
+      ],
+      "resource_hints": [
+        "MDN Web Docs",
+        "JavaScript.info",
+        "freeCodeCamp",
+        "YouTube tutorials"
+      ],
+      "search_text": "JavaScript Fundamentals Arrays Store and manipulate ordered collections. javascript js learn javascript"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "javascript_fundamentals__q08",
+      "skill_id": "javascript_fundamentals",
+      "skill_name": "JavaScript Fundamentals",
+      "skill_aliases": [
+        "javascript",
+        "js",
+        "learn javascript"
+      ],
+      "category": "programming",
+      "title": "Objects",
+      "description": "Use key-value structures and nested data.",
+      "order": 8,
+      "difficulty": "beginner_intermediate",
+      "estimated_minutes": 75,
+      "prerequisite_quest_ids": [
+        "javascript_fundamentals__q07"
+      ],
+      "keywords": [
+        "and",
+        "data",
+        "javascript",
+        "js",
+        "key-value",
+        "learn javascript",
+        "nested",
+        "objects",
+        "structures",
+        "use"
+      ],
+      "resource_hints": [
+        "MDN Web Docs",
+        "JavaScript.info",
+        "freeCodeCamp",
+        "YouTube tutorials"
+      ],
+      "search_text": "JavaScript Fundamentals Objects Use key-value structures and nested data. javascript js learn javascript"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "javascript_fundamentals__q09",
+      "skill_id": "javascript_fundamentals",
+      "skill_name": "JavaScript Fundamentals",
+      "skill_aliases": [
+        "javascript",
+        "js",
+        "learn javascript"
+      ],
+      "category": "programming",
+      "title": "DOM Basics",
+      "description": "Select and update HTML elements with JavaScript.",
+      "order": 9,
+      "difficulty": "intermediate",
+      "estimated_minutes": 30,
+      "prerequisite_quest_ids": [
+        "javascript_fundamentals__q08"
+      ],
+      "keywords": [
+        "and",
+        "basics",
+        "dom",
+        "elements",
+        "html",
+        "javascript",
+        "js",
+        "learn javascript",
+        "select",
+        "update",
+        "with"
+      ],
+      "resource_hints": [
+        "MDN Web Docs",
+        "JavaScript.info",
+        "freeCodeCamp",
+        "YouTube tutorials"
+      ],
+      "search_text": "JavaScript Fundamentals DOM Basics Select and update HTML elements with JavaScript. javascript js learn javascript"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "javascript_fundamentals__q10",
+      "skill_id": "javascript_fundamentals",
+      "skill_name": "JavaScript Fundamentals",
+      "skill_aliases": [
+        "javascript",
+        "js",
+        "learn javascript"
+      ],
+      "category": "programming",
+      "title": "Events",
+      "description": "Handle clicks, inputs, and browser events.",
+      "order": 10,
+      "difficulty": "intermediate",
+      "estimated_minutes": 45,
+      "prerequisite_quest_ids": [
+        "javascript_fundamentals__q09"
+      ],
+      "keywords": [
+        "and",
+        "browser",
+        "clicks",
+        "events",
+        "handle",
+        "inputs",
+        "javascript",
+        "js",
+        "learn javascript"
+      ],
+      "resource_hints": [
+        "MDN Web Docs",
+        "JavaScript.info",
+        "freeCodeCamp",
+        "YouTube tutorials"
+      ],
+      "search_text": "JavaScript Fundamentals Events Handle clicks, inputs, and browser events. javascript js learn javascript"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "javascript_fundamentals__q11",
+      "skill_id": "javascript_fundamentals",
+      "skill_name": "JavaScript Fundamentals",
+      "skill_aliases": [
+        "javascript",
+        "js",
+        "learn javascript"
+      ],
+      "category": "programming",
+      "title": "Async Basics",
+      "description": "Understand promises, async, and await.",
+      "order": 11,
+      "difficulty": "intermediate",
+      "estimated_minutes": 60,
+      "prerequisite_quest_ids": [
+        "javascript_fundamentals__q10"
+      ],
+      "keywords": [
+        "and",
+        "async",
+        "await",
+        "basics",
+        "javascript",
+        "js",
+        "learn javascript",
+        "promises",
+        "understand"
+      ],
+      "resource_hints": [
+        "MDN Web Docs",
+        "JavaScript.info",
+        "freeCodeCamp",
+        "YouTube tutorials"
+      ],
+      "search_text": "JavaScript Fundamentals Async Basics Understand promises, async, and await. javascript js learn javascript"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "javascript_fundamentals__q12",
+      "skill_id": "javascript_fundamentals",
+      "skill_name": "JavaScript Fundamentals",
+      "skill_aliases": [
+        "javascript",
+        "js",
+        "learn javascript"
+      ],
+      "category": "programming",
+      "title": "Fetch API",
+      "description": "Request data from APIs and handle responses.",
+      "order": 12,
+      "difficulty": "intermediate",
+      "estimated_minutes": 75,
+      "prerequisite_quest_ids": [
+        "javascript_fundamentals__q11"
+      ],
+      "keywords": [
+        "and",
+        "api",
+        "apis",
+        "data",
+        "fetch",
+        "from",
+        "handle",
+        "javascript",
+        "js",
+        "learn javascript",
+        "request",
+        "responses"
+      ],
+      "resource_hints": [
+        "MDN Web Docs",
+        "JavaScript.info",
+        "freeCodeCamp",
+        "YouTube tutorials"
+      ],
+      "search_text": "JavaScript Fundamentals Fetch API Request data from APIs and handle responses. javascript js learn javascript"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "html_css_web__q01",
+      "skill_id": "html_css_web",
+      "skill_name": "HTML and CSS",
+      "skill_aliases": [
+        "html",
+        "css",
+        "web basics",
+        "frontend basics"
+      ],
+      "category": "web",
+      "title": "HTML Document Structure",
+      "description": "Create a basic HTML page with head and body.",
+      "order": 1,
+      "difficulty": "beginner",
+      "estimated_minutes": 30,
+      "prerequisite_quest_ids": [],
+      "keywords": [
+        "a",
+        "and",
+        "basic",
+        "body",
+        "create",
+        "css",
+        "document",
+        "frontend basics",
+        "head",
+        "html",
+        "page",
+        "structure",
+        "web basics",
+        "with"
+      ],
+      "resource_hints": [
+        "MDN Web Docs",
+        "CSS-Tricks",
+        "Frontend Mentor",
+        "YouTube tutorials"
+      ],
+      "search_text": "HTML and CSS HTML Document Structure Create a basic HTML page with head and body. html css web basics frontend basics"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "html_css_web__q02",
+      "skill_id": "html_css_web",
+      "skill_name": "HTML and CSS",
+      "skill_aliases": [
+        "html",
+        "css",
+        "web basics",
+        "frontend basics"
+      ],
+      "category": "web",
+      "title": "Text and Semantic Tags",
+      "description": "Use headings, paragraphs, lists, and semantic layout tags.",
+      "order": 2,
+      "difficulty": "beginner",
+      "estimated_minutes": 45,
+      "prerequisite_quest_ids": [
+        "html_css_web__q01"
+      ],
+      "keywords": [
+        "and",
+        "css",
+        "frontend basics",
+        "headings",
+        "html",
+        "layout",
+        "lists",
+        "paragraphs",
+        "semantic",
+        "tags",
+        "text",
+        "use",
+        "web basics"
+      ],
+      "resource_hints": [
+        "MDN Web Docs",
+        "CSS-Tricks",
+        "Frontend Mentor",
+        "YouTube tutorials"
+      ],
+      "search_text": "HTML and CSS Text and Semantic Tags Use headings, paragraphs, lists, and semantic layout tags. html css web basics frontend basics"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "html_css_web__q03",
+      "skill_id": "html_css_web",
+      "skill_name": "HTML and CSS",
+      "skill_aliases": [
+        "html",
+        "css",
+        "web basics",
+        "frontend basics"
+      ],
+      "category": "web",
+      "title": "Links and Images",
+      "description": "Add navigation links and responsive images.",
+      "order": 3,
+      "difficulty": "beginner",
+      "estimated_minutes": 60,
+      "prerequisite_quest_ids": [
+        "html_css_web__q02"
+      ],
+      "keywords": [
+        "add",
+        "and",
+        "css",
+        "frontend basics",
+        "html",
+        "images",
+        "links",
+        "navigation",
+        "responsive",
+        "web basics"
+      ],
+      "resource_hints": [
+        "MDN Web Docs",
+        "CSS-Tricks",
+        "Frontend Mentor",
+        "YouTube tutorials"
+      ],
+      "search_text": "HTML and CSS Links and Images Add navigation links and responsive images. html css web basics frontend basics"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "html_css_web__q04",
+      "skill_id": "html_css_web",
+      "skill_name": "HTML and CSS",
+      "skill_aliases": [
+        "html",
+        "css",
+        "web basics",
+        "frontend basics"
+      ],
+      "category": "web",
+      "title": "Forms and Inputs",
+      "description": "Collect user data with form elements.",
+      "order": 4,
+      "difficulty": "beginner",
+      "estimated_minutes": 75,
+      "prerequisite_quest_ids": [
+        "html_css_web__q03"
+      ],
+      "keywords": [
+        "and",
+        "collect",
+        "css",
+        "data",
+        "elements",
+        "form",
+        "forms",
+        "frontend basics",
+        "html",
+        "inputs",
+        "user",
+        "web basics",
+        "with"
+      ],
+      "resource_hints": [
+        "MDN Web Docs",
+        "CSS-Tricks",
+        "Frontend Mentor",
+        "YouTube tutorials"
+      ],
+      "search_text": "HTML and CSS Forms and Inputs Collect user data with form elements. html css web basics frontend basics"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "html_css_web__q05",
+      "skill_id": "html_css_web",
+      "skill_name": "HTML and CSS",
+      "skill_aliases": [
+        "html",
+        "css",
+        "web basics",
+        "frontend basics"
+      ],
+      "category": "web",
+      "title": "CSS Selectors",
+      "description": "Target elements using classes, IDs, and combinators.",
+      "order": 5,
+      "difficulty": "beginner_intermediate",
+      "estimated_minutes": 30,
+      "prerequisite_quest_ids": [
+        "html_css_web__q04"
+      ],
+      "keywords": [
+        "and",
+        "classes",
+        "combinators",
+        "css",
+        "elements",
+        "frontend basics",
+        "html",
+        "ids",
+        "selectors",
+        "target",
+        "using",
+        "web basics"
+      ],
+      "resource_hints": [
+        "MDN Web Docs",
+        "CSS-Tricks",
+        "Frontend Mentor",
+        "YouTube tutorials"
+      ],
+      "search_text": "HTML and CSS CSS Selectors Target elements using classes, IDs, and combinators. html css web basics frontend basics"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "html_css_web__q06",
+      "skill_id": "html_css_web",
+      "skill_name": "HTML and CSS",
+      "skill_aliases": [
+        "html",
+        "css",
+        "web basics",
+        "frontend basics"
+      ],
+      "category": "web",
+      "title": "Box Model",
+      "description": "Control margin, border, padding, and content size.",
+      "order": 6,
+      "difficulty": "beginner_intermediate",
+      "estimated_minutes": 45,
+      "prerequisite_quest_ids": [
+        "html_css_web__q05"
+      ],
+      "keywords": [
+        "and",
+        "border",
+        "box",
+        "content",
+        "control",
+        "css",
+        "frontend basics",
+        "html",
+        "margin",
+        "model",
+        "padding",
+        "size",
+        "web basics"
+      ],
+      "resource_hints": [
+        "MDN Web Docs",
+        "CSS-Tricks",
+        "Frontend Mentor",
+        "YouTube tutorials"
+      ],
+      "search_text": "HTML and CSS Box Model Control margin, border, padding, and content size. html css web basics frontend basics"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "html_css_web__q07",
+      "skill_id": "html_css_web",
+      "skill_name": "HTML and CSS",
+      "skill_aliases": [
+        "html",
+        "css",
+        "web basics",
+        "frontend basics"
+      ],
+      "category": "web",
+      "title": "Typography and Colors",
+      "description": "Style fonts, text spacing, and color systems.",
+      "order": 7,
+      "difficulty": "beginner_intermediate",
+      "estimated_minutes": 60,
+      "prerequisite_quest_ids": [
+        "html_css_web__q06"
+      ],
+      "keywords": [
+        "and",
+        "color",
+        "colors",
+        "css",
+        "fonts",
+        "frontend basics",
+        "html",
+        "spacing",
+        "style",
+        "systems",
+        "text",
+        "typography",
+        "web basics"
+      ],
+      "resource_hints": [
+        "MDN Web Docs",
+        "CSS-Tricks",
+        "Frontend Mentor",
+        "YouTube tutorials"
+      ],
+      "search_text": "HTML and CSS Typography and Colors Style fonts, text spacing, and color systems. html css web basics frontend basics"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "html_css_web__q08",
+      "skill_id": "html_css_web",
+      "skill_name": "HTML and CSS",
+      "skill_aliases": [
+        "html",
+        "css",
+        "web basics",
+        "frontend basics"
+      ],
+      "category": "web",
+      "title": "Flexbox",
+      "description": "Build flexible one-dimensional layouts.",
+      "order": 8,
+      "difficulty": "beginner_intermediate",
+      "estimated_minutes": 75,
+      "prerequisite_quest_ids": [
+        "html_css_web__q07"
+      ],
+      "keywords": [
+        "build",
+        "css",
+        "flexbox",
+        "flexible",
+        "frontend basics",
+        "html",
+        "layouts",
+        "one-dimensional",
+        "web basics"
+      ],
+      "resource_hints": [
+        "MDN Web Docs",
+        "CSS-Tricks",
+        "Frontend Mentor",
+        "YouTube tutorials"
+      ],
+      "search_text": "HTML and CSS Flexbox Build flexible one-dimensional layouts. html css web basics frontend basics"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "html_css_web__q09",
+      "skill_id": "html_css_web",
+      "skill_name": "HTML and CSS",
+      "skill_aliases": [
+        "html",
+        "css",
+        "web basics",
+        "frontend basics"
+      ],
+      "category": "web",
+      "title": "CSS Grid",
+      "description": "Design two-dimensional responsive page layouts.",
+      "order": 9,
+      "difficulty": "intermediate",
+      "estimated_minutes": 30,
+      "prerequisite_quest_ids": [
+        "html_css_web__q08"
+      ],
+      "keywords": [
+        "css",
+        "design",
+        "frontend basics",
+        "grid",
+        "html",
+        "layouts",
+        "page",
+        "responsive",
+        "two-dimensional",
+        "web basics"
+      ],
+      "resource_hints": [
+        "MDN Web Docs",
+        "CSS-Tricks",
+        "Frontend Mentor",
+        "YouTube tutorials"
+      ],
+      "search_text": "HTML and CSS CSS Grid Design two-dimensional responsive page layouts. html css web basics frontend basics"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "html_css_web__q10",
+      "skill_id": "html_css_web",
+      "skill_name": "HTML and CSS",
+      "skill_aliases": [
+        "html",
+        "css",
+        "web basics",
+        "frontend basics"
+      ],
+      "category": "web",
+      "title": "Responsive Design",
+      "description": "Use media queries and fluid sizing for different screens.",
+      "order": 10,
+      "difficulty": "intermediate",
+      "estimated_minutes": 45,
+      "prerequisite_quest_ids": [
+        "html_css_web__q09"
+      ],
+      "keywords": [
+        "and",
+        "css",
+        "design",
+        "different",
+        "fluid",
+        "for",
+        "frontend basics",
+        "html",
+        "media",
+        "queries",
+        "responsive",
+        "screens",
+        "sizing",
+        "use",
+        "web basics"
+      ],
+      "resource_hints": [
+        "MDN Web Docs",
+        "CSS-Tricks",
+        "Frontend Mentor",
+        "YouTube tutorials"
+      ],
+      "search_text": "HTML and CSS Responsive Design Use media queries and fluid sizing for different screens. html css web basics frontend basics"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "html_css_web__q11",
+      "skill_id": "html_css_web",
+      "skill_name": "HTML and CSS",
+      "skill_aliases": [
+        "html",
+        "css",
+        "web basics",
+        "frontend basics"
+      ],
+      "category": "web",
+      "title": "Transitions and Hover Effects",
+      "description": "Add simple visual polish to interactions.",
+      "order": 11,
+      "difficulty": "intermediate",
+      "estimated_minutes": 60,
+      "prerequisite_quest_ids": [
+        "html_css_web__q10"
+      ],
+      "keywords": [
+        "add",
+        "and",
+        "css",
+        "effects",
+        "frontend basics",
+        "hover",
+        "html",
+        "interactions",
+        "polish",
+        "simple",
+        "to",
+        "transitions",
+        "visual",
+        "web basics"
+      ],
+      "resource_hints": [
+        "MDN Web Docs",
+        "CSS-Tricks",
+        "Frontend Mentor",
+        "YouTube tutorials"
+      ],
+      "search_text": "HTML and CSS Transitions and Hover Effects Add simple visual polish to interactions. html css web basics frontend basics"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "html_css_web__q12",
+      "skill_id": "html_css_web",
+      "skill_name": "HTML and CSS",
+      "skill_aliases": [
+        "html",
+        "css",
+        "web basics",
+        "frontend basics"
+      ],
+      "category": "web",
+      "title": "Component Styling",
+      "description": "Organize reusable styles for cards, buttons, and sections.",
+      "order": 12,
+      "difficulty": "intermediate",
+      "estimated_minutes": 75,
+      "prerequisite_quest_ids": [
+        "html_css_web__q11"
+      ],
+      "keywords": [
+        "and",
+        "buttons",
+        "cards",
+        "component",
+        "css",
+        "for",
+        "frontend basics",
+        "html",
+        "organize",
+        "reusable",
+        "sections",
+        "styles",
+        "styling",
+        "web basics"
+      ],
+      "resource_hints": [
+        "MDN Web Docs",
+        "CSS-Tricks",
+        "Frontend Mentor",
+        "YouTube tutorials"
+      ],
+      "search_text": "HTML and CSS Component Styling Organize reusable styles for cards, buttons, and sections. html css web basics frontend basics"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "sql_databases__q01",
+      "skill_id": "sql_databases",
+      "skill_name": "SQL and Databases",
+      "skill_aliases": [
+        "sql",
+        "databases",
+        "learn sql"
+      ],
+      "category": "data",
+      "title": "Relational Database Basics",
+      "description": "Understand tables, rows, columns, and primary keys.",
+      "order": 1,
+      "difficulty": "beginner",
+      "estimated_minutes": 30,
+      "prerequisite_quest_ids": [],
+      "keywords": [
+        "and",
+        "basics",
+        "columns",
+        "database",
+        "databases",
+        "keys",
+        "learn sql",
+        "primary",
+        "relational",
+        "rows",
+        "sql",
+        "tables",
+        "understand"
+      ],
+      "resource_hints": [
+        "SQLBolt",
+        "Mode SQL Tutorial",
+        "W3Schools SQL",
+        "YouTube tutorials"
+      ],
+      "search_text": "SQL and Databases Relational Database Basics Understand tables, rows, columns, and primary keys. sql databases learn sql"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "sql_databases__q02",
+      "skill_id": "sql_databases",
+      "skill_name": "SQL and Databases",
+      "skill_aliases": [
+        "sql",
+        "databases",
+        "learn sql"
+      ],
+      "category": "data",
+      "title": "SELECT Queries",
+      "description": "Retrieve data with select statements.",
+      "order": 2,
+      "difficulty": "beginner",
+      "estimated_minutes": 45,
+      "prerequisite_quest_ids": [
+        "sql_databases__q01"
+      ],
+      "keywords": [
+        "data",
+        "databases",
+        "learn sql",
+        "queries",
+        "retrieve",
+        "select",
+        "sql",
+        "statements",
+        "with"
+      ],
+      "resource_hints": [
+        "SQLBolt",
+        "Mode SQL Tutorial",
+        "W3Schools SQL",
+        "YouTube tutorials"
+      ],
+      "search_text": "SQL and Databases SELECT Queries Retrieve data with select statements. sql databases learn sql"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "sql_databases__q03",
+      "skill_id": "sql_databases",
+      "skill_name": "SQL and Databases",
+      "skill_aliases": [
+        "sql",
+        "databases",
+        "learn sql"
+      ],
+      "category": "data",
+      "title": "Filtering with WHERE",
+      "description": "Filter records using conditions.",
+      "order": 3,
+      "difficulty": "beginner",
+      "estimated_minutes": 60,
+      "prerequisite_quest_ids": [
+        "sql_databases__q02"
+      ],
+      "keywords": [
+        "conditions",
+        "databases",
+        "filter",
+        "filtering",
+        "learn sql",
+        "records",
+        "sql",
+        "using",
+        "where",
+        "with"
+      ],
+      "resource_hints": [
+        "SQLBolt",
+        "Mode SQL Tutorial",
+        "W3Schools SQL",
+        "YouTube tutorials"
+      ],
+      "search_text": "SQL and Databases Filtering with WHERE Filter records using conditions. sql databases learn sql"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "sql_databases__q04",
+      "skill_id": "sql_databases",
+      "skill_name": "SQL and Databases",
+      "skill_aliases": [
+        "sql",
+        "databases",
+        "learn sql"
+      ],
+      "category": "data",
+      "title": "Sorting and Limiting",
+      "description": "Order results and control output size.",
+      "order": 4,
+      "difficulty": "beginner",
+      "estimated_minutes": 75,
+      "prerequisite_quest_ids": [
+        "sql_databases__q03"
+      ],
+      "keywords": [
+        "and",
+        "control",
+        "databases",
+        "learn sql",
+        "limiting",
+        "order",
+        "output",
+        "results",
+        "size",
+        "sorting",
+        "sql"
+      ],
+      "resource_hints": [
+        "SQLBolt",
+        "Mode SQL Tutorial",
+        "W3Schools SQL",
+        "YouTube tutorials"
+      ],
+      "search_text": "SQL and Databases Sorting and Limiting Order results and control output size. sql databases learn sql"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "sql_databases__q05",
+      "skill_id": "sql_databases",
+      "skill_name": "SQL and Databases",
+      "skill_aliases": [
+        "sql",
+        "databases",
+        "learn sql"
+      ],
+      "category": "data",
+      "title": "Aggregate Functions",
+      "description": "Use count, sum, avg, min, and max.",
+      "order": 5,
+      "difficulty": "beginner_intermediate",
+      "estimated_minutes": 30,
+      "prerequisite_quest_ids": [
+        "sql_databases__q04"
+      ],
+      "keywords": [
+        "aggregate",
+        "and",
+        "avg",
+        "count",
+        "databases",
+        "functions",
+        "learn sql",
+        "max",
+        "min",
+        "sql",
+        "sum",
+        "use"
+      ],
+      "resource_hints": [
+        "SQLBolt",
+        "Mode SQL Tutorial",
+        "W3Schools SQL",
+        "YouTube tutorials"
+      ],
+      "search_text": "SQL and Databases Aggregate Functions Use count, sum, avg, min, and max. sql databases learn sql"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "sql_databases__q06",
+      "skill_id": "sql_databases",
+      "skill_name": "SQL and Databases",
+      "skill_aliases": [
+        "sql",
+        "databases",
+        "learn sql"
+      ],
+      "category": "data",
+      "title": "GROUP BY and HAVING",
+      "description": "Summarize and filter grouped data.",
+      "order": 6,
+      "difficulty": "beginner_intermediate",
+      "estimated_minutes": 45,
+      "prerequisite_quest_ids": [
+        "sql_databases__q05"
+      ],
+      "keywords": [
+        "and",
+        "by",
+        "data",
+        "databases",
+        "filter",
+        "group",
+        "grouped",
+        "having",
+        "learn sql",
+        "sql",
+        "summarize"
+      ],
+      "resource_hints": [
+        "SQLBolt",
+        "Mode SQL Tutorial",
+        "W3Schools SQL",
+        "YouTube tutorials"
+      ],
+      "search_text": "SQL and Databases GROUP BY and HAVING Summarize and filter grouped data. sql databases learn sql"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "sql_databases__q07",
+      "skill_id": "sql_databases",
+      "skill_name": "SQL and Databases",
+      "skill_aliases": [
+        "sql",
+        "databases",
+        "learn sql"
+      ],
+      "category": "data",
+      "title": "JOIN Basics",
+      "description": "Combine data across related tables.",
+      "order": 7,
+      "difficulty": "beginner_intermediate",
+      "estimated_minutes": 60,
+      "prerequisite_quest_ids": [
+        "sql_databases__q06"
+      ],
+      "keywords": [
+        "across",
+        "basics",
+        "combine",
+        "data",
+        "databases",
+        "join",
+        "learn sql",
+        "related",
+        "sql",
+        "tables"
+      ],
+      "resource_hints": [
+        "SQLBolt",
+        "Mode SQL Tutorial",
+        "W3Schools SQL",
+        "YouTube tutorials"
+      ],
+      "search_text": "SQL and Databases JOIN Basics Combine data across related tables. sql databases learn sql"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "sql_databases__q08",
+      "skill_id": "sql_databases",
+      "skill_name": "SQL and Databases",
+      "skill_aliases": [
+        "sql",
+        "databases",
+        "learn sql"
+      ],
+      "category": "data",
+      "title": "INSERT Statements",
+      "description": "Add new records to tables.",
+      "order": 8,
+      "difficulty": "beginner_intermediate",
+      "estimated_minutes": 75,
+      "prerequisite_quest_ids": [
+        "sql_databases__q07"
+      ],
+      "keywords": [
+        "add",
+        "databases",
+        "insert",
+        "learn sql",
+        "new",
+        "records",
+        "sql",
+        "statements",
+        "tables",
+        "to"
+      ],
+      "resource_hints": [
+        "SQLBolt",
+        "Mode SQL Tutorial",
+        "W3Schools SQL",
+        "YouTube tutorials"
+      ],
+      "search_text": "SQL and Databases INSERT Statements Add new records to tables. sql databases learn sql"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "sql_databases__q09",
+      "skill_id": "sql_databases",
+      "skill_name": "SQL and Databases",
+      "skill_aliases": [
+        "sql",
+        "databases",
+        "learn sql"
+      ],
+      "category": "data",
+      "title": "UPDATE and DELETE",
+      "description": "Modify or remove existing data safely.",
+      "order": 9,
+      "difficulty": "intermediate",
+      "estimated_minutes": 30,
+      "prerequisite_quest_ids": [
+        "sql_databases__q08"
+      ],
+      "keywords": [
+        "and",
+        "data",
+        "databases",
+        "delete",
+        "existing",
+        "learn sql",
+        "modify",
+        "or",
+        "remove",
+        "safely",
+        "sql",
+        "update"
+      ],
+      "resource_hints": [
+        "SQLBolt",
+        "Mode SQL Tutorial",
+        "W3Schools SQL",
+        "YouTube tutorials"
+      ],
+      "search_text": "SQL and Databases UPDATE and DELETE Modify or remove existing data safely. sql databases learn sql"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "sql_databases__q10",
+      "skill_id": "sql_databases",
+      "skill_name": "SQL and Databases",
+      "skill_aliases": [
+        "sql",
+        "databases",
+        "learn sql"
+      ],
+      "category": "data",
+      "title": "Database Design",
+      "description": "Plan normalized schemas and table relationships.",
+      "order": 10,
+      "difficulty": "intermediate",
+      "estimated_minutes": 45,
+      "prerequisite_quest_ids": [
+        "sql_databases__q09"
+      ],
+      "keywords": [
+        "and",
+        "database",
+        "databases",
+        "design",
+        "learn sql",
+        "normalized",
+        "plan",
+        "relationships",
+        "schemas",
+        "sql",
+        "table"
+      ],
+      "resource_hints": [
+        "SQLBolt",
+        "Mode SQL Tutorial",
+        "W3Schools SQL",
+        "YouTube tutorials"
+      ],
+      "search_text": "SQL and Databases Database Design Plan normalized schemas and table relationships. sql databases learn sql"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "sql_databases__q11",
+      "skill_id": "sql_databases",
+      "skill_name": "SQL and Databases",
+      "skill_aliases": [
+        "sql",
+        "databases",
+        "learn sql"
+      ],
+      "category": "data",
+      "title": "Indexes",
+      "description": "Improve query performance with indexing.",
+      "order": 11,
+      "difficulty": "intermediate",
+      "estimated_minutes": 60,
+      "prerequisite_quest_ids": [
+        "sql_databases__q10"
+      ],
+      "keywords": [
+        "databases",
+        "improve",
+        "indexes",
+        "indexing",
+        "learn sql",
+        "performance",
+        "query",
+        "sql",
+        "with"
+      ],
+      "resource_hints": [
+        "SQLBolt",
+        "Mode SQL Tutorial",
+        "W3Schools SQL",
+        "YouTube tutorials"
+      ],
+      "search_text": "SQL and Databases Indexes Improve query performance with indexing. sql databases learn sql"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "sql_databases__q12",
+      "skill_id": "sql_databases",
+      "skill_name": "SQL and Databases",
+      "skill_aliases": [
+        "sql",
+        "databases",
+        "learn sql"
+      ],
+      "category": "data",
+      "title": "Stored Procedures and Views",
+      "description": "Package reusable query logic.",
+      "order": 12,
+      "difficulty": "intermediate",
+      "estimated_minutes": 75,
+      "prerequisite_quest_ids": [
+        "sql_databases__q11"
+      ],
+      "keywords": [
+        "and",
+        "databases",
+        "learn sql",
+        "logic",
+        "package",
+        "procedures",
+        "query",
+        "reusable",
+        "sql",
+        "stored",
+        "views"
+      ],
+      "resource_hints": [
+        "SQLBolt",
+        "Mode SQL Tutorial",
+        "W3Schools SQL",
+        "YouTube tutorials"
+      ],
+      "search_text": "SQL and Databases Stored Procedures and Views Package reusable query logic. sql databases learn sql"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "data_structures_algorithms__q01",
+      "skill_id": "data_structures_algorithms",
+      "skill_name": "Data Structures and Algorithms",
+      "skill_aliases": [
+        "dsa",
+        "algorithms",
+        "data structures"
+      ],
+      "category": "computer_science",
+      "title": "Big O Notation",
+      "description": "Reason about time and space complexity.",
+      "order": 1,
+      "difficulty": "beginner",
+      "estimated_minutes": 30,
+      "prerequisite_quest_ids": [],
+      "keywords": [
+        "about",
+        "algorithms",
+        "and",
+        "big",
+        "complexity",
+        "data structures",
+        "dsa",
+        "notation",
+        "o",
+        "reason",
+        "space",
+        "time"
+      ],
+      "resource_hints": [
+        "NeetCode",
+        "GeeksforGeeks",
+        "Visualgo",
+        "YouTube tutorials"
+      ],
+      "search_text": "Data Structures and Algorithms Big O Notation Reason about time and space complexity. dsa algorithms data structures"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "data_structures_algorithms__q02",
+      "skill_id": "data_structures_algorithms",
+      "skill_name": "Data Structures and Algorithms",
+      "skill_aliases": [
+        "dsa",
+        "algorithms",
+        "data structures"
+      ],
+      "category": "computer_science",
+      "title": "Arrays and Strings",
+      "description": "Solve indexing and traversal problems.",
+      "order": 2,
+      "difficulty": "beginner",
+      "estimated_minutes": 45,
+      "prerequisite_quest_ids": [
+        "data_structures_algorithms__q01"
+      ],
+      "keywords": [
+        "algorithms",
+        "and",
+        "arrays",
+        "data structures",
+        "dsa",
+        "indexing",
+        "problems",
+        "solve",
+        "strings",
+        "traversal"
+      ],
+      "resource_hints": [
+        "NeetCode",
+        "GeeksforGeeks",
+        "Visualgo",
+        "YouTube tutorials"
+      ],
+      "search_text": "Data Structures and Algorithms Arrays and Strings Solve indexing and traversal problems. dsa algorithms data structures"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "data_structures_algorithms__q03",
+      "skill_id": "data_structures_algorithms",
+      "skill_name": "Data Structures and Algorithms",
+      "skill_aliases": [
+        "dsa",
+        "algorithms",
+        "data structures"
+      ],
+      "category": "computer_science",
+      "title": "Linked Lists",
+      "description": "Understand nodes, pointers, and list operations.",
+      "order": 3,
+      "difficulty": "beginner",
+      "estimated_minutes": 60,
+      "prerequisite_quest_ids": [
+        "data_structures_algorithms__q02"
+      ],
+      "keywords": [
+        "algorithms",
+        "and",
+        "data structures",
+        "dsa",
+        "linked",
+        "list",
+        "lists",
+        "nodes",
+        "operations",
+        "pointers",
+        "understand"
+      ],
+      "resource_hints": [
+        "NeetCode",
+        "GeeksforGeeks",
+        "Visualgo",
+        "YouTube tutorials"
+      ],
+      "search_text": "Data Structures and Algorithms Linked Lists Understand nodes, pointers, and list operations. dsa algorithms data structures"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "data_structures_algorithms__q04",
+      "skill_id": "data_structures_algorithms",
+      "skill_name": "Data Structures and Algorithms",
+      "skill_aliases": [
+        "dsa",
+        "algorithms",
+        "data structures"
+      ],
+      "category": "computer_science",
+      "title": "Stacks and Queues",
+      "description": "Use LIFO and FIFO structures for common patterns.",
+      "order": 4,
+      "difficulty": "beginner",
+      "estimated_minutes": 75,
+      "prerequisite_quest_ids": [
+        "data_structures_algorithms__q03"
+      ],
+      "keywords": [
+        "algorithms",
+        "and",
+        "common",
+        "data structures",
+        "dsa",
+        "fifo",
+        "for",
+        "lifo",
+        "patterns",
+        "queues",
+        "stacks",
+        "structures",
+        "use"
+      ],
+      "resource_hints": [
+        "NeetCode",
+        "GeeksforGeeks",
+        "Visualgo",
+        "YouTube tutorials"
+      ],
+      "search_text": "Data Structures and Algorithms Stacks and Queues Use LIFO and FIFO structures for common patterns. dsa algorithms data structures"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "data_structures_algorithms__q05",
+      "skill_id": "data_structures_algorithms",
+      "skill_name": "Data Structures and Algorithms",
+      "skill_aliases": [
+        "dsa",
+        "algorithms",
+        "data structures"
+      ],
+      "category": "computer_science",
+      "title": "Hash Maps and Sets",
+      "description": "Use fast lookup structures effectively.",
+      "order": 5,
+      "difficulty": "beginner_intermediate",
+      "estimated_minutes": 30,
+      "prerequisite_quest_ids": [
+        "data_structures_algorithms__q04"
+      ],
+      "keywords": [
+        "algorithms",
+        "and",
+        "data structures",
+        "dsa",
+        "effectively",
+        "fast",
+        "hash",
+        "lookup",
+        "maps",
+        "sets",
+        "structures",
+        "use"
+      ],
+      "resource_hints": [
+        "NeetCode",
+        "GeeksforGeeks",
+        "Visualgo",
+        "YouTube tutorials"
+      ],
+      "search_text": "Data Structures and Algorithms Hash Maps and Sets Use fast lookup structures effectively. dsa algorithms data structures"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "data_structures_algorithms__q06",
+      "skill_id": "data_structures_algorithms",
+      "skill_name": "Data Structures and Algorithms",
+      "skill_aliases": [
+        "dsa",
+        "algorithms",
+        "data structures"
+      ],
+      "category": "computer_science",
+      "title": "Recursion",
+      "description": "Break problems into smaller self-similar subproblems.",
+      "order": 6,
+      "difficulty": "beginner_intermediate",
+      "estimated_minutes": 45,
+      "prerequisite_quest_ids": [
+        "data_structures_algorithms__q05"
+      ],
+      "keywords": [
+        "algorithms",
+        "break",
+        "data structures",
+        "dsa",
+        "into",
+        "problems",
+        "recursion",
+        "self-similar",
+        "smaller",
+        "subproblems"
+      ],
+      "resource_hints": [
+        "NeetCode",
+        "GeeksforGeeks",
+        "Visualgo",
+        "YouTube tutorials"
+      ],
+      "search_text": "Data Structures and Algorithms Recursion Break problems into smaller self-similar subproblems. dsa algorithms data structures"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "data_structures_algorithms__q07",
+      "skill_id": "data_structures_algorithms",
+      "skill_name": "Data Structures and Algorithms",
+      "skill_aliases": [
+        "dsa",
+        "algorithms",
+        "data structures"
+      ],
+      "category": "computer_science",
+      "title": "Binary Search",
+      "description": "Search sorted data efficiently.",
+      "order": 7,
+      "difficulty": "beginner_intermediate",
+      "estimated_minutes": 60,
+      "prerequisite_quest_ids": [
+        "data_structures_algorithms__q06"
+      ],
+      "keywords": [
+        "algorithms",
+        "binary",
+        "data",
+        "data structures",
+        "dsa",
+        "efficiently",
+        "search",
+        "sorted"
+      ],
+      "resource_hints": [
+        "NeetCode",
+        "GeeksforGeeks",
+        "Visualgo",
+        "YouTube tutorials"
+      ],
+      "search_text": "Data Structures and Algorithms Binary Search Search sorted data efficiently. dsa algorithms data structures"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "data_structures_algorithms__q08",
+      "skill_id": "data_structures_algorithms",
+      "skill_name": "Data Structures and Algorithms",
+      "skill_aliases": [
+        "dsa",
+        "algorithms",
+        "data structures"
+      ],
+      "category": "computer_science",
+      "title": "Sorting Algorithms",
+      "description": "Compare common sorting approaches and trade-offs.",
+      "order": 8,
+      "difficulty": "beginner_intermediate",
+      "estimated_minutes": 75,
+      "prerequisite_quest_ids": [
+        "data_structures_algorithms__q07"
+      ],
+      "keywords": [
+        "algorithms",
+        "and",
+        "approaches",
+        "common",
+        "compare",
+        "data structures",
+        "dsa",
+        "sorting",
+        "trade-offs"
+      ],
+      "resource_hints": [
+        "NeetCode",
+        "GeeksforGeeks",
+        "Visualgo",
+        "YouTube tutorials"
+      ],
+      "search_text": "Data Structures and Algorithms Sorting Algorithms Compare common sorting approaches and trade-offs. dsa algorithms data structures"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "data_structures_algorithms__q09",
+      "skill_id": "data_structures_algorithms",
+      "skill_name": "Data Structures and Algorithms",
+      "skill_aliases": [
+        "dsa",
+        "algorithms",
+        "data structures"
+      ],
+      "category": "computer_science",
+      "title": "Trees",
+      "description": "Traverse and work with hierarchical data.",
+      "order": 9,
+      "difficulty": "intermediate",
+      "estimated_minutes": 30,
+      "prerequisite_quest_ids": [
+        "data_structures_algorithms__q08"
+      ],
+      "keywords": [
+        "algorithms",
+        "and",
+        "data",
+        "data structures",
+        "dsa",
+        "hierarchical",
+        "traverse",
+        "trees",
+        "with",
+        "work"
+      ],
+      "resource_hints": [
+        "NeetCode",
+        "GeeksforGeeks",
+        "Visualgo",
+        "YouTube tutorials"
+      ],
+      "search_text": "Data Structures and Algorithms Trees Traverse and work with hierarchical data. dsa algorithms data structures"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "data_structures_algorithms__q10",
+      "skill_id": "data_structures_algorithms",
+      "skill_name": "Data Structures and Algorithms",
+      "skill_aliases": [
+        "dsa",
+        "algorithms",
+        "data structures"
+      ],
+      "category": "computer_science",
+      "title": "Graphs",
+      "description": "Model networks and run BFS or DFS.",
+      "order": 10,
+      "difficulty": "intermediate",
+      "estimated_minutes": 45,
+      "prerequisite_quest_ids": [
+        "data_structures_algorithms__q09"
+      ],
+      "keywords": [
+        "algorithms",
+        "and",
+        "bfs",
+        "data structures",
+        "dfs",
+        "dsa",
+        "graphs",
+        "model",
+        "networks",
+        "or",
+        "run"
+      ],
+      "resource_hints": [
+        "NeetCode",
+        "GeeksforGeeks",
+        "Visualgo",
+        "YouTube tutorials"
+      ],
+      "search_text": "Data Structures and Algorithms Graphs Model networks and run BFS or DFS. dsa algorithms data structures"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "data_structures_algorithms__q11",
+      "skill_id": "data_structures_algorithms",
+      "skill_name": "Data Structures and Algorithms",
+      "skill_aliases": [
+        "dsa",
+        "algorithms",
+        "data structures"
+      ],
+      "category": "computer_science",
+      "title": "Dynamic Programming",
+      "description": "Optimize overlapping subproblems.",
+      "order": 11,
+      "difficulty": "intermediate",
+      "estimated_minutes": 60,
+      "prerequisite_quest_ids": [
+        "data_structures_algorithms__q10"
+      ],
+      "keywords": [
+        "algorithms",
+        "data structures",
+        "dsa",
+        "dynamic",
+        "optimize",
+        "overlapping",
+        "programming",
+        "subproblems"
+      ],
+      "resource_hints": [
+        "NeetCode",
+        "GeeksforGeeks",
+        "Visualgo",
+        "YouTube tutorials"
+      ],
+      "search_text": "Data Structures and Algorithms Dynamic Programming Optimize overlapping subproblems. dsa algorithms data structures"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "data_structures_algorithms__q12",
+      "skill_id": "data_structures_algorithms",
+      "skill_name": "Data Structures and Algorithms",
+      "skill_aliases": [
+        "dsa",
+        "algorithms",
+        "data structures"
+      ],
+      "category": "computer_science",
+      "title": "Greedy Algorithms",
+      "description": "Build local-choice solutions where applicable.",
+      "order": 12,
+      "difficulty": "intermediate",
+      "estimated_minutes": 75,
+      "prerequisite_quest_ids": [
+        "data_structures_algorithms__q11"
+      ],
+      "keywords": [
+        "algorithms",
+        "applicable",
+        "build",
+        "data structures",
+        "dsa",
+        "greedy",
+        "local-choice",
+        "solutions",
+        "where"
+      ],
+      "resource_hints": [
+        "NeetCode",
+        "GeeksforGeeks",
+        "Visualgo",
+        "YouTube tutorials"
+      ],
+      "search_text": "Data Structures and Algorithms Greedy Algorithms Build local-choice solutions where applicable. dsa algorithms data structures"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "git_version_control__q01",
+      "skill_id": "git_version_control",
+      "skill_name": "Git and Version Control",
+      "skill_aliases": [
+        "git",
+        "version control",
+        "github basics"
+      ],
+      "category": "developer_tools",
+      "title": "Git Setup",
+      "description": "Install Git and configure your identity.",
+      "order": 1,
+      "difficulty": "beginner",
+      "estimated_minutes": 30,
+      "prerequisite_quest_ids": [],
+      "keywords": [
+        "and",
+        "configure",
+        "git",
+        "github basics",
+        "identity",
+        "install",
+        "setup",
+        "version control",
+        "your"
+      ],
+      "resource_hints": [
+        "Git documentation",
+        "Atlassian Git tutorials",
+        "GitHub Docs",
+        "YouTube tutorials"
+      ],
+      "search_text": "Git and Version Control Git Setup Install Git and configure your identity. git version control github basics"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "git_version_control__q02",
+      "skill_id": "git_version_control",
+      "skill_name": "Git and Version Control",
+      "skill_aliases": [
+        "git",
+        "version control",
+        "github basics"
+      ],
+      "category": "developer_tools",
+      "title": "Repository Basics",
+      "description": "Create repositories and understand working trees.",
+      "order": 2,
+      "difficulty": "beginner",
+      "estimated_minutes": 45,
+      "prerequisite_quest_ids": [
+        "git_version_control__q01"
+      ],
+      "keywords": [
+        "and",
+        "basics",
+        "create",
+        "git",
+        "github basics",
+        "repositories",
+        "repository",
+        "trees",
+        "understand",
+        "version control",
+        "working"
+      ],
+      "resource_hints": [
+        "Git documentation",
+        "Atlassian Git tutorials",
+        "GitHub Docs",
+        "YouTube tutorials"
+      ],
+      "search_text": "Git and Version Control Repository Basics Create repositories and understand working trees. git version control github basics"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "git_version_control__q03",
+      "skill_id": "git_version_control",
+      "skill_name": "Git and Version Control",
+      "skill_aliases": [
+        "git",
+        "version control",
+        "github basics"
+      ],
+      "category": "developer_tools",
+      "title": "Commit Workflow",
+      "description": "Stage and commit changes with clear messages.",
+      "order": 3,
+      "difficulty": "beginner",
+      "estimated_minutes": 60,
+      "prerequisite_quest_ids": [
+        "git_version_control__q02"
+      ],
+      "keywords": [
+        "and",
+        "changes",
+        "clear",
+        "commit",
+        "git",
+        "github basics",
+        "messages",
+        "stage",
+        "version control",
+        "with",
+        "workflow"
+      ],
+      "resource_hints": [
+        "Git documentation",
+        "Atlassian Git tutorials",
+        "GitHub Docs",
+        "YouTube tutorials"
+      ],
+      "search_text": "Git and Version Control Commit Workflow Stage and commit changes with clear messages. git version control github basics"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "git_version_control__q04",
+      "skill_id": "git_version_control",
+      "skill_name": "Git and Version Control",
+      "skill_aliases": [
+        "git",
+        "version control",
+        "github basics"
+      ],
+      "category": "developer_tools",
+      "title": "Viewing History",
+      "description": "Inspect commits, diffs, and logs.",
+      "order": 4,
+      "difficulty": "beginner",
+      "estimated_minutes": 75,
+      "prerequisite_quest_ids": [
+        "git_version_control__q03"
+      ],
+      "keywords": [
+        "and",
+        "commits",
+        "diffs",
+        "git",
+        "github basics",
+        "history",
+        "inspect",
+        "logs",
+        "version control",
+        "viewing"
+      ],
+      "resource_hints": [
+        "Git documentation",
+        "Atlassian Git tutorials",
+        "GitHub Docs",
+        "YouTube tutorials"
+      ],
+      "search_text": "Git and Version Control Viewing History Inspect commits, diffs, and logs. git version control github basics"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "git_version_control__q05",
+      "skill_id": "git_version_control",
+      "skill_name": "Git and Version Control",
+      "skill_aliases": [
+        "git",
+        "version control",
+        "github basics"
+      ],
+      "category": "developer_tools",
+      "title": "Branches",
+      "description": "Create and switch branches for isolated work.",
+      "order": 5,
+      "difficulty": "beginner_intermediate",
+      "estimated_minutes": 30,
+      "prerequisite_quest_ids": [
+        "git_version_control__q04"
+      ],
+      "keywords": [
+        "and",
+        "branches",
+        "create",
+        "for",
+        "git",
+        "github basics",
+        "isolated",
+        "switch",
+        "version control",
+        "work"
+      ],
+      "resource_hints": [
+        "Git documentation",
+        "Atlassian Git tutorials",
+        "GitHub Docs",
+        "YouTube tutorials"
+      ],
+      "search_text": "Git and Version Control Branches Create and switch branches for isolated work. git version control github basics"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "git_version_control__q06",
+      "skill_id": "git_version_control",
+      "skill_name": "Git and Version Control",
+      "skill_aliases": [
+        "git",
+        "version control",
+        "github basics"
+      ],
+      "category": "developer_tools",
+      "title": "Merging",
+      "description": "Combine branches and resolve simple conflicts.",
+      "order": 6,
+      "difficulty": "beginner_intermediate",
+      "estimated_minutes": 45,
+      "prerequisite_quest_ids": [
+        "git_version_control__q05"
+      ],
+      "keywords": [
+        "and",
+        "branches",
+        "combine",
+        "conflicts",
+        "git",
+        "github basics",
+        "merging",
+        "resolve",
+        "simple",
+        "version control"
+      ],
+      "resource_hints": [
+        "Git documentation",
+        "Atlassian Git tutorials",
+        "GitHub Docs",
+        "YouTube tutorials"
+      ],
+      "search_text": "Git and Version Control Merging Combine branches and resolve simple conflicts. git version control github basics"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "git_version_control__q07",
+      "skill_id": "git_version_control",
+      "skill_name": "Git and Version Control",
+      "skill_aliases": [
+        "git",
+        "version control",
+        "github basics"
+      ],
+      "category": "developer_tools",
+      "title": "Remote Repositories",
+      "description": "Push to and pull from GitHub or other remotes.",
+      "order": 7,
+      "difficulty": "beginner_intermediate",
+      "estimated_minutes": 60,
+      "prerequisite_quest_ids": [
+        "git_version_control__q06"
+      ],
+      "keywords": [
+        "and",
+        "from",
+        "git",
+        "github",
+        "github basics",
+        "or",
+        "other",
+        "pull",
+        "push",
+        "remote",
+        "remotes",
+        "repositories",
+        "to",
+        "version control"
+      ],
+      "resource_hints": [
+        "Git documentation",
+        "Atlassian Git tutorials",
+        "GitHub Docs",
+        "YouTube tutorials"
+      ],
+      "search_text": "Git and Version Control Remote Repositories Push to and pull from GitHub or other remotes. git version control github basics"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "git_version_control__q08",
+      "skill_id": "git_version_control",
+      "skill_name": "Git and Version Control",
+      "skill_aliases": [
+        "git",
+        "version control",
+        "github basics"
+      ],
+      "category": "developer_tools",
+      "title": "Pull Requests",
+      "description": "Collaborate through code review workflows.",
+      "order": 8,
+      "difficulty": "beginner_intermediate",
+      "estimated_minutes": 75,
+      "prerequisite_quest_ids": [
+        "git_version_control__q07"
+      ],
+      "keywords": [
+        "code",
+        "collaborate",
+        "git",
+        "github basics",
+        "pull",
+        "requests",
+        "review",
+        "through",
+        "version control",
+        "workflows"
+      ],
+      "resource_hints": [
+        "Git documentation",
+        "Atlassian Git tutorials",
+        "GitHub Docs",
+        "YouTube tutorials"
+      ],
+      "search_text": "Git and Version Control Pull Requests Collaborate through code review workflows. git version control github basics"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "git_version_control__q09",
+      "skill_id": "git_version_control",
+      "skill_name": "Git and Version Control",
+      "skill_aliases": [
+        "git",
+        "version control",
+        "github basics"
+      ],
+      "category": "developer_tools",
+      "title": "Rebasing Basics",
+      "description": "Understand linear history and safe rebasing.",
+      "order": 9,
+      "difficulty": "intermediate",
+      "estimated_minutes": 30,
+      "prerequisite_quest_ids": [
+        "git_version_control__q08"
+      ],
+      "keywords": [
+        "and",
+        "basics",
+        "git",
+        "github basics",
+        "history",
+        "linear",
+        "rebasing",
+        "safe",
+        "understand",
+        "version control"
+      ],
+      "resource_hints": [
+        "Git documentation",
+        "Atlassian Git tutorials",
+        "GitHub Docs",
+        "YouTube tutorials"
+      ],
+      "search_text": "Git and Version Control Rebasing Basics Understand linear history and safe rebasing. git version control github basics"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "git_version_control__q10",
+      "skill_id": "git_version_control",
+      "skill_name": "Git and Version Control",
+      "skill_aliases": [
+        "git",
+        "version control",
+        "github basics"
+      ],
+      "category": "developer_tools",
+      "title": "Undoing Changes",
+      "description": "Revert, restore, and reset carefully.",
+      "order": 10,
+      "difficulty": "intermediate",
+      "estimated_minutes": 45,
+      "prerequisite_quest_ids": [
+        "git_version_control__q09"
+      ],
+      "keywords": [
+        "and",
+        "carefully",
+        "changes",
+        "git",
+        "github basics",
+        "reset",
+        "restore",
+        "revert",
+        "undoing",
+        "version control"
+      ],
+      "resource_hints": [
+        "Git documentation",
+        "Atlassian Git tutorials",
+        "GitHub Docs",
+        "YouTube tutorials"
+      ],
+      "search_text": "Git and Version Control Undoing Changes Revert, restore, and reset carefully. git version control github basics"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "git_version_control__q11",
+      "skill_id": "git_version_control",
+      "skill_name": "Git and Version Control",
+      "skill_aliases": [
+        "git",
+        "version control",
+        "github basics"
+      ],
+      "category": "developer_tools",
+      "title": "Git Ignore",
+      "description": "Exclude generated and secret files from tracking.",
+      "order": 11,
+      "difficulty": "intermediate",
+      "estimated_minutes": 60,
+      "prerequisite_quest_ids": [
+        "git_version_control__q10"
+      ],
+      "keywords": [
+        "and",
+        "exclude",
+        "files",
+        "from",
+        "generated",
+        "git",
+        "github basics",
+        "ignore",
+        "secret",
+        "tracking",
+        "version control"
+      ],
+      "resource_hints": [
+        "Git documentation",
+        "Atlassian Git tutorials",
+        "GitHub Docs",
+        "YouTube tutorials"
+      ],
+      "search_text": "Git and Version Control Git Ignore Exclude generated and secret files from tracking. git version control github basics"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "git_version_control__q12",
+      "skill_id": "git_version_control",
+      "skill_name": "Git and Version Control",
+      "skill_aliases": [
+        "git",
+        "version control",
+        "github basics"
+      ],
+      "category": "developer_tools",
+      "title": "Team Workflow",
+      "description": "Use feature branches and collaborative conventions.",
+      "order": 12,
+      "difficulty": "intermediate",
+      "estimated_minutes": 75,
+      "prerequisite_quest_ids": [
+        "git_version_control__q11"
+      ],
+      "keywords": [
+        "and",
+        "branches",
+        "collaborative",
+        "conventions",
+        "feature",
+        "git",
+        "github basics",
+        "team",
+        "use",
+        "version control",
+        "workflow"
+      ],
+      "resource_hints": [
+        "Git documentation",
+        "Atlassian Git tutorials",
+        "GitHub Docs",
+        "YouTube tutorials"
+      ],
+      "search_text": "Git and Version Control Team Workflow Use feature branches and collaborative conventions. git version control github basics"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "react_frontend__q01",
+      "skill_id": "react_frontend",
+      "skill_name": "React Frontend Development",
+      "skill_aliases": [
+        "react",
+        "frontend react",
+        "learn react"
+      ],
+      "category": "web",
+      "title": "React Project Setup",
+      "description": "Create and run a React app locally.",
+      "order": 1,
+      "difficulty": "beginner",
+      "estimated_minutes": 30,
+      "prerequisite_quest_ids": [],
+      "keywords": [
+        "a",
+        "and",
+        "app",
+        "create",
+        "frontend react",
+        "learn react",
+        "locally",
+        "project",
+        "react",
+        "run",
+        "setup"
+      ],
+      "resource_hints": [
+        "React Docs",
+        "Vite docs",
+        "Frontend Masters",
+        "YouTube tutorials"
+      ],
+      "search_text": "React Frontend Development React Project Setup Create and run a React app locally. react frontend react learn react"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "react_frontend__q02",
+      "skill_id": "react_frontend",
+      "skill_name": "React Frontend Development",
+      "skill_aliases": [
+        "react",
+        "frontend react",
+        "learn react"
+      ],
+      "category": "web",
+      "title": "JSX Basics",
+      "description": "Write UI using JSX syntax.",
+      "order": 2,
+      "difficulty": "beginner",
+      "estimated_minutes": 45,
+      "prerequisite_quest_ids": [
+        "react_frontend__q01"
+      ],
+      "keywords": [
+        "basics",
+        "frontend react",
+        "jsx",
+        "learn react",
+        "react",
+        "syntax",
+        "ui",
+        "using",
+        "write"
+      ],
+      "resource_hints": [
+        "React Docs",
+        "Vite docs",
+        "Frontend Masters",
+        "YouTube tutorials"
+      ],
+      "search_text": "React Frontend Development JSX Basics Write UI using JSX syntax. react frontend react learn react"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "react_frontend__q03",
+      "skill_id": "react_frontend",
+      "skill_name": "React Frontend Development",
+      "skill_aliases": [
+        "react",
+        "frontend react",
+        "learn react"
+      ],
+      "category": "web",
+      "title": "Components and Props",
+      "description": "Build reusable UI components and pass data.",
+      "order": 3,
+      "difficulty": "beginner",
+      "estimated_minutes": 60,
+      "prerequisite_quest_ids": [
+        "react_frontend__q02"
+      ],
+      "keywords": [
+        "and",
+        "build",
+        "components",
+        "data",
+        "frontend react",
+        "learn react",
+        "pass",
+        "props",
+        "react",
+        "reusable",
+        "ui"
+      ],
+      "resource_hints": [
+        "React Docs",
+        "Vite docs",
+        "Frontend Masters",
+        "YouTube tutorials"
+      ],
+      "search_text": "React Frontend Development Components and Props Build reusable UI components and pass data. react frontend react learn react"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "react_frontend__q04",
+      "skill_id": "react_frontend",
+      "skill_name": "React Frontend Development",
+      "skill_aliases": [
+        "react",
+        "frontend react",
+        "learn react"
+      ],
+      "category": "web",
+      "title": "State and Events",
+      "description": "Manage local state and user interactions.",
+      "order": 4,
+      "difficulty": "beginner",
+      "estimated_minutes": 75,
+      "prerequisite_quest_ids": [
+        "react_frontend__q03"
+      ],
+      "keywords": [
+        "and",
+        "events",
+        "frontend react",
+        "interactions",
+        "learn react",
+        "local",
+        "manage",
+        "react",
+        "state",
+        "user"
+      ],
+      "resource_hints": [
+        "React Docs",
+        "Vite docs",
+        "Frontend Masters",
+        "YouTube tutorials"
+      ],
+      "search_text": "React Frontend Development State and Events Manage local state and user interactions. react frontend react learn react"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "react_frontend__q05",
+      "skill_id": "react_frontend",
+      "skill_name": "React Frontend Development",
+      "skill_aliases": [
+        "react",
+        "frontend react",
+        "learn react"
+      ],
+      "category": "web",
+      "title": "Conditional Rendering",
+      "description": "Render different UI based on state.",
+      "order": 5,
+      "difficulty": "beginner_intermediate",
+      "estimated_minutes": 30,
+      "prerequisite_quest_ids": [
+        "react_frontend__q04"
+      ],
+      "keywords": [
+        "based",
+        "conditional",
+        "different",
+        "frontend react",
+        "learn react",
+        "on",
+        "react",
+        "render",
+        "rendering",
+        "state",
+        "ui"
+      ],
+      "resource_hints": [
+        "React Docs",
+        "Vite docs",
+        "Frontend Masters",
+        "YouTube tutorials"
+      ],
+      "search_text": "React Frontend Development Conditional Rendering Render different UI based on state. react frontend react learn react"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "react_frontend__q06",
+      "skill_id": "react_frontend",
+      "skill_name": "React Frontend Development",
+      "skill_aliases": [
+        "react",
+        "frontend react",
+        "learn react"
+      ],
+      "category": "web",
+      "title": "Lists and Keys",
+      "description": "Display collections efficiently.",
+      "order": 6,
+      "difficulty": "beginner_intermediate",
+      "estimated_minutes": 45,
+      "prerequisite_quest_ids": [
+        "react_frontend__q05"
+      ],
+      "keywords": [
+        "and",
+        "collections",
+        "display",
+        "efficiently",
+        "frontend react",
+        "keys",
+        "learn react",
+        "lists",
+        "react"
+      ],
+      "resource_hints": [
+        "React Docs",
+        "Vite docs",
+        "Frontend Masters",
+        "YouTube tutorials"
+      ],
+      "search_text": "React Frontend Development Lists and Keys Display collections efficiently. react frontend react learn react"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "react_frontend__q07",
+      "skill_id": "react_frontend",
+      "skill_name": "React Frontend Development",
+      "skill_aliases": [
+        "react",
+        "frontend react",
+        "learn react"
+      ],
+      "category": "web",
+      "title": "Forms in React",
+      "description": "Handle controlled inputs and form submission.",
+      "order": 7,
+      "difficulty": "beginner_intermediate",
+      "estimated_minutes": 60,
+      "prerequisite_quest_ids": [
+        "react_frontend__q06"
+      ],
+      "keywords": [
+        "and",
+        "controlled",
+        "form",
+        "forms",
+        "frontend react",
+        "handle",
+        "in",
+        "inputs",
+        "learn react",
+        "react",
+        "submission"
+      ],
+      "resource_hints": [
+        "React Docs",
+        "Vite docs",
+        "Frontend Masters",
+        "YouTube tutorials"
+      ],
+      "search_text": "React Frontend Development Forms in React Handle controlled inputs and form submission. react frontend react learn react"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "react_frontend__q08",
+      "skill_id": "react_frontend",
+      "skill_name": "React Frontend Development",
+      "skill_aliases": [
+        "react",
+        "frontend react",
+        "learn react"
+      ],
+      "category": "web",
+      "title": "useEffect",
+      "description": "Run side effects for data loading and subscriptions.",
+      "order": 8,
+      "difficulty": "beginner_intermediate",
+      "estimated_minutes": 75,
+      "prerequisite_quest_ids": [
+        "react_frontend__q07"
+      ],
+      "keywords": [
+        "and",
+        "data",
+        "effects",
+        "for",
+        "frontend react",
+        "learn react",
+        "loading",
+        "react",
+        "run",
+        "side",
+        "subscriptions",
+        "useeffect"
+      ],
+      "resource_hints": [
+        "React Docs",
+        "Vite docs",
+        "Frontend Masters",
+        "YouTube tutorials"
+      ],
+      "search_text": "React Frontend Development useEffect Run side effects for data loading and subscriptions. react frontend react learn react"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "react_frontend__q09",
+      "skill_id": "react_frontend",
+      "skill_name": "React Frontend Development",
+      "skill_aliases": [
+        "react",
+        "frontend react",
+        "learn react"
+      ],
+      "category": "web",
+      "title": "Routing",
+      "description": "Navigate between pages in a React app.",
+      "order": 9,
+      "difficulty": "intermediate",
+      "estimated_minutes": 30,
+      "prerequisite_quest_ids": [
+        "react_frontend__q08"
+      ],
+      "keywords": [
+        "a",
+        "app",
+        "between",
+        "frontend react",
+        "in",
+        "learn react",
+        "navigate",
+        "pages",
+        "react",
+        "routing"
+      ],
+      "resource_hints": [
+        "React Docs",
+        "Vite docs",
+        "Frontend Masters",
+        "YouTube tutorials"
+      ],
+      "search_text": "React Frontend Development Routing Navigate between pages in a React app. react frontend react learn react"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "react_frontend__q10",
+      "skill_id": "react_frontend",
+      "skill_name": "React Frontend Development",
+      "skill_aliases": [
+        "react",
+        "frontend react",
+        "learn react"
+      ],
+      "category": "web",
+      "title": "Fetching Data",
+      "description": "Load remote data and render loading states.",
+      "order": 10,
+      "difficulty": "intermediate",
+      "estimated_minutes": 45,
+      "prerequisite_quest_ids": [
+        "react_frontend__q09"
+      ],
+      "keywords": [
+        "and",
+        "data",
+        "fetching",
+        "frontend react",
+        "learn react",
+        "load",
+        "loading",
+        "react",
+        "remote",
+        "render",
+        "states"
+      ],
+      "resource_hints": [
+        "React Docs",
+        "Vite docs",
+        "Frontend Masters",
+        "YouTube tutorials"
+      ],
+      "search_text": "React Frontend Development Fetching Data Load remote data and render loading states. react frontend react learn react"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "react_frontend__q11",
+      "skill_id": "react_frontend",
+      "skill_name": "React Frontend Development",
+      "skill_aliases": [
+        "react",
+        "frontend react",
+        "learn react"
+      ],
+      "category": "web",
+      "title": "Component Styling",
+      "description": "Apply CSS modules, utility classes, or styled approaches.",
+      "order": 11,
+      "difficulty": "intermediate",
+      "estimated_minutes": 60,
+      "prerequisite_quest_ids": [
+        "react_frontend__q10"
+      ],
+      "keywords": [
+        "apply",
+        "approaches",
+        "classes",
+        "component",
+        "css",
+        "frontend react",
+        "learn react",
+        "modules",
+        "or",
+        "react",
+        "styled",
+        "styling",
+        "utility"
+      ],
+      "resource_hints": [
+        "React Docs",
+        "Vite docs",
+        "Frontend Masters",
+        "YouTube tutorials"
+      ],
+      "search_text": "React Frontend Development Component Styling Apply CSS modules, utility classes, or styled approaches. react frontend react learn react"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "react_frontend__q12",
+      "skill_id": "react_frontend",
+      "skill_name": "React Frontend Development",
+      "skill_aliases": [
+        "react",
+        "frontend react",
+        "learn react"
+      ],
+      "category": "web",
+      "title": "State Lifting and Composition",
+      "description": "Share state cleanly across components.",
+      "order": 12,
+      "difficulty": "intermediate",
+      "estimated_minutes": 75,
+      "prerequisite_quest_ids": [
+        "react_frontend__q11"
+      ],
+      "keywords": [
+        "across",
+        "and",
+        "cleanly",
+        "components",
+        "composition",
+        "frontend react",
+        "learn react",
+        "lifting",
+        "react",
+        "share",
+        "state"
+      ],
+      "resource_hints": [
+        "React Docs",
+        "Vite docs",
+        "Frontend Masters",
+        "YouTube tutorials"
+      ],
+      "search_text": "React Frontend Development State Lifting and Composition Share state cleanly across components. react frontend react learn react"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "machine_learning_basics__q01",
+      "skill_id": "machine_learning_basics",
+      "skill_name": "Machine Learning Basics",
+      "skill_aliases": [
+        "machine learning",
+        "ml basics",
+        "intro to ml"
+      ],
+      "category": "ai",
+      "title": "ML Workflow Overview",
+      "description": "Understand data, training, validation, and testing.",
+      "order": 1,
+      "difficulty": "beginner",
+      "estimated_minutes": 30,
+      "prerequisite_quest_ids": [],
+      "keywords": [
+        "and",
+        "data",
+        "intro to ml",
+        "machine learning",
+        "ml",
+        "ml basics",
+        "overview",
+        "testing",
+        "training",
+        "understand",
+        "validation",
+        "workflow"
+      ],
+      "resource_hints": [
+        "Scikit-learn docs",
+        "Kaggle Learn",
+        "Google ML Crash Course",
+        "YouTube tutorials"
+      ],
+      "search_text": "Machine Learning Basics ML Workflow Overview Understand data, training, validation, and testing. machine learning ml basics intro to ml"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "machine_learning_basics__q02",
+      "skill_id": "machine_learning_basics",
+      "skill_name": "Machine Learning Basics",
+      "skill_aliases": [
+        "machine learning",
+        "ml basics",
+        "intro to ml"
+      ],
+      "category": "ai",
+      "title": "Data Preparation",
+      "description": "Clean, encode, and scale data for models.",
+      "order": 2,
+      "difficulty": "beginner",
+      "estimated_minutes": 45,
+      "prerequisite_quest_ids": [
+        "machine_learning_basics__q01"
+      ],
+      "keywords": [
+        "and",
+        "clean",
+        "data",
+        "encode",
+        "for",
+        "intro to ml",
+        "machine learning",
+        "ml basics",
+        "models",
+        "preparation",
+        "scale"
+      ],
+      "resource_hints": [
+        "Scikit-learn docs",
+        "Kaggle Learn",
+        "Google ML Crash Course",
+        "YouTube tutorials"
+      ],
+      "search_text": "Machine Learning Basics Data Preparation Clean, encode, and scale data for models. machine learning ml basics intro to ml"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "machine_learning_basics__q03",
+      "skill_id": "machine_learning_basics",
+      "skill_name": "Machine Learning Basics",
+      "skill_aliases": [
+        "machine learning",
+        "ml basics",
+        "intro to ml"
+      ],
+      "category": "ai",
+      "title": "Train Test Split",
+      "description": "Separate data for training and evaluation.",
+      "order": 3,
+      "difficulty": "beginner",
+      "estimated_minutes": 60,
+      "prerequisite_quest_ids": [
+        "machine_learning_basics__q02"
+      ],
+      "keywords": [
+        "and",
+        "data",
+        "evaluation",
+        "for",
+        "intro to ml",
+        "machine learning",
+        "ml basics",
+        "separate",
+        "split",
+        "test",
+        "train",
+        "training"
+      ],
+      "resource_hints": [
+        "Scikit-learn docs",
+        "Kaggle Learn",
+        "Google ML Crash Course",
+        "YouTube tutorials"
+      ],
+      "search_text": "Machine Learning Basics Train Test Split Separate data for training and evaluation. machine learning ml basics intro to ml"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "machine_learning_basics__q04",
+      "skill_id": "machine_learning_basics",
+      "skill_name": "Machine Learning Basics",
+      "skill_aliases": [
+        "machine learning",
+        "ml basics",
+        "intro to ml"
+      ],
+      "category": "ai",
+      "title": "Linear Regression",
+      "description": "Predict continuous values with simple models.",
+      "order": 4,
+      "difficulty": "beginner",
+      "estimated_minutes": 75,
+      "prerequisite_quest_ids": [
+        "machine_learning_basics__q03"
+      ],
+      "keywords": [
+        "continuous",
+        "intro to ml",
+        "linear",
+        "machine learning",
+        "ml basics",
+        "models",
+        "predict",
+        "regression",
+        "simple",
+        "values",
+        "with"
+      ],
+      "resource_hints": [
+        "Scikit-learn docs",
+        "Kaggle Learn",
+        "Google ML Crash Course",
+        "YouTube tutorials"
+      ],
+      "search_text": "Machine Learning Basics Linear Regression Predict continuous values with simple models. machine learning ml basics intro to ml"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "machine_learning_basics__q05",
+      "skill_id": "machine_learning_basics",
+      "skill_name": "Machine Learning Basics",
+      "skill_aliases": [
+        "machine learning",
+        "ml basics",
+        "intro to ml"
+      ],
+      "category": "ai",
+      "title": "Classification Basics",
+      "description": "Predict categories using supervised learning.",
+      "order": 5,
+      "difficulty": "beginner_intermediate",
+      "estimated_minutes": 30,
+      "prerequisite_quest_ids": [
+        "machine_learning_basics__q04"
+      ],
+      "keywords": [
+        "basics",
+        "categories",
+        "classification",
+        "intro to ml",
+        "learning",
+        "machine learning",
+        "ml basics",
+        "predict",
+        "supervised",
+        "using"
+      ],
+      "resource_hints": [
+        "Scikit-learn docs",
+        "Kaggle Learn",
+        "Google ML Crash Course",
+        "YouTube tutorials"
+      ],
+      "search_text": "Machine Learning Basics Classification Basics Predict categories using supervised learning. machine learning ml basics intro to ml"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "machine_learning_basics__q06",
+      "skill_id": "machine_learning_basics",
+      "skill_name": "Machine Learning Basics",
+      "skill_aliases": [
+        "machine learning",
+        "ml basics",
+        "intro to ml"
+      ],
+      "category": "ai",
+      "title": "Decision Trees",
+      "description": "Learn tree-based modeling concepts.",
+      "order": 6,
+      "difficulty": "beginner_intermediate",
+      "estimated_minutes": 45,
+      "prerequisite_quest_ids": [
+        "machine_learning_basics__q05"
+      ],
+      "keywords": [
+        "concepts",
+        "decision",
+        "intro to ml",
+        "learn",
+        "machine learning",
+        "ml basics",
+        "modeling",
+        "tree-based",
+        "trees"
+      ],
+      "resource_hints": [
+        "Scikit-learn docs",
+        "Kaggle Learn",
+        "Google ML Crash Course",
+        "YouTube tutorials"
+      ],
+      "search_text": "Machine Learning Basics Decision Trees Learn tree-based modeling concepts. machine learning ml basics intro to ml"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "machine_learning_basics__q07",
+      "skill_id": "machine_learning_basics",
+      "skill_name": "Machine Learning Basics",
+      "skill_aliases": [
+        "machine learning",
+        "ml basics",
+        "intro to ml"
+      ],
+      "category": "ai",
+      "title": "Model Evaluation Metrics",
+      "description": "Use accuracy, precision, recall, and RMSE.",
+      "order": 7,
+      "difficulty": "beginner_intermediate",
+      "estimated_minutes": 60,
+      "prerequisite_quest_ids": [
+        "machine_learning_basics__q06"
+      ],
+      "keywords": [
+        "accuracy",
+        "and",
+        "evaluation",
+        "intro to ml",
+        "machine learning",
+        "metrics",
+        "ml basics",
+        "model",
+        "precision",
+        "recall",
+        "rmse",
+        "use"
+      ],
+      "resource_hints": [
+        "Scikit-learn docs",
+        "Kaggle Learn",
+        "Google ML Crash Course",
+        "YouTube tutorials"
+      ],
+      "search_text": "Machine Learning Basics Model Evaluation Metrics Use accuracy, precision, recall, and RMSE. machine learning ml basics intro to ml"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "machine_learning_basics__q08",
+      "skill_id": "machine_learning_basics",
+      "skill_name": "Machine Learning Basics",
+      "skill_aliases": [
+        "machine learning",
+        "ml basics",
+        "intro to ml"
+      ],
+      "category": "ai",
+      "title": "Overfitting and Underfitting",
+      "description": "Recognize and fix poor generalization.",
+      "order": 8,
+      "difficulty": "beginner_intermediate",
+      "estimated_minutes": 75,
+      "prerequisite_quest_ids": [
+        "machine_learning_basics__q07"
+      ],
+      "keywords": [
+        "and",
+        "fix",
+        "generalization",
+        "intro to ml",
+        "machine learning",
+        "ml basics",
+        "overfitting",
+        "poor",
+        "recognize",
+        "underfitting"
+      ],
+      "resource_hints": [
+        "Scikit-learn docs",
+        "Kaggle Learn",
+        "Google ML Crash Course",
+        "YouTube tutorials"
+      ],
+      "search_text": "Machine Learning Basics Overfitting and Underfitting Recognize and fix poor generalization. machine learning ml basics intro to ml"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "machine_learning_basics__q09",
+      "skill_id": "machine_learning_basics",
+      "skill_name": "Machine Learning Basics",
+      "skill_aliases": [
+        "machine learning",
+        "ml basics",
+        "intro to ml"
+      ],
+      "category": "ai",
+      "title": "Feature Engineering",
+      "description": "Create more useful input variables.",
+      "order": 9,
+      "difficulty": "intermediate",
+      "estimated_minutes": 30,
+      "prerequisite_quest_ids": [
+        "machine_learning_basics__q08"
+      ],
+      "keywords": [
+        "create",
+        "engineering",
+        "feature",
+        "input",
+        "intro to ml",
+        "machine learning",
+        "ml basics",
+        "more",
+        "useful",
+        "variables"
+      ],
+      "resource_hints": [
+        "Scikit-learn docs",
+        "Kaggle Learn",
+        "Google ML Crash Course",
+        "YouTube tutorials"
+      ],
+      "search_text": "Machine Learning Basics Feature Engineering Create more useful input variables. machine learning ml basics intro to ml"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "machine_learning_basics__q10",
+      "skill_id": "machine_learning_basics",
+      "skill_name": "Machine Learning Basics",
+      "skill_aliases": [
+        "machine learning",
+        "ml basics",
+        "intro to ml"
+      ],
+      "category": "ai",
+      "title": "Cross Validation",
+      "description": "Evaluate models more reliably.",
+      "order": 10,
+      "difficulty": "intermediate",
+      "estimated_minutes": 45,
+      "prerequisite_quest_ids": [
+        "machine_learning_basics__q09"
+      ],
+      "keywords": [
+        "cross",
+        "evaluate",
+        "intro to ml",
+        "machine learning",
+        "ml basics",
+        "models",
+        "more",
+        "reliably",
+        "validation"
+      ],
+      "resource_hints": [
+        "Scikit-learn docs",
+        "Kaggle Learn",
+        "Google ML Crash Course",
+        "YouTube tutorials"
+      ],
+      "search_text": "Machine Learning Basics Cross Validation Evaluate models more reliably. machine learning ml basics intro to ml"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "machine_learning_basics__q11",
+      "skill_id": "machine_learning_basics",
+      "skill_name": "Machine Learning Basics",
+      "skill_aliases": [
+        "machine learning",
+        "ml basics",
+        "intro to ml"
+      ],
+      "category": "ai",
+      "title": "Intro to Scikit-learn",
+      "description": "Train and test models with a common Python library.",
+      "order": 11,
+      "difficulty": "intermediate",
+      "estimated_minutes": 60,
+      "prerequisite_quest_ids": [
+        "machine_learning_basics__q10"
+      ],
+      "keywords": [
+        "a",
+        "and",
+        "common",
+        "intro",
+        "intro to ml",
+        "library",
+        "machine learning",
+        "ml basics",
+        "models",
+        "python",
+        "scikit-learn",
+        "test",
+        "to",
+        "train",
+        "with"
+      ],
+      "resource_hints": [
+        "Scikit-learn docs",
+        "Kaggle Learn",
+        "Google ML Crash Course",
+        "YouTube tutorials"
+      ],
+      "search_text": "Machine Learning Basics Intro to Scikit-learn Train and test models with a common Python library. machine learning ml basics intro to ml"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "machine_learning_basics__q12",
+      "skill_id": "machine_learning_basics",
+      "skill_name": "Machine Learning Basics",
+      "skill_aliases": [
+        "machine learning",
+        "ml basics",
+        "intro to ml"
+      ],
+      "category": "ai",
+      "title": "Model Interpretation",
+      "description": "Explain model outputs and feature importance.",
+      "order": 12,
+      "difficulty": "intermediate",
+      "estimated_minutes": 75,
+      "prerequisite_quest_ids": [
+        "machine_learning_basics__q11"
+      ],
+      "keywords": [
+        "and",
+        "explain",
+        "feature",
+        "importance",
+        "interpretation",
+        "intro to ml",
+        "machine learning",
+        "ml basics",
+        "model",
+        "outputs"
+      ],
+      "resource_hints": [
+        "Scikit-learn docs",
+        "Kaggle Learn",
+        "Google ML Crash Course",
+        "YouTube tutorials"
+      ],
+      "search_text": "Machine Learning Basics Model Interpretation Explain model outputs and feature importance. machine learning ml basics intro to ml"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "cybersecurity_fundamentals__q01",
+      "skill_id": "cybersecurity_fundamentals",
+      "skill_name": "Cybersecurity Fundamentals",
+      "skill_aliases": [
+        "cybersecurity",
+        "security basics",
+        "infosec"
+      ],
+      "category": "security",
+      "title": "Security Principles",
+      "description": "Understand confidentiality, integrity, and availability.",
+      "order": 1,
+      "difficulty": "beginner",
+      "estimated_minutes": 30,
+      "prerequisite_quest_ids": [],
+      "keywords": [
+        "and",
+        "availability",
+        "confidentiality",
+        "cybersecurity",
+        "infosec",
+        "integrity",
+        "principles",
+        "security",
+        "security basics",
+        "understand"
+      ],
+      "resource_hints": [
+        "OWASP",
+        "NIST resources",
+        "TryHackMe",
+        "YouTube tutorials"
+      ],
+      "search_text": "Cybersecurity Fundamentals Security Principles Understand confidentiality, integrity, and availability. cybersecurity security basics infosec"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "cybersecurity_fundamentals__q02",
+      "skill_id": "cybersecurity_fundamentals",
+      "skill_name": "Cybersecurity Fundamentals",
+      "skill_aliases": [
+        "cybersecurity",
+        "security basics",
+        "infosec"
+      ],
+      "category": "security",
+      "title": "Threats and Attack Types",
+      "description": "Recognize malware, phishing, and social engineering.",
+      "order": 2,
+      "difficulty": "beginner",
+      "estimated_minutes": 45,
+      "prerequisite_quest_ids": [
+        "cybersecurity_fundamentals__q01"
+      ],
+      "keywords": [
+        "and",
+        "attack",
+        "cybersecurity",
+        "engineering",
+        "infosec",
+        "malware",
+        "phishing",
+        "recognize",
+        "security basics",
+        "social",
+        "threats",
+        "types"
+      ],
+      "resource_hints": [
+        "OWASP",
+        "NIST resources",
+        "TryHackMe",
+        "YouTube tutorials"
+      ],
+      "search_text": "Cybersecurity Fundamentals Threats and Attack Types Recognize malware, phishing, and social engineering. cybersecurity security basics infosec"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "cybersecurity_fundamentals__q03",
+      "skill_id": "cybersecurity_fundamentals",
+      "skill_name": "Cybersecurity Fundamentals",
+      "skill_aliases": [
+        "cybersecurity",
+        "security basics",
+        "infosec"
+      ],
+      "category": "security",
+      "title": "Authentication and Authorization",
+      "description": "Differentiate identity verification from access control.",
+      "order": 3,
+      "difficulty": "beginner",
+      "estimated_minutes": 60,
+      "prerequisite_quest_ids": [
+        "cybersecurity_fundamentals__q02"
+      ],
+      "keywords": [
+        "access",
+        "and",
+        "authentication",
+        "authorization",
+        "control",
+        "cybersecurity",
+        "differentiate",
+        "from",
+        "identity",
+        "infosec",
+        "security basics",
+        "verification"
+      ],
+      "resource_hints": [
+        "OWASP",
+        "NIST resources",
+        "TryHackMe",
+        "YouTube tutorials"
+      ],
+      "search_text": "Cybersecurity Fundamentals Authentication and Authorization Differentiate identity verification from access control. cybersecurity security basics infosec"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "cybersecurity_fundamentals__q04",
+      "skill_id": "cybersecurity_fundamentals",
+      "skill_name": "Cybersecurity Fundamentals",
+      "skill_aliases": [
+        "cybersecurity",
+        "security basics",
+        "infosec"
+      ],
+      "category": "security",
+      "title": "Passwords and MFA",
+      "description": "Use strong credentials and multi-factor authentication.",
+      "order": 4,
+      "difficulty": "beginner",
+      "estimated_minutes": 75,
+      "prerequisite_quest_ids": [
+        "cybersecurity_fundamentals__q03"
+      ],
+      "keywords": [
+        "and",
+        "authentication",
+        "credentials",
+        "cybersecurity",
+        "infosec",
+        "mfa",
+        "multi-factor",
+        "passwords",
+        "security basics",
+        "strong",
+        "use"
+      ],
+      "resource_hints": [
+        "OWASP",
+        "NIST resources",
+        "TryHackMe",
+        "YouTube tutorials"
+      ],
+      "search_text": "Cybersecurity Fundamentals Passwords and MFA Use strong credentials and multi-factor authentication. cybersecurity security basics infosec"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "cybersecurity_fundamentals__q05",
+      "skill_id": "cybersecurity_fundamentals",
+      "skill_name": "Cybersecurity Fundamentals",
+      "skill_aliases": [
+        "cybersecurity",
+        "security basics",
+        "infosec"
+      ],
+      "category": "security",
+      "title": "Network Basics for Security",
+      "description": "Understand packets, ports, and common protocols.",
+      "order": 5,
+      "difficulty": "beginner_intermediate",
+      "estimated_minutes": 30,
+      "prerequisite_quest_ids": [
+        "cybersecurity_fundamentals__q04"
+      ],
+      "keywords": [
+        "and",
+        "basics",
+        "common",
+        "cybersecurity",
+        "for",
+        "infosec",
+        "network",
+        "packets",
+        "ports",
+        "protocols",
+        "security",
+        "security basics",
+        "understand"
+      ],
+      "resource_hints": [
+        "OWASP",
+        "NIST resources",
+        "TryHackMe",
+        "YouTube tutorials"
+      ],
+      "search_text": "Cybersecurity Fundamentals Network Basics for Security Understand packets, ports, and common protocols. cybersecurity security basics infosec"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "cybersecurity_fundamentals__q06",
+      "skill_id": "cybersecurity_fundamentals",
+      "skill_name": "Cybersecurity Fundamentals",
+      "skill_aliases": [
+        "cybersecurity",
+        "security basics",
+        "infosec"
+      ],
+      "category": "security",
+      "title": "Web Security Basics",
+      "description": "Recognize common web risks and safe practices.",
+      "order": 6,
+      "difficulty": "beginner_intermediate",
+      "estimated_minutes": 45,
+      "prerequisite_quest_ids": [
+        "cybersecurity_fundamentals__q05"
+      ],
+      "keywords": [
+        "and",
+        "basics",
+        "common",
+        "cybersecurity",
+        "infosec",
+        "practices",
+        "recognize",
+        "risks",
+        "safe",
+        "security",
+        "security basics",
+        "web"
+      ],
+      "resource_hints": [
+        "OWASP",
+        "NIST resources",
+        "TryHackMe",
+        "YouTube tutorials"
+      ],
+      "search_text": "Cybersecurity Fundamentals Web Security Basics Recognize common web risks and safe practices. cybersecurity security basics infosec"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "cybersecurity_fundamentals__q07",
+      "skill_id": "cybersecurity_fundamentals",
+      "skill_name": "Cybersecurity Fundamentals",
+      "skill_aliases": [
+        "cybersecurity",
+        "security basics",
+        "infosec"
+      ],
+      "category": "security",
+      "title": "Encryption Basics",
+      "description": "Understand hashing, symmetric, and asymmetric encryption.",
+      "order": 7,
+      "difficulty": "beginner_intermediate",
+      "estimated_minutes": 60,
+      "prerequisite_quest_ids": [
+        "cybersecurity_fundamentals__q06"
+      ],
+      "keywords": [
+        "and",
+        "asymmetric",
+        "basics",
+        "cybersecurity",
+        "encryption",
+        "hashing",
+        "infosec",
+        "security basics",
+        "symmetric",
+        "understand"
+      ],
+      "resource_hints": [
+        "OWASP",
+        "NIST resources",
+        "TryHackMe",
+        "YouTube tutorials"
+      ],
+      "search_text": "Cybersecurity Fundamentals Encryption Basics Understand hashing, symmetric, and asymmetric encryption. cybersecurity security basics infosec"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "cybersecurity_fundamentals__q08",
+      "skill_id": "cybersecurity_fundamentals",
+      "skill_name": "Cybersecurity Fundamentals",
+      "skill_aliases": [
+        "cybersecurity",
+        "security basics",
+        "infosec"
+      ],
+      "category": "security",
+      "title": "Security Monitoring",
+      "description": "Learn logs, alerts, and anomaly detection.",
+      "order": 8,
+      "difficulty": "beginner_intermediate",
+      "estimated_minutes": 75,
+      "prerequisite_quest_ids": [
+        "cybersecurity_fundamentals__q07"
+      ],
+      "keywords": [
+        "alerts",
+        "and",
+        "anomaly",
+        "cybersecurity",
+        "detection",
+        "infosec",
+        "learn",
+        "logs",
+        "monitoring",
+        "security",
+        "security basics"
+      ],
+      "resource_hints": [
+        "OWASP",
+        "NIST resources",
+        "TryHackMe",
+        "YouTube tutorials"
+      ],
+      "search_text": "Cybersecurity Fundamentals Security Monitoring Learn logs, alerts, and anomaly detection. cybersecurity security basics infosec"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "cybersecurity_fundamentals__q09",
+      "skill_id": "cybersecurity_fundamentals",
+      "skill_name": "Cybersecurity Fundamentals",
+      "skill_aliases": [
+        "cybersecurity",
+        "security basics",
+        "infosec"
+      ],
+      "category": "security",
+      "title": "Secure Coding Basics",
+      "description": "Avoid common mistakes when writing software.",
+      "order": 9,
+      "difficulty": "intermediate",
+      "estimated_minutes": 30,
+      "prerequisite_quest_ids": [
+        "cybersecurity_fundamentals__q08"
+      ],
+      "keywords": [
+        "avoid",
+        "basics",
+        "coding",
+        "common",
+        "cybersecurity",
+        "infosec",
+        "mistakes",
+        "secure",
+        "security basics",
+        "software",
+        "when",
+        "writing"
+      ],
+      "resource_hints": [
+        "OWASP",
+        "NIST resources",
+        "TryHackMe",
+        "YouTube tutorials"
+      ],
+      "search_text": "Cybersecurity Fundamentals Secure Coding Basics Avoid common mistakes when writing software. cybersecurity security basics infosec"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "cybersecurity_fundamentals__q10",
+      "skill_id": "cybersecurity_fundamentals",
+      "skill_name": "Cybersecurity Fundamentals",
+      "skill_aliases": [
+        "cybersecurity",
+        "security basics",
+        "infosec"
+      ],
+      "category": "security",
+      "title": "Vulnerability Management",
+      "description": "Identify, assess, and remediate weaknesses.",
+      "order": 10,
+      "difficulty": "intermediate",
+      "estimated_minutes": 45,
+      "prerequisite_quest_ids": [
+        "cybersecurity_fundamentals__q09"
+      ],
+      "keywords": [
+        "and",
+        "assess",
+        "cybersecurity",
+        "identify",
+        "infosec",
+        "management",
+        "remediate",
+        "security basics",
+        "vulnerability",
+        "weaknesses"
+      ],
+      "resource_hints": [
+        "OWASP",
+        "NIST resources",
+        "TryHackMe",
+        "YouTube tutorials"
+      ],
+      "search_text": "Cybersecurity Fundamentals Vulnerability Management Identify, assess, and remediate weaknesses. cybersecurity security basics infosec"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "cybersecurity_fundamentals__q11",
+      "skill_id": "cybersecurity_fundamentals",
+      "skill_name": "Cybersecurity Fundamentals",
+      "skill_aliases": [
+        "cybersecurity",
+        "security basics",
+        "infosec"
+      ],
+      "category": "security",
+      "title": "Incident Response Basics",
+      "description": "Understand preparation, detection, and recovery.",
+      "order": 11,
+      "difficulty": "intermediate",
+      "estimated_minutes": 60,
+      "prerequisite_quest_ids": [
+        "cybersecurity_fundamentals__q10"
+      ],
+      "keywords": [
+        "and",
+        "basics",
+        "cybersecurity",
+        "detection",
+        "incident",
+        "infosec",
+        "preparation",
+        "recovery",
+        "response",
+        "security basics",
+        "understand"
+      ],
+      "resource_hints": [
+        "OWASP",
+        "NIST resources",
+        "TryHackMe",
+        "YouTube tutorials"
+      ],
+      "search_text": "Cybersecurity Fundamentals Incident Response Basics Understand preparation, detection, and recovery. cybersecurity security basics infosec"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "cybersecurity_fundamentals__q12",
+      "skill_id": "cybersecurity_fundamentals",
+      "skill_name": "Cybersecurity Fundamentals",
+      "skill_aliases": [
+        "cybersecurity",
+        "security basics",
+        "infosec"
+      ],
+      "category": "security",
+      "title": "Risk and Compliance",
+      "description": "Connect security controls to business risk.",
+      "order": 12,
+      "difficulty": "intermediate",
+      "estimated_minutes": 75,
+      "prerequisite_quest_ids": [
+        "cybersecurity_fundamentals__q11"
+      ],
+      "keywords": [
+        "and",
+        "business",
+        "compliance",
+        "connect",
+        "controls",
+        "cybersecurity",
+        "infosec",
+        "risk",
+        "security",
+        "security basics",
+        "to"
+      ],
+      "resource_hints": [
+        "OWASP",
+        "NIST resources",
+        "TryHackMe",
+        "YouTube tutorials"
+      ],
+      "search_text": "Cybersecurity Fundamentals Risk and Compliance Connect security controls to business risk. cybersecurity security basics infosec"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "ui_ux_design__q01",
+      "skill_id": "ui_ux_design",
+      "skill_name": "UI UX Design",
+      "skill_aliases": [
+        "ui ux",
+        "ux design",
+        "interface design"
+      ],
+      "category": "design",
+      "title": "Design Thinking Basics",
+      "description": "Understand users, problems, ideation, and iteration.",
+      "order": 1,
+      "difficulty": "beginner",
+      "estimated_minutes": 30,
+      "prerequisite_quest_ids": [],
+      "keywords": [
+        "and",
+        "basics",
+        "design",
+        "ideation",
+        "interface design",
+        "iteration",
+        "problems",
+        "thinking",
+        "ui ux",
+        "understand",
+        "users",
+        "ux design"
+      ],
+      "resource_hints": [
+        "Nielsen Norman Group",
+        "Figma resources",
+        "Material Design",
+        "YouTube tutorials"
+      ],
+      "search_text": "UI UX Design Design Thinking Basics Understand users, problems, ideation, and iteration. ui ux ux design interface design"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "ui_ux_design__q02",
+      "skill_id": "ui_ux_design",
+      "skill_name": "UI UX Design",
+      "skill_aliases": [
+        "ui ux",
+        "ux design",
+        "interface design"
+      ],
+      "category": "design",
+      "title": "User Research",
+      "description": "Collect user needs through interviews and observation.",
+      "order": 2,
+      "difficulty": "beginner",
+      "estimated_minutes": 45,
+      "prerequisite_quest_ids": [
+        "ui_ux_design__q01"
+      ],
+      "keywords": [
+        "and",
+        "collect",
+        "interface design",
+        "interviews",
+        "needs",
+        "observation",
+        "research",
+        "through",
+        "ui ux",
+        "user",
+        "ux design"
+      ],
+      "resource_hints": [
+        "Nielsen Norman Group",
+        "Figma resources",
+        "Material Design",
+        "YouTube tutorials"
+      ],
+      "search_text": "UI UX Design User Research Collect user needs through interviews and observation. ui ux ux design interface design"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "ui_ux_design__q03",
+      "skill_id": "ui_ux_design",
+      "skill_name": "UI UX Design",
+      "skill_aliases": [
+        "ui ux",
+        "ux design",
+        "interface design"
+      ],
+      "category": "design",
+      "title": "Personas and User Goals",
+      "description": "Translate research into design targets.",
+      "order": 3,
+      "difficulty": "beginner",
+      "estimated_minutes": 60,
+      "prerequisite_quest_ids": [
+        "ui_ux_design__q02"
+      ],
+      "keywords": [
+        "and",
+        "design",
+        "goals",
+        "interface design",
+        "into",
+        "personas",
+        "research",
+        "targets",
+        "translate",
+        "ui ux",
+        "user",
+        "ux design"
+      ],
+      "resource_hints": [
+        "Nielsen Norman Group",
+        "Figma resources",
+        "Material Design",
+        "YouTube tutorials"
+      ],
+      "search_text": "UI UX Design Personas and User Goals Translate research into design targets. ui ux ux design interface design"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "ui_ux_design__q04",
+      "skill_id": "ui_ux_design",
+      "skill_name": "UI UX Design",
+      "skill_aliases": [
+        "ui ux",
+        "ux design",
+        "interface design"
+      ],
+      "category": "design",
+      "title": "Information Architecture",
+      "description": "Organize content and navigation clearly.",
+      "order": 4,
+      "difficulty": "beginner",
+      "estimated_minutes": 75,
+      "prerequisite_quest_ids": [
+        "ui_ux_design__q03"
+      ],
+      "keywords": [
+        "and",
+        "architecture",
+        "clearly",
+        "content",
+        "information",
+        "interface design",
+        "navigation",
+        "organize",
+        "ui ux",
+        "ux design"
+      ],
+      "resource_hints": [
+        "Nielsen Norman Group",
+        "Figma resources",
+        "Material Design",
+        "YouTube tutorials"
+      ],
+      "search_text": "UI UX Design Information Architecture Organize content and navigation clearly. ui ux ux design interface design"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "ui_ux_design__q05",
+      "skill_id": "ui_ux_design",
+      "skill_name": "UI UX Design",
+      "skill_aliases": [
+        "ui ux",
+        "ux design",
+        "interface design"
+      ],
+      "category": "design",
+      "title": "Wireframing",
+      "description": "Sketch low-fidelity layouts for interfaces.",
+      "order": 5,
+      "difficulty": "beginner_intermediate",
+      "estimated_minutes": 30,
+      "prerequisite_quest_ids": [
+        "ui_ux_design__q04"
+      ],
+      "keywords": [
+        "for",
+        "interface design",
+        "interfaces",
+        "layouts",
+        "low-fidelity",
+        "sketch",
+        "ui ux",
+        "ux design",
+        "wireframing"
+      ],
+      "resource_hints": [
+        "Nielsen Norman Group",
+        "Figma resources",
+        "Material Design",
+        "YouTube tutorials"
+      ],
+      "search_text": "UI UX Design Wireframing Sketch low-fidelity layouts for interfaces. ui ux ux design interface design"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "ui_ux_design__q06",
+      "skill_id": "ui_ux_design",
+      "skill_name": "UI UX Design",
+      "skill_aliases": [
+        "ui ux",
+        "ux design",
+        "interface design"
+      ],
+      "category": "design",
+      "title": "Visual Hierarchy",
+      "description": "Guide user attention with layout and contrast.",
+      "order": 6,
+      "difficulty": "beginner_intermediate",
+      "estimated_minutes": 45,
+      "prerequisite_quest_ids": [
+        "ui_ux_design__q05"
+      ],
+      "keywords": [
+        "and",
+        "attention",
+        "contrast",
+        "guide",
+        "hierarchy",
+        "interface design",
+        "layout",
+        "ui ux",
+        "user",
+        "ux design",
+        "visual",
+        "with"
+      ],
+      "resource_hints": [
+        "Nielsen Norman Group",
+        "Figma resources",
+        "Material Design",
+        "YouTube tutorials"
+      ],
+      "search_text": "UI UX Design Visual Hierarchy Guide user attention with layout and contrast. ui ux ux design interface design"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "ui_ux_design__q07",
+      "skill_id": "ui_ux_design",
+      "skill_name": "UI UX Design",
+      "skill_aliases": [
+        "ui ux",
+        "ux design",
+        "interface design"
+      ],
+      "category": "design",
+      "title": "Typography and Color",
+      "description": "Choose readable type and effective color systems.",
+      "order": 7,
+      "difficulty": "beginner_intermediate",
+      "estimated_minutes": 60,
+      "prerequisite_quest_ids": [
+        "ui_ux_design__q06"
+      ],
+      "keywords": [
+        "and",
+        "choose",
+        "color",
+        "effective",
+        "interface design",
+        "readable",
+        "systems",
+        "type",
+        "typography",
+        "ui ux",
+        "ux design"
+      ],
+      "resource_hints": [
+        "Nielsen Norman Group",
+        "Figma resources",
+        "Material Design",
+        "YouTube tutorials"
+      ],
+      "search_text": "UI UX Design Typography and Color Choose readable type and effective color systems. ui ux ux design interface design"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "ui_ux_design__q08",
+      "skill_id": "ui_ux_design",
+      "skill_name": "UI UX Design",
+      "skill_aliases": [
+        "ui ux",
+        "ux design",
+        "interface design"
+      ],
+      "category": "design",
+      "title": "Accessibility Basics",
+      "description": "Design for inclusivity using accessible patterns.",
+      "order": 8,
+      "difficulty": "beginner_intermediate",
+      "estimated_minutes": 75,
+      "prerequisite_quest_ids": [
+        "ui_ux_design__q07"
+      ],
+      "keywords": [
+        "accessibility",
+        "accessible",
+        "basics",
+        "design",
+        "for",
+        "inclusivity",
+        "interface design",
+        "patterns",
+        "ui ux",
+        "using",
+        "ux design"
+      ],
+      "resource_hints": [
+        "Nielsen Norman Group",
+        "Figma resources",
+        "Material Design",
+        "YouTube tutorials"
+      ],
+      "search_text": "UI UX Design Accessibility Basics Design for inclusivity using accessible patterns. ui ux ux design interface design"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "ui_ux_design__q09",
+      "skill_id": "ui_ux_design",
+      "skill_name": "UI UX Design",
+      "skill_aliases": [
+        "ui ux",
+        "ux design",
+        "interface design"
+      ],
+      "category": "design",
+      "title": "Prototyping",
+      "description": "Create interactive mockups for testing.",
+      "order": 9,
+      "difficulty": "intermediate",
+      "estimated_minutes": 30,
+      "prerequisite_quest_ids": [
+        "ui_ux_design__q08"
+      ],
+      "keywords": [
+        "create",
+        "for",
+        "interactive",
+        "interface design",
+        "mockups",
+        "prototyping",
+        "testing",
+        "ui ux",
+        "ux design"
+      ],
+      "resource_hints": [
+        "Nielsen Norman Group",
+        "Figma resources",
+        "Material Design",
+        "YouTube tutorials"
+      ],
+      "search_text": "UI UX Design Prototyping Create interactive mockups for testing. ui ux ux design interface design"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "ui_ux_design__q10",
+      "skill_id": "ui_ux_design",
+      "skill_name": "UI UX Design",
+      "skill_aliases": [
+        "ui ux",
+        "ux design",
+        "interface design"
+      ],
+      "category": "design",
+      "title": "Usability Testing",
+      "description": "Observe users and identify friction points.",
+      "order": 10,
+      "difficulty": "intermediate",
+      "estimated_minutes": 45,
+      "prerequisite_quest_ids": [
+        "ui_ux_design__q09"
+      ],
+      "keywords": [
+        "and",
+        "friction",
+        "identify",
+        "interface design",
+        "observe",
+        "points",
+        "testing",
+        "ui ux",
+        "usability",
+        "users",
+        "ux design"
+      ],
+      "resource_hints": [
+        "Nielsen Norman Group",
+        "Figma resources",
+        "Material Design",
+        "YouTube tutorials"
+      ],
+      "search_text": "UI UX Design Usability Testing Observe users and identify friction points. ui ux ux design interface design"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "ui_ux_design__q11",
+      "skill_id": "ui_ux_design",
+      "skill_name": "UI UX Design",
+      "skill_aliases": [
+        "ui ux",
+        "ux design",
+        "interface design"
+      ],
+      "category": "design",
+      "title": "Design Systems",
+      "description": "Reuse consistent components and style rules.",
+      "order": 11,
+      "difficulty": "intermediate",
+      "estimated_minutes": 60,
+      "prerequisite_quest_ids": [
+        "ui_ux_design__q10"
+      ],
+      "keywords": [
+        "and",
+        "components",
+        "consistent",
+        "design",
+        "interface design",
+        "reuse",
+        "rules",
+        "style",
+        "systems",
+        "ui ux",
+        "ux design"
+      ],
+      "resource_hints": [
+        "Nielsen Norman Group",
+        "Figma resources",
+        "Material Design",
+        "YouTube tutorials"
+      ],
+      "search_text": "UI UX Design Design Systems Reuse consistent components and style rules. ui ux ux design interface design"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "ui_ux_design__q12",
+      "skill_id": "ui_ux_design",
+      "skill_name": "UI UX Design",
+      "skill_aliases": [
+        "ui ux",
+        "ux design",
+        "interface design"
+      ],
+      "category": "design",
+      "title": "Handoff to Developers",
+      "description": "Prepare design specs and assets clearly.",
+      "order": 12,
+      "difficulty": "intermediate",
+      "estimated_minutes": 75,
+      "prerequisite_quest_ids": [
+        "ui_ux_design__q11"
+      ],
+      "keywords": [
+        "and",
+        "assets",
+        "clearly",
+        "design",
+        "developers",
+        "handoff",
+        "interface design",
+        "prepare",
+        "specs",
+        "to",
+        "ui ux",
+        "ux design"
+      ],
+      "resource_hints": [
+        "Nielsen Norman Group",
+        "Figma resources",
+        "Material Design",
+        "YouTube tutorials"
+      ],
+      "search_text": "UI UX Design Handoff to Developers Prepare design specs and assets clearly. ui ux ux design interface design"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "java_programming__q01",
+      "skill_id": "java_programming",
+      "skill_name": "Java Programming",
+      "skill_aliases": [
+        "java",
+        "learn java",
+        "java basics"
+      ],
+      "category": "programming",
+      "title": "Java Setup",
+      "description": "Install the JDK and run Java programs.",
+      "order": 1,
+      "difficulty": "beginner",
+      "estimated_minutes": 30,
+      "prerequisite_quest_ids": [],
+      "keywords": [
+        "and",
+        "install",
+        "java",
+        "java basics",
+        "jdk",
+        "learn java",
+        "programs",
+        "run",
+        "setup",
+        "the"
+      ],
+      "resource_hints": [
+        "Oracle Java docs",
+        "Baeldung",
+        "GeeksforGeeks",
+        "YouTube tutorials"
+      ],
+      "search_text": "Java Programming Java Setup Install the JDK and run Java programs. java learn java java basics"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "java_programming__q02",
+      "skill_id": "java_programming",
+      "skill_name": "Java Programming",
+      "skill_aliases": [
+        "java",
+        "learn java",
+        "java basics"
+      ],
+      "category": "programming",
+      "title": "Basic Syntax",
+      "description": "Write classes, methods, and simple statements.",
+      "order": 2,
+      "difficulty": "beginner",
+      "estimated_minutes": 45,
+      "prerequisite_quest_ids": [
+        "java_programming__q01"
+      ],
+      "keywords": [
+        "and",
+        "basic",
+        "classes",
+        "java",
+        "java basics",
+        "learn java",
+        "methods",
+        "simple",
+        "statements",
+        "syntax",
+        "write"
+      ],
+      "resource_hints": [
+        "Oracle Java docs",
+        "Baeldung",
+        "GeeksforGeeks",
+        "YouTube tutorials"
+      ],
+      "search_text": "Java Programming Basic Syntax Write classes, methods, and simple statements. java learn java java basics"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "java_programming__q03",
+      "skill_id": "java_programming",
+      "skill_name": "Java Programming",
+      "skill_aliases": [
+        "java",
+        "learn java",
+        "java basics"
+      ],
+      "category": "programming",
+      "title": "Variables and Data Types",
+      "description": "Use primitives, strings, and casting.",
+      "order": 3,
+      "difficulty": "beginner",
+      "estimated_minutes": 60,
+      "prerequisite_quest_ids": [
+        "java_programming__q02"
+      ],
+      "keywords": [
+        "and",
+        "casting",
+        "data",
+        "java",
+        "java basics",
+        "learn java",
+        "primitives",
+        "strings",
+        "types",
+        "use",
+        "variables"
+      ],
+      "resource_hints": [
+        "Oracle Java docs",
+        "Baeldung",
+        "GeeksforGeeks",
+        "YouTube tutorials"
+      ],
+      "search_text": "Java Programming Variables and Data Types Use primitives, strings, and casting. java learn java java basics"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "java_programming__q04",
+      "skill_id": "java_programming",
+      "skill_name": "Java Programming",
+      "skill_aliases": [
+        "java",
+        "learn java",
+        "java basics"
+      ],
+      "category": "programming",
+      "title": "Conditionals",
+      "description": "Use if statements and switch expressions.",
+      "order": 4,
+      "difficulty": "beginner",
+      "estimated_minutes": 75,
+      "prerequisite_quest_ids": [
+        "java_programming__q03"
+      ],
+      "keywords": [
+        "and",
+        "conditionals",
+        "expressions",
+        "if",
+        "java",
+        "java basics",
+        "learn java",
+        "statements",
+        "switch",
+        "use"
+      ],
+      "resource_hints": [
+        "Oracle Java docs",
+        "Baeldung",
+        "GeeksforGeeks",
+        "YouTube tutorials"
+      ],
+      "search_text": "Java Programming Conditionals Use if statements and switch expressions. java learn java java basics"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "java_programming__q05",
+      "skill_id": "java_programming",
+      "skill_name": "Java Programming",
+      "skill_aliases": [
+        "java",
+        "learn java",
+        "java basics"
+      ],
+      "category": "programming",
+      "title": "Loops",
+      "description": "Write for, while, and enhanced for loops.",
+      "order": 5,
+      "difficulty": "beginner_intermediate",
+      "estimated_minutes": 30,
+      "prerequisite_quest_ids": [
+        "java_programming__q04"
+      ],
+      "keywords": [
+        "and",
+        "enhanced",
+        "for",
+        "java",
+        "java basics",
+        "learn java",
+        "loops",
+        "while",
+        "write"
+      ],
+      "resource_hints": [
+        "Oracle Java docs",
+        "Baeldung",
+        "GeeksforGeeks",
+        "YouTube tutorials"
+      ],
+      "search_text": "Java Programming Loops Write for, while, and enhanced for loops. java learn java java basics"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "java_programming__q06",
+      "skill_id": "java_programming",
+      "skill_name": "Java Programming",
+      "skill_aliases": [
+        "java",
+        "learn java",
+        "java basics"
+      ],
+      "category": "programming",
+      "title": "Methods",
+      "description": "Define reusable methods with parameters and return types.",
+      "order": 6,
+      "difficulty": "beginner_intermediate",
+      "estimated_minutes": 45,
+      "prerequisite_quest_ids": [
+        "java_programming__q05"
+      ],
+      "keywords": [
+        "and",
+        "define",
+        "java",
+        "java basics",
+        "learn java",
+        "methods",
+        "parameters",
+        "return",
+        "reusable",
+        "types",
+        "with"
+      ],
+      "resource_hints": [
+        "Oracle Java docs",
+        "Baeldung",
+        "GeeksforGeeks",
+        "YouTube tutorials"
+      ],
+      "search_text": "Java Programming Methods Define reusable methods with parameters and return types. java learn java java basics"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "java_programming__q07",
+      "skill_id": "java_programming",
+      "skill_name": "Java Programming",
+      "skill_aliases": [
+        "java",
+        "learn java",
+        "java basics"
+      ],
+      "category": "programming",
+      "title": "Arrays and Collections",
+      "description": "Store and process groups of values.",
+      "order": 7,
+      "difficulty": "beginner_intermediate",
+      "estimated_minutes": 60,
+      "prerequisite_quest_ids": [
+        "java_programming__q06"
+      ],
+      "keywords": [
+        "and",
+        "arrays",
+        "collections",
+        "groups",
+        "java",
+        "java basics",
+        "learn java",
+        "of",
+        "process",
+        "store",
+        "values"
+      ],
+      "resource_hints": [
+        "Oracle Java docs",
+        "Baeldung",
+        "GeeksforGeeks",
+        "YouTube tutorials"
+      ],
+      "search_text": "Java Programming Arrays and Collections Store and process groups of values. java learn java java basics"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "java_programming__q08",
+      "skill_id": "java_programming",
+      "skill_name": "Java Programming",
+      "skill_aliases": [
+        "java",
+        "learn java",
+        "java basics"
+      ],
+      "category": "programming",
+      "title": "Object-Oriented Basics",
+      "description": "Create classes, objects, and constructors.",
+      "order": 8,
+      "difficulty": "beginner_intermediate",
+      "estimated_minutes": 75,
+      "prerequisite_quest_ids": [
+        "java_programming__q07"
+      ],
+      "keywords": [
+        "and",
+        "basics",
+        "classes",
+        "constructors",
+        "create",
+        "java",
+        "java basics",
+        "learn java",
+        "object-oriented",
+        "objects"
+      ],
+      "resource_hints": [
+        "Oracle Java docs",
+        "Baeldung",
+        "GeeksforGeeks",
+        "YouTube tutorials"
+      ],
+      "search_text": "Java Programming Object-Oriented Basics Create classes, objects, and constructors. java learn java java basics"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "java_programming__q09",
+      "skill_id": "java_programming",
+      "skill_name": "Java Programming",
+      "skill_aliases": [
+        "java",
+        "learn java",
+        "java basics"
+      ],
+      "category": "programming",
+      "title": "Inheritance and Polymorphism",
+      "description": "Reuse behavior across class hierarchies.",
+      "order": 9,
+      "difficulty": "intermediate",
+      "estimated_minutes": 30,
+      "prerequisite_quest_ids": [
+        "java_programming__q08"
+      ],
+      "keywords": [
+        "across",
+        "and",
+        "behavior",
+        "class",
+        "hierarchies",
+        "inheritance",
+        "java",
+        "java basics",
+        "learn java",
+        "polymorphism",
+        "reuse"
+      ],
+      "resource_hints": [
+        "Oracle Java docs",
+        "Baeldung",
+        "GeeksforGeeks",
+        "YouTube tutorials"
+      ],
+      "search_text": "Java Programming Inheritance and Polymorphism Reuse behavior across class hierarchies. java learn java java basics"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "java_programming__q10",
+      "skill_id": "java_programming",
+      "skill_name": "Java Programming",
+      "skill_aliases": [
+        "java",
+        "learn java",
+        "java basics"
+      ],
+      "category": "programming",
+      "title": "Interfaces and Abstraction",
+      "description": "Design flexible contracts for code.",
+      "order": 10,
+      "difficulty": "intermediate",
+      "estimated_minutes": 45,
+      "prerequisite_quest_ids": [
+        "java_programming__q09"
+      ],
+      "keywords": [
+        "abstraction",
+        "and",
+        "code",
+        "contracts",
+        "design",
+        "flexible",
+        "for",
+        "interfaces",
+        "java",
+        "java basics",
+        "learn java"
+      ],
+      "resource_hints": [
+        "Oracle Java docs",
+        "Baeldung",
+        "GeeksforGeeks",
+        "YouTube tutorials"
+      ],
+      "search_text": "Java Programming Interfaces and Abstraction Design flexible contracts for code. java learn java java basics"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "java_programming__q11",
+      "skill_id": "java_programming",
+      "skill_name": "Java Programming",
+      "skill_aliases": [
+        "java",
+        "learn java",
+        "java basics"
+      ],
+      "category": "programming",
+      "title": "Exception Handling",
+      "description": "Handle runtime failures safely.",
+      "order": 11,
+      "difficulty": "intermediate",
+      "estimated_minutes": 60,
+      "prerequisite_quest_ids": [
+        "java_programming__q10"
+      ],
+      "keywords": [
+        "exception",
+        "failures",
+        "handle",
+        "handling",
+        "java",
+        "java basics",
+        "learn java",
+        "runtime",
+        "safely"
+      ],
+      "resource_hints": [
+        "Oracle Java docs",
+        "Baeldung",
+        "GeeksforGeeks",
+        "YouTube tutorials"
+      ],
+      "search_text": "Java Programming Exception Handling Handle runtime failures safely. java learn java java basics"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "java_programming__q12",
+      "skill_id": "java_programming",
+      "skill_name": "Java Programming",
+      "skill_aliases": [
+        "java",
+        "learn java",
+        "java basics"
+      ],
+      "category": "programming",
+      "title": "File I O",
+      "description": "Read and write files using Java APIs.",
+      "order": 12,
+      "difficulty": "intermediate",
+      "estimated_minutes": 75,
+      "prerequisite_quest_ids": [
+        "java_programming__q11"
+      ],
+      "keywords": [
+        "and",
+        "apis",
+        "file",
+        "files",
+        "i",
+        "java",
+        "java basics",
+        "learn java",
+        "o",
+        "read",
+        "using",
+        "write"
+      ],
+      "resource_hints": [
+        "Oracle Java docs",
+        "Baeldung",
+        "GeeksforGeeks",
+        "YouTube tutorials"
+      ],
+      "search_text": "Java Programming File I O Read and write files using Java APIs. java learn java java basics"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "system_design_basics__q01",
+      "skill_id": "system_design_basics",
+      "skill_name": "System Design Basics",
+      "skill_aliases": [
+        "system design",
+        "backend design",
+        "architecture basics"
+      ],
+      "category": "software_engineering",
+      "title": "System Design Fundamentals",
+      "description": "Understand scale, latency, throughput, and trade-offs.",
+      "order": 1,
+      "difficulty": "beginner",
+      "estimated_minutes": 30,
+      "prerequisite_quest_ids": [],
+      "keywords": [
+        "and",
+        "architecture basics",
+        "backend design",
+        "design",
+        "fundamentals",
+        "latency",
+        "scale",
+        "system",
+        "system design",
+        "throughput",
+        "trade-offs",
+        "understand"
+      ],
+      "resource_hints": [
+        "System design primers",
+        "AWS architecture docs",
+        "ByteByteGo",
+        "YouTube tutorials"
+      ],
+      "search_text": "System Design Basics System Design Fundamentals Understand scale, latency, throughput, and trade-offs. system design backend design architecture basics"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "system_design_basics__q02",
+      "skill_id": "system_design_basics",
+      "skill_name": "System Design Basics",
+      "skill_aliases": [
+        "system design",
+        "backend design",
+        "architecture basics"
+      ],
+      "category": "software_engineering",
+      "title": "Client Server Architecture",
+      "description": "Model communication between clients and services.",
+      "order": 2,
+      "difficulty": "beginner",
+      "estimated_minutes": 45,
+      "prerequisite_quest_ids": [
+        "system_design_basics__q01"
+      ],
+      "keywords": [
+        "and",
+        "architecture",
+        "architecture basics",
+        "backend design",
+        "between",
+        "client",
+        "clients",
+        "communication",
+        "model",
+        "server",
+        "services",
+        "system design"
+      ],
+      "resource_hints": [
+        "System design primers",
+        "AWS architecture docs",
+        "ByteByteGo",
+        "YouTube tutorials"
+      ],
+      "search_text": "System Design Basics Client Server Architecture Model communication between clients and services. system design backend design architecture basics"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "system_design_basics__q03",
+      "skill_id": "system_design_basics",
+      "skill_name": "System Design Basics",
+      "skill_aliases": [
+        "system design",
+        "backend design",
+        "architecture basics"
+      ],
+      "category": "software_engineering",
+      "title": "APIs and Contracts",
+      "description": "Design clean service interfaces and payloads.",
+      "order": 3,
+      "difficulty": "beginner",
+      "estimated_minutes": 60,
+      "prerequisite_quest_ids": [
+        "system_design_basics__q02"
+      ],
+      "keywords": [
+        "and",
+        "apis",
+        "architecture basics",
+        "backend design",
+        "clean",
+        "contracts",
+        "design",
+        "interfaces",
+        "payloads",
+        "service",
+        "system design"
+      ],
+      "resource_hints": [
+        "System design primers",
+        "AWS architecture docs",
+        "ByteByteGo",
+        "YouTube tutorials"
+      ],
+      "search_text": "System Design Basics APIs and Contracts Design clean service interfaces and payloads. system design backend design architecture basics"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "system_design_basics__q04",
+      "skill_id": "system_design_basics",
+      "skill_name": "System Design Basics",
+      "skill_aliases": [
+        "system design",
+        "backend design",
+        "architecture basics"
+      ],
+      "category": "software_engineering",
+      "title": "Databases and Storage Choices",
+      "description": "Compare relational, NoSQL, and file storage options.",
+      "order": 4,
+      "difficulty": "beginner",
+      "estimated_minutes": 75,
+      "prerequisite_quest_ids": [
+        "system_design_basics__q03"
+      ],
+      "keywords": [
+        "and",
+        "architecture basics",
+        "backend design",
+        "choices",
+        "compare",
+        "databases",
+        "file",
+        "nosql",
+        "options",
+        "relational",
+        "storage",
+        "system design"
+      ],
+      "resource_hints": [
+        "System design primers",
+        "AWS architecture docs",
+        "ByteByteGo",
+        "YouTube tutorials"
+      ],
+      "search_text": "System Design Basics Databases and Storage Choices Compare relational, NoSQL, and file storage options. system design backend design architecture basics"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "system_design_basics__q05",
+      "skill_id": "system_design_basics",
+      "skill_name": "System Design Basics",
+      "skill_aliases": [
+        "system design",
+        "backend design",
+        "architecture basics"
+      ],
+      "category": "software_engineering",
+      "title": "Caching",
+      "description": "Reduce repeated work with cache layers.",
+      "order": 5,
+      "difficulty": "beginner_intermediate",
+      "estimated_minutes": 30,
+      "prerequisite_quest_ids": [
+        "system_design_basics__q04"
+      ],
+      "keywords": [
+        "architecture basics",
+        "backend design",
+        "cache",
+        "caching",
+        "layers",
+        "reduce",
+        "repeated",
+        "system design",
+        "with",
+        "work"
+      ],
+      "resource_hints": [
+        "System design primers",
+        "AWS architecture docs",
+        "ByteByteGo",
+        "YouTube tutorials"
+      ],
+      "search_text": "System Design Basics Caching Reduce repeated work with cache layers. system design backend design architecture basics"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "system_design_basics__q06",
+      "skill_id": "system_design_basics",
+      "skill_name": "System Design Basics",
+      "skill_aliases": [
+        "system design",
+        "backend design",
+        "architecture basics"
+      ],
+      "category": "software_engineering",
+      "title": "Load Balancing",
+      "description": "Distribute traffic across service instances.",
+      "order": 6,
+      "difficulty": "beginner_intermediate",
+      "estimated_minutes": 45,
+      "prerequisite_quest_ids": [
+        "system_design_basics__q05"
+      ],
+      "keywords": [
+        "across",
+        "architecture basics",
+        "backend design",
+        "balancing",
+        "distribute",
+        "instances",
+        "load",
+        "service",
+        "system design",
+        "traffic"
+      ],
+      "resource_hints": [
+        "System design primers",
+        "AWS architecture docs",
+        "ByteByteGo",
+        "YouTube tutorials"
+      ],
+      "search_text": "System Design Basics Load Balancing Distribute traffic across service instances. system design backend design architecture basics"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "system_design_basics__q07",
+      "skill_id": "system_design_basics",
+      "skill_name": "System Design Basics",
+      "skill_aliases": [
+        "system design",
+        "backend design",
+        "architecture basics"
+      ],
+      "category": "software_engineering",
+      "title": "Message Queues",
+      "description": "Use asynchronous communication for decoupling.",
+      "order": 7,
+      "difficulty": "beginner_intermediate",
+      "estimated_minutes": 60,
+      "prerequisite_quest_ids": [
+        "system_design_basics__q06"
+      ],
+      "keywords": [
+        "architecture basics",
+        "asynchronous",
+        "backend design",
+        "communication",
+        "decoupling",
+        "for",
+        "message",
+        "queues",
+        "system design",
+        "use"
+      ],
+      "resource_hints": [
+        "System design primers",
+        "AWS architecture docs",
+        "ByteByteGo",
+        "YouTube tutorials"
+      ],
+      "search_text": "System Design Basics Message Queues Use asynchronous communication for decoupling. system design backend design architecture basics"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "system_design_basics__q08",
+      "skill_id": "system_design_basics",
+      "skill_name": "System Design Basics",
+      "skill_aliases": [
+        "system design",
+        "backend design",
+        "architecture basics"
+      ],
+      "category": "software_engineering",
+      "title": "Scalability Patterns",
+      "description": "Scale vertically, horizontally, and by partitioning.",
+      "order": 8,
+      "difficulty": "beginner_intermediate",
+      "estimated_minutes": 75,
+      "prerequisite_quest_ids": [
+        "system_design_basics__q07"
+      ],
+      "keywords": [
+        "and",
+        "architecture basics",
+        "backend design",
+        "by",
+        "horizontally",
+        "partitioning",
+        "patterns",
+        "scalability",
+        "scale",
+        "system design",
+        "vertically"
+      ],
+      "resource_hints": [
+        "System design primers",
+        "AWS architecture docs",
+        "ByteByteGo",
+        "YouTube tutorials"
+      ],
+      "search_text": "System Design Basics Scalability Patterns Scale vertically, horizontally, and by partitioning. system design backend design architecture basics"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "system_design_basics__q09",
+      "skill_id": "system_design_basics",
+      "skill_name": "System Design Basics",
+      "skill_aliases": [
+        "system design",
+        "backend design",
+        "architecture basics"
+      ],
+      "category": "software_engineering",
+      "title": "Reliability and Redundancy",
+      "description": "Plan for failures and recovery.",
+      "order": 9,
+      "difficulty": "intermediate",
+      "estimated_minutes": 30,
+      "prerequisite_quest_ids": [
+        "system_design_basics__q08"
+      ],
+      "keywords": [
+        "and",
+        "architecture basics",
+        "backend design",
+        "failures",
+        "for",
+        "plan",
+        "recovery",
+        "redundancy",
+        "reliability",
+        "system design"
+      ],
+      "resource_hints": [
+        "System design primers",
+        "AWS architecture docs",
+        "ByteByteGo",
+        "YouTube tutorials"
+      ],
+      "search_text": "System Design Basics Reliability and Redundancy Plan for failures and recovery. system design backend design architecture basics"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "system_design_basics__q10",
+      "skill_id": "system_design_basics",
+      "skill_name": "System Design Basics",
+      "skill_aliases": [
+        "system design",
+        "backend design",
+        "architecture basics"
+      ],
+      "category": "software_engineering",
+      "title": "Monitoring and Logging",
+      "description": "Observe system health and behavior.",
+      "order": 10,
+      "difficulty": "intermediate",
+      "estimated_minutes": 45,
+      "prerequisite_quest_ids": [
+        "system_design_basics__q09"
+      ],
+      "keywords": [
+        "and",
+        "architecture basics",
+        "backend design",
+        "behavior",
+        "health",
+        "logging",
+        "monitoring",
+        "observe",
+        "system",
+        "system design"
+      ],
+      "resource_hints": [
+        "System design primers",
+        "AWS architecture docs",
+        "ByteByteGo",
+        "YouTube tutorials"
+      ],
+      "search_text": "System Design Basics Monitoring and Logging Observe system health and behavior. system design backend design architecture basics"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "system_design_basics__q11",
+      "skill_id": "system_design_basics",
+      "skill_name": "System Design Basics",
+      "skill_aliases": [
+        "system design",
+        "backend design",
+        "architecture basics"
+      ],
+      "category": "software_engineering",
+      "title": "Authentication in Systems",
+      "description": "Control access between users and services.",
+      "order": 11,
+      "difficulty": "intermediate",
+      "estimated_minutes": 60,
+      "prerequisite_quest_ids": [
+        "system_design_basics__q10"
+      ],
+      "keywords": [
+        "access",
+        "and",
+        "architecture basics",
+        "authentication",
+        "backend design",
+        "between",
+        "control",
+        "in",
+        "services",
+        "system design",
+        "systems",
+        "users"
+      ],
+      "resource_hints": [
+        "System design primers",
+        "AWS architecture docs",
+        "ByteByteGo",
+        "YouTube tutorials"
+      ],
+      "search_text": "System Design Basics Authentication in Systems Control access between users and services. system design backend design architecture basics"
+    },
+    {
+      "doc_type": "quest",
+      "quest_id": "system_design_basics__q12",
+      "skill_id": "system_design_basics",
+      "skill_name": "System Design Basics",
+      "skill_aliases": [
+        "system design",
+        "backend design",
+        "architecture basics"
+      ],
+      "category": "software_engineering",
+      "title": "Design Interview Practice",
+      "description": "Communicate architecture clearly under constraints.",
+      "order": 12,
+      "difficulty": "intermediate",
+      "estimated_minutes": 75,
+      "prerequisite_quest_ids": [
+        "system_design_basics__q11"
+      ],
+      "keywords": [
+        "architecture",
+        "architecture basics",
+        "backend design",
+        "clearly",
+        "communicate",
+        "constraints",
+        "design",
+        "interview",
+        "practice",
+        "system design",
+        "under"
+      ],
+      "resource_hints": [
+        "System design primers",
+        "AWS architecture docs",
+        "ByteByteGo",
+        "YouTube tutorials"
+      ],
+      "search_text": "System Design Basics Design Interview Practice Communicate architecture clearly under constraints. system design backend design architecture basics"
+    }
+  ]
+}
