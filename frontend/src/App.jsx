@@ -21,7 +21,7 @@ export default function App() {
 
     const startMusic = () => {
       audio.play().catch(() => {});
-      window.removeEventListener("click", startMusic);
+      window.removeEventListener("click", startMusic);v
     };
     window.addEventListener("click", startMusic);
 

@@ -62,19 +62,20 @@ export default function GachaPopup({ monster, onClaim }) {
     return pool.slice(0, SPIN_COUNT + 1);
   }).current();
 
-  // ── Spin logic ─────────────────────────────────────────────────────────────
   useEffect(() => {
-    // Phase 1: start spinning fast
+    const drumroll = new Audio("/sound/drumroll.mp3");
+    drumroll.loop = true;
+    drumroll.volume = 0.6;
+    drumroll.play().catch(() => {});
+
     let currentIndex = 0;
-    let delay = 60; // ms between each slot flip (starts fast)
+    let delay = 60;
 
     const spin = () => {
       currentIndex++;
       setReelIndex(currentIndex);
 
       const remaining = SPIN_COUNT - currentIndex;
-
-      // Start slowing down in the last 8 slots
       if (remaining <= 8) {
         delay = 60 + (8 - remaining) ** 1.8 * 28;
       }
@@ -82,29 +83,32 @@ export default function GachaPopup({ monster, onClaim }) {
       if (currentIndex < SPIN_COUNT) {
         spinIntervalRef.current = setTimeout(spin, delay);
       } else {
-        // Landed on winner — enter landing phase
         setPhase("landing");
 
-        // Short pause on the silhouette before flash
         phaseTimerRef.current = setTimeout(() => {
           setPhase("flash");
 
-          // Flash → reveal colour
           setTimeout(() => {
+            // Stop drumroll and play trombone exactly when creature is revealed
+            drumroll.pause();
+            drumroll.currentTime = 0;
+
+            const trombone = new Audio("/sound/trombone.mp3");
+            trombone.volume = 0.7;
+            trombone.play().catch(() => {});
+
             setShowColour(true);
             setPhase("revealed");
-
-            // Stagger the name card in after colour appears
             setTimeout(() => setShowCard(true), 300);
           }, FLASH_DURATION);
         }, 800);
       }
     };
 
-    // Small delay before spinning starts so overlay can fade in first
     spinIntervalRef.current = setTimeout(spin, 600);
 
     return () => {
+      drumroll.pause();
       clearTimeout(spinIntervalRef.current);
       clearTimeout(phaseTimerRef.current);
     };
