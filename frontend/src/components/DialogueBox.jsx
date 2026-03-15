@@ -223,43 +223,44 @@ export default function DialogueBox({
           {lumiSays()}
         </div>
 
-        {/* ── Goal input ── */}
         {!goal && (
-          <div style={{ display: "flex", gap: 8, alignItems: "center" }}>
-            <input
-              autoFocus
-              value={goalInput}
-              onChange={(e) => setGoalInput(e.target.value)}
-              onKeyDown={(e) => e.key === "Enter" && handleGoalSubmit()}
-              placeholder="e.g. Learn Python..."
-              style={{
-                flex: 1,
-                background: "rgba(255,240,180,0.9)",
-                border: "2px solid #7a5c2e",
-                borderRadius: 4,
-                padding: "7px 12px",
-                fontFamily: "'Press Start 2P', monospace",
-                fontSize: 11,
-                color: "#3d2b1f",
-                outline: "none",
-                boxShadow: "inset 1px 1px 3px rgba(0,0,0,0.2)",
-              }}
-            />
-            <button
-              onClick={handleGoalSubmit}
-              disabled={planLoading}
-              style={{ ...primaryBtnStyle, opacity: planLoading ? 0.6 : 1 }}
-            >
-              {planLoading ? "Generating..." : "Begin Quest!"}
-            </button>
+          <div style={{ display: "flex", flexDirection: "column", gap: 6 }}>
+            <div style={{ display: "flex", gap: 8, alignItems: "center" }}>
+              <input
+                autoFocus
+                value={goalInput}
+                onChange={(e) => setGoalInput(e.target.value)}
+                onKeyDown={(e) => e.key === "Enter" && handleGoalSubmit()}
+                placeholder="e.g. Learn Python..."
+                style={{
+                  flex: 1,
+                  background: "rgba(255,240,180,0.9)",
+                  border: "2px solid #7a5c2e",
+                  borderRadius: 4,
+                  padding: "7px 12px",
+                  fontFamily: "'Press Start 2P', monospace",
+                  fontSize: 11,
+                  color: "#3d2b1f",
+                  outline: "none",
+                  boxShadow: "inset 1px 1px 3px rgba(0,0,0,0.2)",
+                }}
+              />
+              <button
+                onClick={handleGoalSubmit}
+                disabled={planLoading}
+                style={{ ...primaryBtnStyle, opacity: planLoading ? 0.6 : 1 }}
+              >
+                {planLoading ? "Generating..." : "Begin Quest!"}
+              </button>
+            </div>
 
+            {/* Error now sits below the input row */}
             {planError && (
               <div
                 style={{
                   fontFamily: "'Press Start 2P', monospace",
                   fontSize: 8,
-                  color: "#ff6b6b",
-                  marginTop: 6,
+                  color: "#f80808",
                 }}
               >
                 ⚠ {planError}
