@@ -21,7 +21,8 @@ export default function App() {
 
     const startMusic = () => {
       audio.play().catch(() => {});
-      window.removeEventListener("click", startMusic);v
+      window.removeEventListener("click", startMusic);
+      v;
     };
     window.addEventListener("click", startMusic);
 
@@ -148,6 +149,10 @@ export default function App() {
         .resources-scroll::-webkit-scrollbar-track { background: #0d0802; border-radius: 3px; }
         .resources-scroll::-webkit-scrollbar-thumb { background: #5a3e1a; border-radius: 3px; }
         .resources-scroll::-webkit-scrollbar-thumb:hover { background: #7a5c2e; }
+        .gallery-scroll::-webkit-scrollbar { width: 6px; }
+        .gallery-scroll::-webkit-scrollbar-track { background: #e8c060; border-radius: 3px; }
+        .gallery-scroll::-webkit-scrollbar-thumb { background: #8B6914; border-radius: 3px; }
+        .gallery-scroll::-webkit-scrollbar-thumb:hover { background: #5a3e1a; }
       `}</style>
 
       <div
