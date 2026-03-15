@@ -34,6 +34,7 @@ export default function App() {
 
   // ── Resources modal state ─────────────────────────────────────────────────
   const [showResources, setShowResources] = useState(false);
+  const [monsterReactions, setMonsterReactions] = useState({});
 
   // ── Task complete ─────────────────────────────────────────────────────────
   const handleTaskComplete = () => {
@@ -77,7 +78,22 @@ export default function App() {
     setClickedMonsterIds((prev) => new Set([...prev, monster.id]));
   };
 
-  const handleQuizClose = () => setQuizTarget(null);
+  const handleQuizClose = () => {
+    if (quizTarget) {
+      setMonsterReactions((prev) => ({
+        ...prev,
+        [quizTarget.monster.id]: "😊",
+      }));
+      setTimeout(() => {
+        setMonsterReactions((prev) => {
+          const next = { ...prev };
+          delete next[quizTarget.monster.id];
+          return next;
+        });
+      }, 3000);
+    }
+    setQuizTarget(null);
+  };
 
   return (
     <>
@@ -174,6 +190,7 @@ export default function App() {
             onPositionChange={store.updateMonsterPosition}
             hasQuizReady={!clickedMonsterIds.has(monster.id)}
             onQuizClick={handleQuizClick}
+            reactionEmoji={monsterReactions[monster.id] ?? null}
           />
         ))}
 
