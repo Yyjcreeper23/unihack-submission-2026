@@ -1,14 +1,4 @@
-/**
- * App.jsx — Root component
- *
- * Manages:
- *   - quizModal: which monster is currently asking a question
- *   - resourcesModal: shown when player clicks "How do I do this?"
- *   - clickedMonsterIds: set of monster ids that have been clicked once already
- *                        (used to determine if "!" badge should show)
- */
-
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import { useMonsterStore } from "./hooks/useMonsterStore";
 import { MONSTER_ROSTER } from "./data/monsters";
 import Monster from "./components/Monster";
@@ -20,25 +10,39 @@ import ResourcesModal from "./components/ResourcesModal";
 
 export default function App() {
   const store = useMonsterStore();
+  const bgMusicRef = useRef(null);
 
-  // ── Gacha state ───────────────────────────────────────────────────────────
+  // Start background music on first user interaction
+  useEffect(() => {
+    const audio = new Audio("/sound/bgMusic.mp3");
+    audio.loop = true;
+    audio.volume = 0.4;
+    bgMusicRef.current = audio;
+
+    const startMusic = () => {
+      audio.play().catch(() => {});
+      window.removeEventListener("click", startMusic);
+    };
+    window.addEventListener("click", startMusic);
+
+    return () => {
+      audio.pause();
+      window.removeEventListener("click", startMusic);
+    };
+  }, []);
+
   const [pendingMonster, setPendingMonster] = useState(null);
-
-  // ── Quiz modal state ──────────────────────────────────────────────────────
-  // quizTarget: { monster, questId, difficulty } or null
   const [quizTarget, setQuizTarget] = useState(null);
-
-  // Track which monsters have already been clicked (quiz shown once)
-  // Stored in component state — resets on page refresh (prototype behaviour)
   const [clickedMonsterIds, setClickedMonsterIds] = useState(new Set());
-
-  // ── Resources modal state ─────────────────────────────────────────────────
   const [showResources, setShowResources] = useState(false);
   const [monsterReactions, setMonsterReactions] = useState({});
 
-  // ── Task complete ─────────────────────────────────────────────────────────
   const handleTaskComplete = () => {
     store.completeCurrentTask();
+
+    // Duck background music during gacha
+    if (bgMusicRef.current) bgMusicRef.current.volume = 0.1;
+
     const unowned = MONSTER_ROSTER.filter(
       (m) => !store.ownedMonsterIds.includes(m.id),
     );
@@ -47,34 +51,25 @@ export default function App() {
     setPendingMonster(pick);
   };
 
-  // ── Gacha claim ───────────────────────────────────────────────────────────
   const handleClaim = () => {
     if (pendingMonster) {
       store.addMonster(pendingMonster.id);
       setPendingMonster(null);
+      // Restore background music
+      if (bgMusicRef.current) bgMusicRef.current.volume = 0.4;
     }
   };
 
-  const handleNewSkill = () => {
-    store.restartWithGoal();
-  };
+  const handleNewSkill = () => store.restartWithGoal();
 
-  // ── Monster quiz click ────────────────────────────────────────────────────
-  // Called when player clicks a monster that has "!" above it.
-  // Finds the task that unlocked this monster so we can generate a question.
   const handleQuizClick = (monster) => {
-    // Find which task index this monster was the reward for
-    // Monsters are added in task completion order, so index in ownedMonsterIds = task index
     const monsterIndex = store.ownedMonsterIds.indexOf(monster.id);
     const task = store.tasks[monsterIndex] ?? null;
-
     setQuizTarget({
       monster,
       questId: task?.id ?? monster.id,
       difficulty: task?.difficulty ?? "easy",
     });
-
-    // Mark this monster as clicked so "!" disappears after
     setClickedMonsterIds((prev) => new Set([...prev, monster.id]));
   };
 
@@ -101,7 +96,6 @@ export default function App() {
         @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
         *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
         html, body, #root { width: 100%; height: 100vh; overflow: hidden; background: #1a2e0a; }
-
         @keyframes lumi-portrait-idle {
           0%, 100% { transform: translateY(0px) scale(1); }
           40%       { transform: translateY(-4px) scale(1.02); }
@@ -142,7 +136,6 @@ export default function App() {
           0%, 100% { text-shadow: 0 0 8px #ffd700; }
           50%       { text-shadow: 0 0 20px #ffd700, 0 0 40px rgba(255,215,0,0.4); }
         }
-        /* Quiz badge bob animation */
         @keyframes quiz-badge-bob {
           0%, 100% { transform: translateX(-50%) translateY(0px); }
           50%       { transform: translateX(-50%) translateY(-4px); }
@@ -157,7 +150,6 @@ export default function App() {
         .resources-scroll::-webkit-scrollbar-thumb:hover { background: #7a5c2e; }
       `}</style>
 
-      {/* ── HABITAT FIELD ── */}
       <div
         style={{
           position: "relative",
@@ -181,7 +173,6 @@ export default function App() {
           }}
         />
 
-        {/* Monsters */}
         {store.ownedMonsters.map((monster) => (
           <Monster
             key={monster.id}
@@ -194,7 +185,6 @@ export default function App() {
           />
         ))}
 
-        {/* Empty state */}
         {store.ownedMonsters.length === 0 && store.goal && (
           <div
             style={{
@@ -220,7 +210,6 @@ export default function App() {
         )}
       </div>
 
-      {/* ── DIALOGUE BOX ── */}
       <DialogueBox
         task={store.currentTask}
         taskIndex={store.currentTaskIndex}
@@ -233,15 +222,12 @@ export default function App() {
         onNewSkill={handleNewSkill}
       />
 
-      {/* ── GALLERY ── */}
       <Gallery ownedMonsterIds={store.ownedMonsterIds} />
 
-      {/* ── GACHA POPUP ── */}
       {pendingMonster && (
         <GachaPopup monster={pendingMonster} onClaim={handleClaim} />
       )}
 
-      {/* ── QUIZ MODAL ── */}
       {quizTarget && (
         <QuizModal
           monster={quizTarget.monster}
@@ -251,7 +237,6 @@ export default function App() {
         />
       )}
 
-      {/* ── RESOURCES MODAL ── */}
       {showResources && store.currentTask && (
         <ResourcesModal
           task={store.currentTask}
