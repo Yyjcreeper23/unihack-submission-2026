@@ -165,7 +165,7 @@ export default function DialogueBox({
               key={i}
               style={{
                 position: "absolute",
-                fontSize: 9,
+                fontSize: 10,
                 color: "#ffe066",
                 animation: `sparkle ${1 + i * 0.5}s ease-in-out infinite`,
                 top: [6, 18, 2][i],
@@ -187,7 +187,7 @@ export default function DialogueBox({
             borderRadius: 3,
             padding: "4px 14px",
             color: "#ffe8a0",
-            fontSize: 8,
+            fontSize: 9,
             letterSpacing: 1,
             textShadow: "1px 1px 0 #3a2010",
           }}
@@ -214,7 +214,7 @@ export default function DialogueBox({
         <div
           style={{
             color: "#3d2b1f",
-            fontSize: 13,
+            fontSize: 14,
             lineHeight: 1.3,
             textShadow: "1px 1px 0 rgba(255,255,255,0.25)",
             animation: "dialogue-appear 0.3s ease-out both",
@@ -239,7 +239,7 @@ export default function DialogueBox({
                   borderRadius: 4,
                   padding: "7px 12px",
                   fontFamily: "'Press Start 2P', monospace",
-                  fontSize: 11,
+                  fontSize: 12,
                   color: "#3d2b1f",
                   outline: "none",
                   boxShadow: "inset 1px 1px 3px rgba(0,0,0,0.2)",
@@ -259,7 +259,7 @@ export default function DialogueBox({
               <div
                 style={{
                   fontFamily: "'Press Start 2P', monospace",
-                  fontSize: 8,
+                  fontSize: 9,
                   color: "#f80808",
                 }}
               >
@@ -292,14 +292,14 @@ export default function DialogueBox({
               <div
                 style={{
                   color: "#6abf4b",
-                  fontSize: 11,
+                  fontSize: 12,
                   marginBottom: 4,
                   textShadow: "1px 1px 0 #2a6f0b",
                 }}
               >
                 {task.label}
               </div>
-              <div style={{ color: "#e8d0a0", fontSize: 10, lineHeight: 1.6 }}>
+              <div style={{ color: "#e8d0a0", fontSize: 11, lineHeight: 1.6 }}>
                 {task.description}
               </div>
             </div>
@@ -314,7 +314,7 @@ export default function DialogueBox({
                 flexShrink: 0,
               }}
             >
-              <div style={{ fontSize: 9, color: "#c8a060" }}>
+              <div style={{ fontSize: 10, color: "#c8a060" }}>
                 Task {taskIndex + 1} of {totalTasks}
               </div>
               <button onClick={onComplete} style={completeBtnStyle}>
@@ -338,7 +338,7 @@ export default function DialogueBox({
             <div
               style={{
                 color: "#ffd700",
-                fontSize: 10,
+                fontSize: 11,
                 textAlign: "center",
                 textShadow: "0 0 10px #ffd700, 0 0 20px rgba(255,215,0,0.4)",
                 animation: "glow-pulse 2s ease-in-out infinite",
@@ -368,7 +368,7 @@ export default function DialogueBox({
             position: "absolute",
             bottom: 8,
             right: 14,
-            fontSize: 13,
+            fontSize: 14,
             color: "rgba(90,62,26,0.35)",
           }}
         >
@@ -387,7 +387,7 @@ const primaryBtnStyle = {
   padding: "10px 18px", // was 7px 14px
   color: "#e8ffe0",
   fontFamily: "'Press Start 2P', monospace",
-  fontSize: 11, // was 8
+  fontSize: 12,
   cursor: "pointer",
   boxShadow: "0 3px 0 #2a6f0b",
   textShadow: "0 1px 0 #1a4f00",
@@ -401,7 +401,7 @@ const completeBtnStyle = {
   padding: "10px 22px", // was 7px 16px
   color: "#3d2400",
   fontFamily: "'Press Start 2P', monospace",
-  fontSize: 11, // was 8
+  fontSize: 12,
   cursor: "pointer",
   boxShadow: "0 3px 0 #906000",
   textShadow: "0 1px 0 rgba(255,255,255,0.25)",
@@ -415,7 +415,7 @@ const helpBtnStyle = {
   padding: "7px 14px",
   color: "#b0d0ff",
   fontFamily: "'Press Start 2P', monospace",
-  fontSize: 8,
+  fontSize: 9,
   cursor: "pointer",
   boxShadow: "0 2px 0 #1a2a5a",
   whiteSpace: "nowrap",
@@ -429,7 +429,7 @@ const newSkillBtnStyle = {
   padding: "10px 8px",
   color: "#c0e0ff",
   fontFamily: "'Press Start 2P', monospace",
-  fontSize: 8,
+  fontSize: 9,
   cursor: "pointer",
   boxShadow: "0 3px 0 #0a2a5a",
   whiteSpace: "nowrap",
